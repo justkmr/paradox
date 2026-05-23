@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import { motion } from "framer-motion";
+import { motion, AnimatePresence } from "framer-motion";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faGithub,
@@ -149,8 +149,7 @@ export default function Navbar() {
         </div>
       </header>
 
-      {/* Mobile Drawer */}
-      {isOpen && (
+      {/* {isOpen && (
         <div className="absolute top-full left-4 right-4 mt-2 bg-[#111111]/95 backdrop-blur-2xl border border-white/6 rounded-2xl lg:hidden p-5 flex flex-col gap-3 font-mono shadow-2xl pointer-events-auto">
           {navLinks.map((link) => (
             <a
@@ -160,17 +159,128 @@ export default function Navbar() {
                 setIsOpen(false);
                 setActiveSection(link.name);
               }}
-              className={`text-xs tracking-wider uppercase py-2 px-3 rounded-xl transition-all ${
+              className={`text-xs tracking-wider uppercase py-2 px-3 rounded-5xl transition-all ${
                 activeSection === link.name
                   ? "text-white bg-[#E24C60]"
-                  : "text-zinc-400 hover:bg-white/2"
+                  : "text-zinc-400 hover:bg-white/10"
               }`}
             >
               {link.name}
             </a>
           ))}
         </div>
-      )}
+      )} */}
+
+      {/* Mobile Flyout Sidebar Board Panel */}
+      <AnimatePresence>
+        {isOpen && (
+          <>
+            {/* Background Dark Overlay Layer */}
+            <motion.div
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
+              exit={{ opacity: 0 }}
+              onClick={() => setIsOpen(false)}
+              className="fixed inset-0 bg-black/70 backdrop-blur-sm z-40 lg:hidden pointer-events-auto"
+            />
+
+            {/* Main Right-aligned Premium Menu Board */}
+            <motion.div
+              initial={{ x: "100%" }}
+              animate={{ x: 0 }}
+              exit={{ x: "100%" }}
+              transition={{ type: "spring", stiffness: 300, damping: 30 }}
+              className="fixed top-0 right-0 h-full w-full max-w-sm bg-[#0e0e0e] border-l border-white/[0.04] z-50 lg:hidden p-6 flex flex-col justify-between font-mono overflow-y-auto pointer-events-auto shadow-[0_0_50px_rgba(0,0,0,0.8)]"
+            >
+              {/* Top Meta Area */}
+              <div className="flex flex-col gap-6">
+                <div className="flex items-center justify-between border-b border-white/[0.04] pb-4">
+                  <div className="flex flex-col text-left">
+                    <span className="text-2xl font-bold text-white  tracking-wider">
+                      Menu
+                    </span>
+                    <span className="text-[14px] text-zinc-500">
+                      Navigate to sections
+                    </span>
+                  </div>
+                  <button
+                    onClick={() => setIsOpen(false)}
+                    className="w-8 h-8 rounded-full border border-white/[0.06] flex items-center justify-center text-zinc-400 bg-white/[0.02]"
+                  >
+                    <FontAwesomeIcon icon={faXmark} className="text-base" />
+                  </button>
+                </div>
+
+                {/* Core Navigation Stack Clusters */}
+                <nav className="flex flex-col gap-2.5">
+                  {navLinks.map((link) => {
+                    const isActive = activeSection === link.name;
+                    return (
+                      <a
+                        key={link.name}
+                        href={link.href}
+                        onClick={() => {
+                          setIsOpen(false);
+                          setActiveSection(link.name);
+                        }}
+                        className={`group relative w-full flex items-center justify-between p-3.5 rounded-[16px] border transition-all ${
+                          isActive
+                            ? "bg-[#E24C60]/10 border-[#E24C60]/20 text-white"
+                            : "bg-white/[0.01] border-white/[0.03] text-zinc-400 hover:bg-white/[0.03] hover:text-white"
+                        }`}
+                      >
+                        <div className="flex items-center gap-3">
+                          {/* Unique Micro Dot Indicator */}
+                          <div
+                            className={`w-1.5 h-1.5 rounded-full transition-colors ${isActive ? "bg-[#E24C60] shadow-[0_0_8px_#E24C60]" : "bg-zinc-700"}`}
+                          />
+                          <span className="text-sm font-semibold tracking-wider uppercase">
+                            {link.name}
+                          </span>
+                        </div>
+
+                        {/* Action Right Arrow Indicator */}
+                        <span
+                          className={`text-[18px] transition-transform duration-300 ${isActive ? "text-[#E24C60] translate-x-0" : "text-zinc-600 group-hover:translate-x-1"}`}
+                        >
+                          ➔
+                        </span>
+                      </a>
+                    );
+                  })}
+                </nav>
+              </div>
+
+              {/* Bottom Social Action Hub */}
+              <div className="flex flex-col gap-4 border-t border-white/[0.04] pt-5 mt-6">
+                <span className="text-[12px] text-zinc-400 text-left uppercase tracking-widest">
+                  Connect with me
+                </span>
+                <div className="grid grid-cols-2 gap-2.5">
+                  <a
+                    href="https://github.com"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="flex items-center justify-center gap-2 p-3 text-xs rounded-[13px] bg-white/[0.02] border border-white/[0.04] text-zinc-400 hover:text-white hover:bg-white/[0.04] transition-all"
+                  >
+                    <FontAwesomeIcon icon={faGithub} className="text-2xl" />
+                    <span className="uppercase tracking-normal">GitHub</span>
+                  </a>
+                  <a
+                    href="https://linkedin.com"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="flex items-center justify-center gap-2 p-3 text-xs rounded-[13px] bg-white/[0.02] border border-white/[0.04] text-zinc-400 hover:text-white hover:bg-white/[0.04] transition-all"
+                  >
+                    <FontAwesomeIcon icon={faLinkedin} className="text-2xl" />
+                    <span className="uppercase tracking-normal">LinkedIn</span>
+                  </a>
+                </div>
+              </div>
+            </motion.div>
+          </>
+        )}
+      </AnimatePresence>
     </div>
   );
 }
