@@ -251,7 +251,7 @@ export default function Navbar() {
                 </span>
                 <div className="grid grid-cols-2 gap-3">
                   <a
-                    href="https://github.com"
+                    href="https://github.com/justkmr"
                     target="_blank"
                     rel="noopener noreferrer"
                     className=" group flex items-center justify-center gap-2 py-3 text-xs rounded-[12px] bg-white/1 border border-white/3 text-zinc-400 hover:text-white hover:border-white/10 transition-all"
@@ -265,7 +265,7 @@ export default function Navbar() {
                     </span>
                   </a>
                   <a
-                    href="https://linkedin.com"
+                    href="https://www.linkedin.com/in/pintu-kumar-12x"
                     target="_blank"
                     rel="noopener noreferrer"
                     className=" group flex items-center justify-center gap-2 py-3 text-xs rounded-[12px] bg-white/1 border border-white/3 text-zinc-400 hover:text-white hover:border-white/10 transition-all"
