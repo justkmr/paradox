@@ -53,7 +53,6 @@ export default function About() {
 
       {/* Main Structural Centered Wrapper */}
       <div className="w-full max-w-6xl mx-auto relative z-10">
-        {/* Section Headline Heading */}
         <div className="text-left mb-12 font-mono">
           <h2
             id={`about-heading-${sectionId}`}
