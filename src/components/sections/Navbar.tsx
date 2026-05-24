@@ -122,9 +122,12 @@ export default function Navbar() {
         <div className="flex items-center gap-4 pl-4 border-l border-red-600/40 py-1">
           <div className="hidden md:flex items-center gap-2 bg-[#E24C60]/8 border border-[#E24C60]/20 p-1.5 rounded-full shadow-[0_0_15px_rgba(226,76,96,0.05)]">
             {[
-              { icon: faGithub, url: "https://github.com" },
-              { icon: faLinkedin, url: "https://linkedin.com" },
-              { icon: faInstagram, url: "https://instagram.com" },
+              { icon: faGithub, url: "https://github.com/justkmr" },
+              {
+                icon: faLinkedin,
+                url: "https://www.linkedin.com/in/pintu-kumar-12x",
+              },
+              { icon: faInstagram, url: "https://instagram.com/babu_sajan_12" },
             ].map((social, i) => (
               <motion.a
                 key={i}
