@@ -61,7 +61,7 @@ export default function About() {
           >
             About <span className="text-[#E24C60]">Me</span>
           </h2>
-          <div className="h-[2px] w-12 bg-[#E24C60] mt-3" aria-hidden="true" />
+          <div className="h-0.5 w-12 bg-[#E24C60] mt-3" aria-hidden="true" />
         </div>
 
         <div className="flex flex-col sm:flex-row items-center gap-8 sm:gap-12 xl:gap-20 w-full">
