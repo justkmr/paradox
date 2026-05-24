@@ -78,7 +78,6 @@ export default function About() {
             <div className="absolute -left-1 w-2 sm:w-3 h-2 sm:h-3 rounded-full bg-blue-700 z-20" />
             <div className="absolute bottom-1 -right-1 w-2 sm:w-3 h-2 sm:h-3 rounded-full bg-amber-700 z-20" />
 
-            {/* Premium Glassmorphism Photo Slot */}
             <div className="w-full h-full rounded-[14px] sm:rounded-[24px] overflow-hidden border border-white/6 bg-[#0c0d10]/40 p-1 sm:p-2 relative group shadow-2xl">
               <div className="w-full h-full rounded-[10px] sm:rounded-[18px] overflow-hidden relative">
                 <Image
