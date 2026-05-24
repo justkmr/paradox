@@ -115,7 +115,6 @@ export default function About() {
               Full Stack Developer
             </span>
 
-            {/* Description Copywriting Stream */}
             <div className="mt-4 sm:mt-6 space-y-2 sm:space-y-4 font-sans text-lg sm:text-2xl md:text-xl text-zinc-400 leading-relaxed tracking-wide">
               <p>
                 I am deeply passionate about engineering scalable,
