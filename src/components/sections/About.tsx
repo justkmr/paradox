@@ -133,7 +133,6 @@ export default function About() {
               </p>
             </div>
 
-            {/* Quantitative Numeric Analytics Row Segment */}
             <div className="flex items-center gap-3 sm:gap-8 border-y border-white/5 py-3 sm:py-6 my-4 sm:my-8">
               <div>
                 <div className="text-2xl sm:text-2xl md:text-3xl font-black text-white">
