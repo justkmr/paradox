@@ -90,7 +90,6 @@ export default function About() {
                   className=" object-cover grayscale contrast-125 group-hover:grayscale-0 group-hover:scale-105 transition-all duration-500 ease-out"
                 />
 
-                {/* Floating Operational Operations Status Indicator Pill */}
                 <div className="absolute bottom-1.5 sm:bottom-4 left-1/2 -translate-x-1/2 bg-[#0c0d10]/90 backdrop-blur-md border border-white/8 px-2 sm:px-4 py-0.5 sm:py-1.5 rounded-full flex items-center gap-1 sm:gap-2 shadow-lg whitespace-nowrap">
                   <span className="w-1.5 sm:w-2 h-1.5 sm:h-2 rounded-full bg-emerald-500 animate-pulse" />
                   <span className="text-[7px] sm:text-[10px] text-zinc-300 font-mono font-bold tracking-wider uppercase">
