@@ -20,7 +20,7 @@ const highlights = [
   },
   {
     icon: <FaServer />,
-    title: "Backend Focus",
+    title: "Frontend & Backend Focus",
     description: "Building scalable APIs and microservices",
   },
   {
@@ -172,7 +172,7 @@ export default function About() {
                   whileHover={{ y: -4 }}
                   viewport={{ once: true }}
                 >
-                  <div className="text-amber-400 text-xl mb-3 group-hover:scale-110 transition-transform duration-300">
+                  <div className="text-red-500 text-xl mb-3 group-hover:scale-110 transition-transform duration-300">
                     {item.icon}
                   </div>
                   <h4 className="font-semibold text-neutral-100 text-sm sm:text-base mb-1">
