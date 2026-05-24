@@ -45,7 +45,6 @@ export default function About() {
       aria-labelledby={`about-heading-${sectionId}`}
       className="w-full relative bg-transparent py-16 md:py-24 px-4 md:px-16 xl:px-24 overflow-hidden select-none"
     >
-      {/* Structural Backdrop Aura Glow Matrix */}
       <div
         className="absolute top-1/2 left-1/4 w-[500px] h-[500px] bg-[#E24C60]/[0.02] rounded-full blur-[130px] pointer-events-none transform-gpu"
         aria-hidden="true"
