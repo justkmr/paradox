@@ -72,7 +72,6 @@ export default function About() {
             transition={{ type: "spring", stiffness: 60, damping: 20 }}
             className="w-[300px] sm:w-[300px] md:w-[380px] lg:w-[440px] aspect-square flex-none relative mx-auto sm:mx-0"
           >
-            {/* Visual Contrast Reference Nodes */}
             <div className="absolute -top-1 -right-1 w-2 sm:w-3 h-2 sm:h-3 rounded-full bg-[#E24C60] z-20 animate-pulse" />
             <div className="absolute -bottom-1 -left-1 w-2 sm:w-3 h-2 sm:h-3 rounded-full bg-zinc-700 z-20" />
             <div className="absolute -left-1 w-2 sm:w-3 h-2 sm:h-3 rounded-full bg-blue-700 z-20" />
