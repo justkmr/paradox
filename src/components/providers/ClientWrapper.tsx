@@ -14,7 +14,6 @@ export default function ClientWrapper({
 
   return (
     <>
-      {/* 🎬 Kinetic Shutter Split Loader */}
       <AnimatePresence mode="wait">
         {isLoading && <Preloader onComplete={() => setIsLoading(false)} />}
       </AnimatePresence>
