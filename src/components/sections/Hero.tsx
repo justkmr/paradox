@@ -119,7 +119,7 @@
 
 "use client";
 
-import { motion } from "framer-motion";
+import { motion, Variants } from "framer-motion";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faArrowRight,
@@ -128,7 +128,7 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 import { TypeAnimation } from "react-type-animation";
 
-const FADE_UP_VARIANTS = {
+const FADE_UP_VARIANTS: Variants = {
   hidden: { opacity: 0, y: 30 },
   visible: (i: number) => ({
     opacity: 1,
