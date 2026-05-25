@@ -365,8 +365,6 @@ export default function Hero() {
                   </div>
                 </div>
               </div>
-
-              {/* Footer */}
             </div>
           </div>
         </motion.div>
