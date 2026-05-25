@@ -769,7 +769,6 @@ export default function Preloader({ onComplete }: { onComplete: () => void }) {
 
   return (
     <div className="fixed inset-0 z-9999 flex items-center justify-center bg-transparent font-mono overflow-hidden select-none">
-      {/* 🎬 KINETIC SPLIT BACKGROUND PANEL INTERCEPTION */}
       <motion.div
         initial={{ y: "0%" }}
         exit={{ y: "-100%" }}
