@@ -323,8 +323,6 @@ export default function Hero() {
                 <div>
                   <p className="text-amber-400">$ cat role.txt</p>
 
-                  {/* <p className="text-cyan-400  pl-4">Full Stack Developer</p> */}
-
                   <div className="flex items-center gap-2  pl-4 text-cyan-400">
                     <span className="w-2 h-2 rounded-full bg-cyan-500 animate-pulse" />
 
