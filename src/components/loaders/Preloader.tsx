@@ -849,7 +849,6 @@ export default function Preloader({ onComplete }: { onComplete: () => void }) {
               ))}
             </div>
 
-            {/* Premium Scaled Percent Metrics */}
             <div className="text-3xl font-black text-white font-mono tracking-tighter flex items-start">
               {progress}
               <span
