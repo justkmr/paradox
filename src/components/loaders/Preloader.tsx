@@ -804,7 +804,6 @@ export default function Preloader({ onComplete }: { onComplete: () => void }) {
           }}
           className="w-full bg-[#08090c]/95 backdrop-blur-3xl border border-[#E24C60]/30 rounded-[20px] p-7 relative overflow-hidden flex flex-col gap-6 shadow-[0_40px_90px_-20px_rgba(0,0,0,0.95),inset_0_1px_1px_rgba(255,255,255,0.03)]"
         >
-          {/* Top Running Track Details */}
           <div className="w-full flex items-center justify-between text-[10px] font-black tracking-[0.3em] text-zinc-500">
             <span className="flex items-center gap-2">
               <span
