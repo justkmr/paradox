@@ -816,7 +816,6 @@ export default function Preloader({ onComplete }: { onComplete: () => void }) {
             </span>
           </div>
 
-          {/* Central Masked Text Field Slider */}
           <div className="h-8 overflow-hidden relative w-full flex items-center justify-start border-l-2 border-[#E24C60] pl-4 bg-white/[0.01] rounded-r-md">
             <AnimatePresence mode="popLayout">
               <motion.div
