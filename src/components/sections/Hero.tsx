@@ -242,7 +242,6 @@ export default function Hero() {
             to create fast, interactive, and production-ready digital products.
           </motion.p>
 
-          {/* Buttons */}
           <motion.div
             custom={4}
             initial="hidden"
