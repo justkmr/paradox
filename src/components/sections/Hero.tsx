@@ -179,7 +179,7 @@ export default function Hero() {
             initial="hidden"
             animate="visible"
             variants={FADE_UP_VARIANTS}
-            className="text-zinc-500 text-xl mb-3 font-medium"
+            className="text-zinc-500 text-2xl  font-medium"
           >
             Hi there, I&apos;m —
           </motion.p>
