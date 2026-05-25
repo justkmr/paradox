@@ -161,7 +161,7 @@ export default function Hero() {
             initial="hidden"
             animate="visible"
             variants={FADE_UP_VARIANTS}
-            className="inline-flex w-fit items-center gap-2 px-4 py-2 rounded-full border border-white/[0.06] bg-white/[0.03] backdrop-blur-md mb-6"
+            className="inline-flex w-fit items-center gap-2 px-4 py-2 rounded-full border border-white/6 bg-white/3 backdrop-blur-md mb-6"
           >
             <span className="relative flex h-2.5 w-2.5">
               <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-[#E24C60] opacity-75" />
