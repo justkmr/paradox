@@ -273,7 +273,6 @@ export default function Hero() {
               <span>Contact Me</span>
             </motion.a>
 
-            {/* Resume */}
             <motion.a
               href="#resume"
               whileHover={{ scale: 1.04 }}
