@@ -122,9 +122,9 @@
 import { motion, Variants } from "framer-motion";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
-  faArrowRight,
   faEnvelope,
   faFileLines,
+  faCircleArrowRight,
 } from "@fortawesome/free-solid-svg-icons";
 import { TypeAnimation } from "react-type-animation";
 
@@ -258,8 +258,8 @@ export default function Hero() {
               <span>View Projects</span>
 
               <FontAwesomeIcon
-                icon={faArrowRight}
-                className="transition-transform duration-300 group-hover:translate-x-1"
+                icon={faCircleArrowRight}
+                className="transition-transform duration-300 group-hover:translate-x-1 text-[18px] "
               />
             </motion.a>
 
