@@ -354,11 +354,11 @@ export default function Hero() {
                   </div>
 
                   <div className=" mt-4 left-8 right-8 border-t border-white/5  flex items-center justify-between text-sm text-zinc-600">
-                    <span>• latest_projects</span>
+                    <span className="mt-5 text-base">• latest_projects</span>
 
                     <a
                       href="#projects"
-                      className="text-amber-400 hover:text-amber-300 transition-colors mt-1"
+                      className="text-amber-400 hover:text-amber-300 transition-colors mt-5 "
                     >
                       View All →
                     </a>
