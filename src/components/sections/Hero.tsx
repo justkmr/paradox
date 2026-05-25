@@ -153,7 +153,6 @@ export default function Hero() {
 
       <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,rgba(226,76,96,0.08),transparent_65%)] pointer-events-none" />
 
-      {/* MAIN CONTAINER */}
       <div className="relative z-10 max-w-7xl mx-auto min-h-screen grid lg:grid-cols-2 items-center gap-20">
         {/* =========================================
             LEFT SIDE CONTENT
