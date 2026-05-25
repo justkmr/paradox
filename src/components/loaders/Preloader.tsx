@@ -744,7 +744,6 @@ export default function Preloader({ onComplete }: { onComplete: () => void }) {
   const currentIndex = Math.min(currentStep, steps.length - 1);
 
   useEffect(() => {
-    // SNAPPY CORE COUNTER INTERVAL
     const progressTimer = setInterval(() => {
       setProgress((prev) => {
         if (prev >= 100) {
