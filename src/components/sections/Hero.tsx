@@ -303,7 +303,7 @@ export default function Hero() {
             <div className="relative w-110 h-110 rounded-[30px] border border-white/10 bg-[#0c0c0d]/95 backdrop-blur-xl p-8 shadow-[0_30px_120px_rgba(0,0,0,0.9)]">
               {/* Header */}
               <div className="flex items-center gap-2 mb-5">
-                <span className="w-3 h-3 rounded-full bg-red-500" />
+                <span className="w-4 h-4 rounded-full bg-red-500" />
                 <span className="w-3 h-3 rounded-full bg-yellow-500" />
                 <span className="w-3 h-3 rounded-full bg-green-500" />
 
