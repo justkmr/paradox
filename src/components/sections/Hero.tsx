@@ -223,8 +223,6 @@ export default function Hero() {
             </div>
           </motion.div>
 
-          {/* Description */}
-
           <motion.p
             custom={3}
             initial="hidden"
