@@ -151,7 +151,6 @@ export default function Hero() {
         <div className="h-full w-full bg-[linear-gradient(to_right,#ffffff10_1px,transparent_1px),linear-gradient(to_bottom,#ffffff10_1px,transparent_1px)] bg-size-[80px_80px]" />
       </div>
 
-      {/* Background Glow */}
       <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,rgba(226,76,96,0.08),transparent_65%)] pointer-events-none" />
 
       {/* MAIN CONTAINER */}
