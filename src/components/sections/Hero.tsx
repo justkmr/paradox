@@ -249,7 +249,6 @@ export default function Hero() {
             variants={FADE_UP_VARIANTS}
             className="flex flex-wrap gap-4 mt-5"
           >
-            {/* View Projects */}
             <motion.a
               href="#projects"
               whileHover={{ scale: 1.04 }}
