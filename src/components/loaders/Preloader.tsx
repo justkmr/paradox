@@ -739,7 +739,6 @@ export default function Preloader({ onComplete }: { onComplete: () => void }) {
     { code: "SYS_READY_0x05", label: "PORTFOLIO CORE IS OPERATIONAL" },
   ];
 
-  // 🌟 ELITE FIX: No state hook needed! Dynamically calculate index during initial compilation render
   const stepRatio = 100 / steps.length;
   const currentStep = Math.floor(progress / stepRatio);
   const currentIndex = Math.min(currentStep, steps.length - 1);
