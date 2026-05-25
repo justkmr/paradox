@@ -262,7 +262,6 @@ export default function Hero() {
               />
             </motion.a>
 
-            {/* Contact */}
             <motion.a
               href="#contact"
               whileHover={{ scale: 1.04 }}
