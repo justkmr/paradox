@@ -782,7 +782,6 @@ export default function Preloader({ onComplete }: { onComplete: () => void }) {
         className="absolute bottom-0 left-0 w-full h-1/2 bg-[#040405] border-t border-white/2"
       />
 
-      {/* Cyber ambient grid backdrop */}
       <motion.div
         exit={{ opacity: 0, transition: { duration: 0.3 } }}
         className="absolute inset-0 opacity-[0.15] bg-[radial-gradient(#e24c6015_1px,transparent_1px)] [background-size:32px_32px] pointer-events-none z-10"
