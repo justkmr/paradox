@@ -305,7 +305,7 @@ export default function Hero() {
               <div className="flex items-center gap-2 mb-5">
                 <span className="w-4 h-4 rounded-full bg-red-500" />
                 <span className="w-4 h-4 rounded-full bg-yellow-500" />
-                <span className="w-3 h-3 rounded-full bg-green-500" />
+                <span className="w-4 h-4 rounded-full bg-green-500" />
 
                 <span className="text-zinc-600 text-base ml-4">
                   ~/pintu-kumar
