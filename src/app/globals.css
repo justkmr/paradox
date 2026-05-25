@@ -144,7 +144,7 @@
 }
 .reveal.visible { opacity: 1; transform: translateY(0); }
 
-/* Purane .grid-bg ko hatakar isse replace kijiye */
+
 .grid-bg {
   position: absolute;
   inset: 0;
