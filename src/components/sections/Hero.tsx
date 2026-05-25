@@ -229,12 +229,14 @@ export default function Hero() {
             initial="hidden"
             animate="visible"
             variants={FADE_UP_VARIANTS}
-            className="mt-5 text-zinc-400 text-lg leading-relaxed max-w-2xl"
+            className="mt-5 text-zinc-400 text-xl leading-relaxed max-w-2xl"
           >
             Undergraduate{" "}
-            <span className="text-white font-semibold">Computer Science</span>{" "}
+            <span className="text-[#E24C60] font-semibold">
+              Computer Science
+            </span>{" "}
             student building scalable systems with{" "}
-            <span className="text-white font-semibold">
+            <span className="text-[#E24C60] font-semibold">
               MongoDB, Express, React & Next.js
             </span>
             . Focused on creating modern interfaces, smooth interactions, and
