@@ -308,7 +308,7 @@ export default function Hero() {
                 <span className="w-4 h-4 rounded-full bg-green-500" />
 
                 <span className="text-zinc-600 text-base ml-4">
-                  ~/pintu-kumar
+                  ~/pintu-kumar/justkmr
                 </span>
               </div>
 
