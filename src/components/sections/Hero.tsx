@@ -155,7 +155,6 @@ export default function Hero() {
 
       <div className="relative z-10 max-w-7xl mx-auto min-h-screen grid lg:grid-cols-2 items-center gap-20">
         <div className=" mt-25 flex flex-col justify-center">
-          {/* Open To Opportunities Badge */}
           <motion.div
             custom={2}
             initial="hidden"
