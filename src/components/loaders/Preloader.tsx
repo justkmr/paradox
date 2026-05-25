@@ -787,7 +787,6 @@ export default function Preloader({ onComplete }: { onComplete: () => void }) {
         className="absolute inset-0 opacity-[0.15] bg-[radial-gradient(#e24c6015_1px,transparent_1px)] bg-size-[32px_32px] pointer-events-none z-10"
       />
 
-      {/* 🚀 POLISHED & UPSCALED MONOLITH ENGINE CARD */}
       <motion.div
         initial={{ opacity: 0, scale: 0.95, y: 15 }}
         animate={{ opacity: 1, scale: 1, y: 0 }}
