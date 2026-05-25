@@ -319,7 +319,7 @@ export default function Hero() {
 
                   {/* <p className="text-emerald-400  pl-4">Pintu Kumar</p> */}
 
-                  <div className="flex items-center gap-2  pl-4 text-cyan-400">
+                  <div className="flex items-center gap-2  pl-4 text-emerald-400">
                     <span className="w-2 h-2 rounded-full bg-cyan-500 animate-pulse" />
 
                     <span> Pintu Kumar</span>
