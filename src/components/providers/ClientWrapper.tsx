@@ -21,7 +21,6 @@ export default function ClientWrapper({
       <div className="relative min-h-screen w-full flex flex-col isolation-isolate">
         <div className="grid-bg fixed inset-0 w-full h-full z-0 pointer-events-none opacity-40" />
 
-        {/* Loader jab 100% hokar split ho jayega, tabhi Navbar aur baaki layout dikhega */}
         {!isLoading && (
           <>
             <Navbar />
