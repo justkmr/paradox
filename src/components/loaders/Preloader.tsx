@@ -773,7 +773,7 @@ export default function Preloader({ onComplete }: { onComplete: () => void }) {
         initial={{ y: "0%" }}
         exit={{ y: "-100%" }}
         transition={{ duration: 0.95, ease: [0.86, 0, 0.07, 1] }}
-        className="absolute top-0 left-0 w-full h-1/2 bg-[#040405] border-b border-white/[0.02]"
+        className="absolute top-0 left-0 w-full h-1/2 bg-[#040405] border-b border-white/2"
       />
       <motion.div
         initial={{ y: "0%" }}
