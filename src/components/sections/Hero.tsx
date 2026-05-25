@@ -277,7 +277,7 @@ export default function Hero() {
               href="#resume"
               whileHover={{ scale: 1.04 }}
               whileTap={{ scale: 0.98 }}
-              className="border border-white/10 bg-white/[0.03] hover:bg-white/[0.05] text-white px-8 py-4 rounded-[12px] font-semibold flex items-center gap-2 transition-all"
+              className="border border-white/10 bg-white/3 hover:bg-white/[0.05] text-white px-8 py-4 rounded-[12px] font-semibold flex items-center gap-2 transition-all"
             >
               <FontAwesomeIcon icon={faFileLines} />
 
