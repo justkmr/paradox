@@ -353,7 +353,7 @@ export default function Hero() {
                     <span>Ready to build</span>
                   </div>
 
-                  <div className=" mt-4 left-8 right-8 border-t border-white/5  flex items-center justify-between text-sm text-zinc-600">
+                  <div className=" mt-4 left-8 right-8 border-t border-white/8  flex items-center justify-between text-sm text-zinc-600">
                     <span className="mt-5 text-base">• latest_projects</span>
 
                     <a
