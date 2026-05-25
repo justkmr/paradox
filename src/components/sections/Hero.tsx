@@ -296,7 +296,7 @@ export default function Hero() {
           variants={FADE_UP_VARIANTS}
           className="flex justify-center lg:justify-end"
         >
-          <div className="relative">
+          <div className="relative mt-30">
             <div className="absolute inset-0 bg-[#E24C60] blur-[200px] " />
 
             {/* Terminal */}
