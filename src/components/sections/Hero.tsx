@@ -323,15 +323,23 @@ export default function Hero() {
                 <div>
                   <p className="text-amber-400">$ cat role.txt</p>
 
-                  <p className="text-cyan-400  pl-4">Full Stack Developer</p>
+                  {/* <p className="text-cyan-400  pl-4">Full Stack Developer</p> */}
+
+                  <div className="flex items-center gap-2  pl-4 text-cyan-400">
+                    <span className="w-2 h-2 rounded-full bg-cyan-500 animate-pulse" />
+
+                    <span> Full Stack Developer</span>
+                  </div>
                 </div>
 
                 <div>
                   <p className="text-amber-400">$ cat focus.txt</p>
 
-                  <p className="text-[#6bd02f] pl-4">
-                    MERN Stack • Next.js • TypeScript
-                  </p>
+                  <div className="flex items-center gap-2  pl-4 text-[#6bd02f]">
+                    <span className="w-2 h-2 rounded-full bg-[#6bd02f] animate-pulse" />
+
+                    <span> MERN Stack • Next.js • TypeScript</span>
+                  </div>
                 </div>
 
                 <div>
