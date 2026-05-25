@@ -174,7 +174,6 @@ export default function Hero() {
             </span>
           </motion.div>
 
-          {/* Intro */}
           <motion.p
             custom={1}
             initial="hidden"
