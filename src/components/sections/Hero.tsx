@@ -191,7 +191,6 @@ export default function Hero() {
             variants={FADE_UP_VARIANTS}
             className="w-full"
           >
-            {/* 🌟 Single Unified Master Container Div */}
             <div className="space-y-2 select-none">
               {/* Main Title Name Header */}
               <h1 className="text-4xl sm:text-5xl md:text-6xl font-black text-white leading-tight tracking-tight">
