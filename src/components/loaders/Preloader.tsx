@@ -831,7 +831,7 @@ export default function Preloader({ onComplete }: { onComplete: () => void }) {
             </AnimatePresence>
           </div>
 
-          <div className="w-full flex items-center justify-between border-t border-white/[0.04] pt-4.5">
+          <div className="w-full flex items-center justify-between border-t border-white/4 pt-4.5">
             <div className="flex items-center gap-1.5">
               {[...Array(5)].map((_, i) => (
                 <div
