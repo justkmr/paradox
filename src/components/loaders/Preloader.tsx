@@ -759,7 +759,6 @@ export default function Preloader({ onComplete }: { onComplete: () => void }) {
   }, []);
 
   useEffect(() => {
-    // 🌟 CLEAN TRIGGER PIPELINE: Effect handles ONLY external system synchronization (onComplete callback)
     if (progress === 100) {
       const exitTimeout = setTimeout(() => {
         onComplete();
