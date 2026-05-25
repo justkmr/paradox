@@ -147,7 +147,6 @@ export default function Hero() {
       id="home"
       className="relative min-h-screen overflow-hidden px-6 lg:px-12 bg-black"
     >
-      {/* Background Grid */}
       <div className="absolute inset-0 opacity-[0.08]">
         <div className="h-full w-full bg-[linear-gradient(to_right,#ffffff10_1px,transparent_1px),linear-gradient(to_bottom,#ffffff10_1px,transparent_1px)] bg-size-[80px_80px]" />
       </div>
