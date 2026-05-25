@@ -844,7 +844,7 @@ export default function Preloader({ onComplete }: { onComplete: () => void }) {
                           : "#E24C60"
                         : "rgba(255,255,255,0.03)",
                   }}
-                  className="w-6 h-[4px] rounded-full transition-colors duration-300"
+                  className="w-6 h-1 rounded-full transition-colors duration-300"
                 />
               ))}
             </div>
