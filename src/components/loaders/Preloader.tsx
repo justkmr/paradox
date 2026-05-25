@@ -816,7 +816,7 @@ export default function Preloader({ onComplete }: { onComplete: () => void }) {
             </span>
           </div>
 
-          <div className="h-8 overflow-hidden relative w-full flex items-center justify-start border-l-2 border-[#E24C60] pl-4 bg-white/[0.01] rounded-r-md">
+          <div className="h-8 overflow-hidden relative w-full flex items-center justify-start border-l-2 border-[#E24C60] pl-4 bg-gray-500/15 rounded-r-md">
             <AnimatePresence mode="popLayout">
               <motion.div
                 key={currentIndex}
@@ -824,7 +824,7 @@ export default function Preloader({ onComplete }: { onComplete: () => void }) {
                 animate={{ x: 0, opacity: 1, filter: "blur(0px)" }}
                 exit={{ x: 25, opacity: 0, filter: "blur(6px)" }}
                 transition={{ duration: 0.45, ease: [0.16, 1, 0.3, 1] }}
-                className="text-xs md:text-sm font-black text-white tracking-[0.2em] font-mono uppercase whitespace-nowrap"
+                className="text-xs md:text-sm font-black text-white tracking-[0.2em] font-mono  uppercase whitespace-nowrap"
               >
                 {steps[currentIndex].label}
               </motion.div>
