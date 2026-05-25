@@ -196,7 +196,7 @@ export default function Hero() {
                 Pintu Kumar
               </h1>
 
-              <div className="min-h-[50px] sm:min-h-[60px] flex items-center bg-[#E24C60] rounded-[12px] px-4 py-2 w-fit">
+              <div className="min-h-12.5 sm:min-h-15 flex items-center bg-[#E24C60] rounded-[12px] px-4 py-2 w-fit">
                 <h2 className="text-xl sm:text-2xl md:text-3xl font-bold text-gray-300 leading-none tracking-tight">
                   <div className="inline-block relative">
                     <TypeAnimation
