@@ -297,13 +297,12 @@ export default function Hero() {
           className="flex justify-center lg:justify-end"
         >
           <div className="relative">
-            {/* Glow */}
-            <div className="absolute inset-0 bg-[#E24C60]/10 blur-[120px]" />
+            <div className="absolute inset-0 bg-[#E24C60] blur-[200px] " />
 
             {/* Terminal */}
-            <div className="relative w-[430px] h-[430px] rounded-[30px] border border-white/[0.06] bg-[#0c0c0d]/95 backdrop-blur-xl p-8 shadow-[0_30px_120px_rgba(0,0,0,0.9)]">
+            <div className="relative w-110 h-110 rounded-[30px] border border-white/10 bg-[#0c0c0d]/95 backdrop-blur-xl p-8 shadow-[0_30px_120px_rgba(0,0,0,0.9)]">
               {/* Header */}
-              <div className="flex items-center gap-2 mb-10">
+              <div className="flex items-center gap-2 mb-5">
                 <span className="w-3 h-3 rounded-full bg-red-500" />
                 <span className="w-3 h-3 rounded-full bg-yellow-500" />
                 <span className="w-3 h-3 rounded-full bg-green-500" />
