@@ -3,6 +3,7 @@ import "./globals.css";
 import { ThemeProvider } from "@/components/providers/theme-provider";
 import ClientWrapper from "@/components/providers/ClientWrapper";
 import { Metadata } from "next";
+import NextTopLoader from "nextjs-toploader";
 
 const fontDisplay = Syne({
   variable: "--font-display",
@@ -39,6 +40,15 @@ export default function RootLayout({
           defaultTheme="dark"
           enableSystem={false}
         >
+          <NextTopLoader
+            color="#E24C60"
+            initialPosition={0.08}
+            crawlSpeed={200}
+            height={3}
+            showSpinner={false}
+            easing="ease"
+            speed={200}
+          />
           <ClientWrapper>{children}</ClientWrapper>
         </ThemeProvider>
       </body>
