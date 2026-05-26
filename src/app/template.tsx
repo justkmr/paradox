@@ -11,7 +11,7 @@ export default function Template({ children }: { children: React.ReactNode }) {
         duration: 0.6,
         ease: [0.22, 1, 0.36, 1], // Elite Cubic Bezier Easing
       }}
-      className="w-full flex-grow flex flex-col"
+      className="w-full grow flex flex-col"
     >
       {children}
     </motion.div>
