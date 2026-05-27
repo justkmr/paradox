@@ -153,25 +153,6 @@ export default function TechMarquee() {
                 className="flex items-center gap-5 flex-none"
               >
                 {TRACK_ONE.map((tech, idx) => (
-                  // <motion.div
-                  //   key={`t1-${loopIdx}-${idx}`}
-                  //   whileHover={{ scale: 1.04, y: -4, borderColor: "#E24C60" }}
-                  //   transition={{ type: "spring", stiffness: 350, damping: 20 }}
-                  //   style={{ backgroundColor: tech.color }}
-                  //   className="flex items-center gap-4 border border-white/5 backdrop-blur-md px-6 py-3 hover:bg-[#0f1013]/90 hover:shadow-[0_15px_30px_rgba(226,76,96,0.06)] transition-all rounded-[15px] duration-300 cursor-default group"
-                  // >
-                  //   <img
-                  //     src={tech.icon}
-                  //     alt={tech.name}
-                  //     loading="lazy"
-                  //     decoding="async"
-                  //     className="h-5 w-5 opacity-40 group-hover:opacity-100 transition-opacity duration-300"
-                  //   />
-                  //   <span className="text-zinc-500 group-hover:text-white font-mono text-xs font-semibold tracking-wider transition-colors duration-300">
-                  //     {tech.name}
-                  //   </span>
-                  // </motion.div>
-
                   <motion.div
                     key={`t1-${loopIdx}-${idx}`}
                     whileHover={{ scale: 1.04, y: -4, borderColor: "#E24C60" }}
