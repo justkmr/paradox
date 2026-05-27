@@ -33,7 +33,7 @@ const FEATURED_REPOS = [
 export default function GithubSection() {
   const [profile, setProfile] = useState<GitHubProfile | null>(null);
   const [loading, setLoading] = useState(true);
-  const username = "justkmr"; // Aapka username handle
+  const username = "justkmr";
 
   useEffect(() => {
     async function fetchGitHubData() {
