@@ -61,7 +61,6 @@ export default function GithubSection() {
       <div className="absolute top-10 right-10 w-72 h-72 bg-[#E24C60]/[0.02] rounded-full blur-[100px] pointer-events-none" />
 
       <div className="max-w-6xl mx-auto relative z-10">
-        {/* SECTION HEADER */}
         <div className="text-left mb-16 font-mono">
           <div className="flex items-center gap-3 mb-3 text-xs tracking-[0.4em] text-zinc-600 uppercase">
             <span className="w-1.5 h-1.5 rounded-full bg-[#E24C60] animate-pulse" />
