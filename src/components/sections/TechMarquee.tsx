@@ -196,13 +196,17 @@ export default function TechMarquee() {
                     style={{ backgroundColor: tech.color }}
                     className="flex items-center gap-4 border border-white/5 backdrop-blur-md px-6 py-3 rounded-[15px] hover:bg-[#0f1013]/90 hover:shadow-[0_15px_30px_rgba(226,76,96,0.06)] transition-all duration-300 cursor-default group"
                   >
-                    <img
-                      src={tech.icon}
-                      alt={tech.name}
-                      loading="lazy"
-                      decoding="async"
-                      className="h-5 w-5 opacity-40 group-hover:opacity-100 transition-opacity duration-300"
-                    />
+                    {/* 🌟 FIXED: Used Next.js Optimized Image Component */}
+                    <div className="relative h-5 w-5 flex items-center justify-center overflow-hidden">
+                      <Image
+                        src={tech.icon}
+                        alt={tech.name}
+                        width={20}
+                        height={20}
+                        className="opacity-40 group-hover:opacity-100 transition-opacity duration-300 object-contain w-full h-full"
+                      />
+                    </div>
+
                     <span className="text-zinc-500 group-hover:text-white font-mono text-xs font-semibold tracking-wider transition-colors duration-300">
                       {tech.name}
                     </span>
