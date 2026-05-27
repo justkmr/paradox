@@ -113,7 +113,7 @@ export default function GithubSection() {
                 </div>
 
                 <div className="grid grid-cols-2 gap-4 border-t border-white/5 mt-6 pt-5 font-mono">
-                  <div className="text-center p-3 rounded-[12px] bg-white/[0.02] border border-white/[0.02]">
+                  <div className="text-center p-3 rounded-[12px] bg-white/2 border border-white/2">
                     <div className="text-xl font-black text-white">
                       {profile.public_repos}
                     </div>
