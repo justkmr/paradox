@@ -186,7 +186,7 @@ export default function TechMarquee() {
                         alt={tech.name}
                         width={20} // `h-5 w-5` map checks exact 20px boundary grid
                         height={20}
-                        unoptimized // Disable optimization for external URLs
+                        unoptimized
                         className="opacity-40 group-hover:opacity-100 transition-opacity duration-300 object-contain w-full h-full"
                       />
                     </div>
