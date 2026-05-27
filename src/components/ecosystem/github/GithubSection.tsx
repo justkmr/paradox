@@ -58,7 +58,7 @@ export default function GithubSection() {
       className="w-full relative bg-transparent py-2 px-6 lg:px-12 overflow-hidden select-none"
     >
       <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-150 h-150 bg-neutral-900/40 rounded-full blur-[140px] pointer-events-none transform-gpu" />
-      <div className="absolute top-10 right-10 w-72 h-72 bg-[#E24C60]/[0.02] rounded-full blur-[100px] pointer-events-none" />
+      <div className="absolute top-10 right-10 w-72 h-72 bg-[#E24C60]/2 rounded-full blur-[100px] pointer-events-none" />
 
       <div className="max-w-6xl mx-auto relative z-10">
         <div className="text-left mb-16 font-mono">
