@@ -193,7 +193,6 @@ export default function GithubSection() {
                       </h4>
                     </div>
 
-                    {/* View Code Link */}
                     <a
                       href={repo.href}
                       target="_blank"
