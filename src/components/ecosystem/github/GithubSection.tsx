@@ -207,7 +207,7 @@ export default function GithubSection() {
                   {repo.tags.map((tag) => (
                     <span
                       key={tag}
-                      className="px-3 py-1 rounded-full bg-white/[0.03] border border-white/5 text-zinc-500 group-hover:text-zinc-300 group-hover:border-white/10 transition-all"
+                      className="px-3 py-1 rounded-full bg-white/3 border border-white/5 text-zinc-500 group-hover:text-zinc-300 group-hover:border-white/10 transition-all"
                     >
                       {tag}
                     </span>
