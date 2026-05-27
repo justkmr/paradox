@@ -137,7 +137,6 @@ export default function TechMarquee() {
       <div className="absolute bottom-1/4 right-1/3 w-80 h-80 bg-cyan-500/5 rounded-full blur-[120px] pointer-events-none transform-gpu opacity-30" />
 
       <div className="w-full relative flex flex-col gap-5 overflow-hidden max-w-7xl mx-auto bg-transparent">
-        {/* Anti-Aliasing Studio Edge Blur Masking Controls */}
         <div className="absolute left-0 top-0 bottom-0 w-32 md:w-64 z-30 bg-gradient-to-r from-[#080808] via-[#080808]/80 to-transparent pointer-events-none " />
         <div className="absolute right-0 top-0 bottom-0 w-32 md:w-64 z-30 bg-gradient-to-l from-[#080808] via-[#080808]/80 to-transparent pointer-events-none " />
 
