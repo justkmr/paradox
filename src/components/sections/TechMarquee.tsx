@@ -184,7 +184,7 @@ export default function TechMarquee() {
                       <Image
                         src={tech.icon}
                         alt={tech.name}
-                        width={20} // `h-5 w-5` map checks exact 20px boundary grid
+                        width={20}
                         height={20}
                         unoptimized
                         className="opacity-40 group-hover:opacity-100 transition-opacity duration-300 object-contain w-full h-full"
