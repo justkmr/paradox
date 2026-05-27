@@ -179,7 +179,6 @@ export default function TechMarquee() {
                     style={{ backgroundColor: tech.color }}
                     className="flex items-center gap-4 border border-white/5 backdrop-blur-md px-6 py-3 hover:bg-[#0f1013]/90 hover:shadow-[0_15px_30px_rgba(226,76,96,0.06)] transition-all rounded-[15px] duration-300 cursor-default group"
                   >
-                    {/* 🌟 FIXED: `next/image` Optimization Integration */}
                     <div className="relative h-5 w-5 flex items-center justify-center overflow-hidden">
                       <Image
                         src={tech.icon}
