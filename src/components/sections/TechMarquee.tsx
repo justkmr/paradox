@@ -217,7 +217,7 @@ export default function TechMarquee() {
         className="flex flex-col items-center gap-3 mt-2 select-none"
         aria-hidden="true"
       >
-        <div className="w-24 h-px bg-gradient-to-r from-transparent via-red-800 to-transparent" />
+        <div className="w-24 h-px bg-linear-to-r from-transparent via-red-800 to-transparent" />
         <span className="text-[10px] tracking-[0.3em] text-zinc-600 font-mono uppercase">
           Explore Infrastructure
         </span>
