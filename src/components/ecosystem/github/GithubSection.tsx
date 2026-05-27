@@ -72,7 +72,6 @@ export default function GithubSection() {
           <div className="h-0.5 w-12 bg-[#E24C60] mt-3" />
         </div>
 
-        {/* PROFILE CARD & REPOS GRID CONTAINER */}
         <div className="grid lg:grid-cols-3 gap-8 items-start w-full">
           <div className="lg:col-span-1 w-full">
             {loading ? (
