@@ -121,7 +121,7 @@ export default function GithubSection() {
                       Repositories
                     </div>
                   </div>
-                  <div className="text-center p-3 rounded-[12px] bg-white/[0.02] border border-white/[0.02]">
+                  <div className="text-center p-3 rounded-[12px] bg-white/2 border border-white/2">
                     <div className="text-xl font-black text-white">
                       {profile.followers}
                     </div>
