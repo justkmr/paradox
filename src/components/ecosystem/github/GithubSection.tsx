@@ -13,7 +13,6 @@ interface GitHubProfile {
   html_url: string;
 }
 
-// Custom top repositories highlight (Since real repos might change, we style them like a pro senior developer)
 const FEATURED_REPOS = [
   {
     name: "RadiAntiX",
