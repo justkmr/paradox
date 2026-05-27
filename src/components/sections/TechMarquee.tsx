@@ -216,7 +216,6 @@ export default function TechMarquee() {
         </div>
       </div>
 
-      {/* Elegant Interactive Down Scroll Indicator */}
       <div
         className="flex flex-col items-center gap-3 mt-2 select-none"
         aria-hidden="true"
