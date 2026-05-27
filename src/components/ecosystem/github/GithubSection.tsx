@@ -133,7 +133,6 @@ export default function GithubSection() {
                   </div>
                 </div>
 
-                {/* Action Link */}
                 <a
                   href={profile.html_url}
                   target="_blank"
