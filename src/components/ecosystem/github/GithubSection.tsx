@@ -165,7 +165,6 @@ export default function GithubSection() {
                 whileHover={{ y: -4, borderColor: "rgba(226, 76, 96, 0.25)" }}
                 className="w-full p-6 rounded-[24px] border border-white/5 bg-neutral-900/30 backdrop-blur-md hover:bg-neutral-900/50 transition-all duration-300 flex flex-col justify-between group relative"
               >
-                {/* Absolute Decoration vector */}
                 <div className="absolute bottom-4 right-4 text-zinc-800 font-mono font-black text-6xl pointer-events-none select-none opacity-20 group-hover:opacity-40 group-hover:text-[#E24C60]/10 transition-all duration-500">
                   0{index + 1}
                 </div>
