@@ -211,7 +211,6 @@ export default function GithubSection() {
                   </p>
                 </div>
 
-                {/* Technology Badges Matrix */}
                 <div className="flex flex-wrap gap-2 font-mono text-[10px]">
                   {repo.tags.map((tag) => (
                     <span
