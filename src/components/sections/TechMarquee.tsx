@@ -128,7 +128,6 @@ export default function TechMarquee() {
       aria-labelledby={`tech-heading-${id}`}
       className="w-full flex flex-col items-center relative overflow-hidden bg-transparent py-8 select-none"
     >
-      {/* Premium Minimal Section Tag */}
       <div className="flex items-center gap-3 mb-8 font-mono text-[10px] sm:text-xs tracking-[0.4em] text-zinc-600 uppercase">
         <span className="w-1.5 h-1.5 rounded-full bg-[#E24C60] animate-pulse" />
         <h2 id={`tech-heading-${id}`}>Technical Arsenal</h2>
