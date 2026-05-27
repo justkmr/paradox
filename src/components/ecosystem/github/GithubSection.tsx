@@ -85,7 +85,6 @@ export default function GithubSection() {
                 viewport={{ once: true }}
                 className="w-full p-6 rounded-[24px] border border-white/6 bg-[#0c0d10]/70 backdrop-blur-xl relative group shadow-2xl overflow-hidden"
               >
-                {/* Micro corner indicators */}
                 <div className="absolute top-3 right-3 text-[10px] font-mono text-zinc-600 tracking-widest uppercase">
                   Live Stat
                 </div>
