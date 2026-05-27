@@ -153,7 +153,6 @@ export default function GithubSection() {
             )}
           </div>
 
-          {/* 2. PREMIUM FEATURED REPOSITORIES GRID */}
           <div className="lg:col-span-2 w-full flex flex-col gap-5">
             {FEATURED_REPOS.map((repo, index) => (
               <motion.div
