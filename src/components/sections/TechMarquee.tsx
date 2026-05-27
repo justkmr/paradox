@@ -124,7 +124,6 @@ export default function TechMarquee() {
   const id = useId();
 
   return (
-    // 🌟 CHANGE 1: Swapped 'bg-[#080808]' with 'bg-transparent' so body grid lines show through flawlessly
     <section
       aria-labelledby={`tech-heading-${id}`}
       className="w-full flex flex-col items-center relative overflow-hidden bg-transparent py-8 select-none"
