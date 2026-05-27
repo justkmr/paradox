@@ -57,7 +57,6 @@ export default function GithubSection() {
       id="github"
       className="w-full relative bg-transparent py-2 px-6 lg:px-12 overflow-hidden select-none"
     >
-      {/* Premium Ambient Background Glows */}
       <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-150 h-150 bg-neutral-900/40 rounded-full blur-[140px] pointer-events-none transform-gpu" />
       <div className="absolute top-10 right-10 w-72 h-72 bg-[#E24C60]/[0.02] rounded-full blur-[100px] pointer-events-none" />
 
