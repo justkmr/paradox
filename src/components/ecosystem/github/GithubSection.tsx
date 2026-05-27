@@ -171,7 +171,6 @@ export default function GithubSection() {
                 </div>
 
                 <div>
-                  {/* Top line repo info */}
                   <div className="flex items-center justify-between w-full mb-3">
                     <div className="flex items-center gap-2.5">
                       {/* Repo SVG vector icon */}
