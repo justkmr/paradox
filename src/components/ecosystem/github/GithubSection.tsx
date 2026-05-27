@@ -19,7 +19,7 @@ const FEATURED_REPOS = [
     description:
       "An enterprise-grade Full-Stack Job Portal architecture engineered with MERN stack, featuring advanced query pipelines, real-time tracking, and role-based access management.",
     tags: ["MongoDB", "Express", "React", "Node.js"],
-    href: "https://github.com/justkmr/RadiAntiX", // Apna exact url baad me replace kar sakte ho
+    href: "https://github.com/justkmr/RadiAntiX",
   },
   {
     name: "ZestCo",
