@@ -133,7 +133,6 @@ export default function TechMarquee() {
         <h2 id={`tech-heading-${id}`}>Technical Arsenal</h2>
       </div>
 
-      {/* Cyber Background Glow Matrices */}
       <div className="absolute top-1/4 left-1/3 w-80 h-80 bg-[#E24C60]/5 rounded-full blur-[120px] pointer-events-none transform-gpu opacity-40" />
       <div className="absolute bottom-1/4 right-1/3 w-80 h-80 bg-cyan-500/5 rounded-full blur-[120px] pointer-events-none transform-gpu opacity-30" />
 
