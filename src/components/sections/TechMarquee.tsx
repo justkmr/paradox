@@ -141,7 +141,6 @@ export default function TechMarquee() {
         <div className="absolute left-0 top-0 bottom-0 w-32 md:w-64 z-30 bg-gradient-to-r from-[#080808] via-[#080808]/80 to-transparent pointer-events-none " />
         <div className="absolute right-0 top-0 bottom-0 w-32 md:w-64 z-30 bg-gradient-to-l from-[#080808] via-[#080808]/80 to-transparent pointer-events-none " />
 
-        {/* 🌟 LINE 1: LEFT TO RIGHT ENGINE SCROLL */}
         <div className="flex whitespace-nowrap overflow-hidden py-2">
           <motion.div
             animate={{ x: [0, "-50%"] }}
