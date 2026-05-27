@@ -91,7 +91,6 @@ export default function GithubSection() {
                 </div>
 
                 <div className="flex flex-col items-center text-center mt-4">
-                  {/* Avatar Frame */}
                   <div className="relative w-24 h-24 rounded-full p-1 border border-white/10 bg-zinc-900/50 mb-4 overflow-hidden">
                     {/* eslint-disable-next-line @next/next/no-img-element */}
                     <img
