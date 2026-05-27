@@ -178,7 +178,6 @@ export default function TechMarquee() {
           </motion.div>
         </div>
 
-        {/* 🌟 LINE 2: RIGHT TO LEFT ENGINE SCROLL */}
         <div className="flex whitespace-nowrap overflow-hidden py-2">
           <motion.div
             animate={{ x: ["-50%", 0] }}
