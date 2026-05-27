@@ -74,7 +74,6 @@ export default function GithubSection() {
 
         {/* PROFILE CARD & REPOS GRID CONTAINER */}
         <div className="grid lg:grid-cols-3 gap-8 items-start w-full">
-          {/* 1. LIVE PROFILE METRIC CARD */}
           <div className="lg:col-span-1 w-full">
             {loading ? (
               <div className="w-full h-80 rounded-[24px] border border-white/5 bg-[#0c0d10]/40 animate-pulse flex items-center justify-center text-zinc-600 font-mono text-xs">
