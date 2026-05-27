@@ -173,7 +173,6 @@ export default function GithubSection() {
                 <div>
                   <div className="flex items-center justify-between w-full mb-3">
                     <div className="flex items-center gap-2.5">
-                      {/* Repo SVG vector icon */}
                       <svg
                         className="w-4 h-4 text-zinc-500 group-hover:text-[#E24C60] transition-colors"
                         fill="none"
