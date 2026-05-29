@@ -206,7 +206,6 @@ export function Testimonials() {
               </svg>
             </button>
 
-            {/* NEW GEOMETRIC LINKEDIN ICON */}
             <button
               onClick={(e) => {
                 e.stopPropagation();
