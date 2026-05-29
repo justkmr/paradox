@@ -162,7 +162,6 @@ export function Testimonials() {
       <div>
         <div className="flex items-center justify-between w-full mb-6 relative z-10">
           <div className="flex items-center gap-4 text-left">
-            {/* Squared Geometric Avatar Frame */}
             <div className="relative w-14 h-14 rounded-2xl p-[1.5px] bg-white/[0.02] border border-white/10 group-hover:border-[#E24C60]/40 transition-colors duration-500 shadow-inner shrink-0 rotate-3 group-hover:rotate-0">
               <Image
                 src={node.avatar}
