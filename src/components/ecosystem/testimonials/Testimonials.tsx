@@ -189,7 +189,6 @@ export function Testimonials() {
 
           {/* 🛠️ BRAND-ACCURATE SILICON BRAND LOGOS (Programmatic - Zero URL bar leakage) */}
           <div className="flex items-center gap-2.5">
-            {/* NEW BRAND GITHUB ICON */}
             <button
               onClick={(e) => {
                 e.stopPropagation();
