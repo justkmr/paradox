@@ -65,7 +65,6 @@ export function GithubCard({ data }: { data: ProfileData }) {
       </div>
 
       <div>
-        {/* 🚀 EXACT MATCH TERMINAL SECTION (With Custom Variables) */}
         <div className="w-full p-6 rounded-[18px] transparent border border-white/5 flex flex-col gap-4 font-mono text-left relative  shadow-inner">
           <div className="flex items-center justify-between w-full border-b border-white/5 ">
             <div className="flex items-center gap-1.5">
