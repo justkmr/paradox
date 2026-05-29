@@ -255,7 +255,6 @@ export function Testimonials() {
 
       {/* 🚀 SMOOTH DUAL MARQUEE INFINITE STREAMS */}
       <div className="w-full flex flex-col gap-8 relative">
-        {/* Soft edge blur masks to smoothly merge cards with background grid borders */}
         <div className="absolute inset-y-0 left-0 w-20 sm:w-48 bg-gradient-to-r from-zinc-950 via-zinc-950/70 to-transparent z-20 pointer-events-none" />
         <div className="absolute inset-y-0 right-0 w-20 sm:w-48 bg-gradient-to-l from-zinc-950 via-zinc-950/70 to-transparent z-20 pointer-events-none" />
 
