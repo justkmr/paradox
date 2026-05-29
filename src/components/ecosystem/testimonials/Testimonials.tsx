@@ -48,8 +48,8 @@ const TESTIMONIALS_POOL: TestimonialNode[] = [
     avatar: "/testimonials/raj.jpg",
     content:
       "The Docker containers and CI/CD pipelines Pintu set up are rock solid. Deployment cycles dropped from minutes to absolute seconds. Highly reliable engineer.",
-    linkedinUrl: "https://linkedin.com",
-    githubUrl: "https://github.com",
+    linkedinUrl: "https://linkedin.com/in/raj-singh-patel-5a5746231",
+    githubUrl: "https://github.com/Rajsingh2005-coder",
     gradient: "from-[#22d3ee] via-[#3b82f6] to-[#ec4899]",
   },
   {
