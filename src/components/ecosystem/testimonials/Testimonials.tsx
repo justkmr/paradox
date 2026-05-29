@@ -272,7 +272,6 @@ export function Testimonials() {
           </motion.div>
         </div>
 
-        {/* ⏪ ROW 2: RIGHT TO LEFT (Perfect Mirror Vector) */}
         <div className="w-full overflow-hidden flex group/row2">
           <motion.div
             animate={{ x: ["-50%", "0%"] }}
