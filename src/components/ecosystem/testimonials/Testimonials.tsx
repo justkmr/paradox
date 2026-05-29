@@ -242,7 +242,6 @@ export function Testimonials() {
 
   return (
     <section className="w-full py-5 relative z-10 overflow-x-hidden bg-transparent">
-      {/* High-End Header Block */}
       <div className="max-w-6xl mx-auto px-4 sm:px-6 mb-20 text-left relative z-10">
         <div className="flex items-center gap-2 px-3 py-1 w-fit rounded-full bg-[#E24C60]/5 border border-[#E24C60]/20 text-[12px] font-mono text-[#ff6b7d] font-bold tracking-widest uppercase mb-4 shadow-[0_0_15px_rgba(226,76,96,0.05)]">
           <span className="w-1.5 h-1.5 rounded-full bg-[#E24C60] shadow-[0_0_8px_#E24C60] animate-pulse" />
