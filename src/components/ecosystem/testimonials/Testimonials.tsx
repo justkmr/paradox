@@ -190,7 +190,7 @@ export function Testimonials() {
                 e.stopPropagation();
                 window.open(node.githubUrl, "_blank", "noopener,noreferrer");
               }}
-              className="p-2.5 rounded-xl bg-white/1 hover:bg-white/5 border border-white/5 hover:border-white/20 text-zinc-400 hover:text-white transition-all duration-300 cursor-pointer"
+              className="p-2.5 rounded-2xl bg-white/1 hover:bg-white/5 border border-white/5 hover:border-white/20 text-zinc-400 hover:text-white transition-all duration-300 cursor-pointer"
             >
               <svg className="w-4 h-4 fill-current" viewBox="0 0 24 24">
                 <path
