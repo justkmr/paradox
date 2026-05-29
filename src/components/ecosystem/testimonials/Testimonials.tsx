@@ -266,7 +266,6 @@ export function Testimonials() {
             transition={{ ease: "linear", duration: 85, repeat: Infinity }}
             className="flex gap-8 shrink-0 group-hover/row1:[animation-play-state:paused] py-2 pr-8"
           >
-            {/* Duplicating the list once is mathematically enough with percentage bounds */}
             {[...STREAM_ROW_1, ...STREAM_ROW_1].map((node, i) => (
               <TestimonialCard key={`r1-${node.id}-${i}`} node={node} />
             ))}
