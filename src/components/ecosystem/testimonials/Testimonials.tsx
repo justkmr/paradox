@@ -120,8 +120,8 @@ const TESTIMONIALS_POOL: TestimonialNode[] = [
     avatar: "/testimonials/jairam.jpeg",
     content:
       "Exceptional mastery of state architecture. Solved complex race conditions inside our async streaming data panels effortlessly with super crisp code syntax.",
-    linkedinUrl: "https://linkedin.com",
-    githubUrl: "https://github.com",
+    linkedinUrl: "https://www.linkedin.com/in/jairam-mahto-86b526310",
+    githubUrl: "https://github.com/jairamkr7",
     gradient: "from-[#14b8a6] via-[#34d399] to-[#fbbf24]",
   },
   {
