@@ -122,7 +122,6 @@ export function GithubCard({ data }: { data: ProfileData }) {
           </div>
         </div>
 
-        {/* Core Gateway Solid Neon Action Trigger Button */}
         <a
           href={data.html_url}
           target="_blank"
