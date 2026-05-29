@@ -24,7 +24,6 @@ export function GithubCard({ data }: { data: ProfileData }) {
       <div className="absolute inset-0 bg-gradient-to-b from-[#E24C60]/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-700 pointer-events-none" />
 
       <div>
-        {/* Live Active Bar Indicator */}
         <div className="flex items-center justify-between w-full mb-8">
           <div className="flex items-center gap-2 px-3 py-1 rounded-full bg-[#E24C60]/5 border border-[#E24C60]/20 text-[9px] text-[#ff6b7d] font-bold tracking-widest uppercase shadow-[0_0_15px_rgba(226,76,96,0.05)]">
             <span className="w-1.5 h-1.5 rounded-full bg-[#E24C60] shadow-[0_0_8px_#E24C60] animate-pulse" />
