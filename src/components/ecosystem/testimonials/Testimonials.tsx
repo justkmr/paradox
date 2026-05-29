@@ -264,7 +264,7 @@ export function Testimonials() {
           <motion.div
             animate={{ x: ["-50%", "0%"] }}
             transition={{ ease: "linear", duration: 85, repeat: Infinity }}
-            className="flex gap-8 shrink-0 group-hover/row2:[animation-play-state:paused] py-2 pr-8"
+            className="flex gap-8 shrink-0 group-hover/row2:paused py-2 pr-8"
           >
             {[...STREAM_ROW_2, ...STREAM_ROW_2].map((node, i) => (
               <TestimonialCard key={`r2-${node.id}-${i}`} node={node} />
