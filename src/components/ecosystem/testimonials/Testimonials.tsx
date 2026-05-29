@@ -127,13 +127,13 @@ const TESTIMONIALS_POOL: TestimonialNode[] = [
   {
     id: "10",
     name: "Aman Kumar Singh",
-    role: "Engineering Director",
+    role: "Java Developer",
     company: "CoreTech Global",
     avatar: "/testimonials/aman.jpg",
     content:
       "Pintu brings stellar code-hygiene and deep architectural design patterns to the team. An exceptional engineer who builds products optimized for longevity.",
-    linkedinUrl: "https://linkedin.com",
-    githubUrl: "https://github.com",
+    linkedinUrl: "https://www.linkedin.com/in/aman-kumar-singh-9a90232b7",
+    githubUrl: "https://github.com/imamankrsingh",
     gradient: "from-[#84cc16] via-[#22d3ee] to-[#a855f7]",
   },
 ];
