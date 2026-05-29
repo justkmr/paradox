@@ -259,7 +259,6 @@ export function Testimonials() {
         <div className="absolute inset-y-0 left-0 w-20 sm:w-48 bg-gradient-to-r from-zinc-950 via-zinc-950/70 to-transparent z-20 pointer-events-none" />
         <div className="absolute inset-y-0 right-0 w-20 sm:w-48 bg-gradient-to-l from-zinc-950 via-zinc-950/70 to-transparent z-20 pointer-events-none" />
 
-        {/* ⏩ ROW 1: LEFT TO RIGHT (Continuous Loop via Percentage Translate) */}
         <div className="w-full overflow-hidden flex group/row1">
           <motion.div
             animate={{ x: ["0%", "-50%"] }}
