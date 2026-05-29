@@ -60,8 +60,8 @@ const TESTIMONIALS_POOL: TestimonialNode[] = [
     avatar: "/testimonials/sunil.jpg",
     content:
       "Highly scalable database indexing schemas. His Redis caching layer integration prevented system bottlenecks during intense high concurrency loads on our critical API endpoints.",
-    linkedinUrl: "https://linkedin.com",
-    githubUrl: "https://github.com",
+    linkedinUrl: "https://www.linkedin.com/in/sunil4556",
+    githubUrl: "https://github.com/Sunilkr2004",
     gradient: "from-[#fbbf24] via-[#f97316] to-[#E24C60]",
   },
   {
