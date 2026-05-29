@@ -38,6 +38,7 @@ export function GithubCard({ data }: { data: ProfileData }) {
           <div className="relative w-28 h-28 rounded-full p-1 border border-white/10 bg-zinc-950/80 mb-5 overflow-hidden transition-all duration-500 group-hover:border-[#E24C60]/50 group-hover:shadow-[0_0_35px_rgba(226,76,96,0.25)] group-hover:scale-105">
             <div className="absolute inset-0 rounded-full border border-dashed border-[#E24C60]/0 group-hover:border-[#E24C60]/30 group-hover:animate-[spin_8s_linear_infinite] pointer-events-none" />
 
+            {/* eslint-disable-next-line @next/next/no-img-element */}
             <img
               src={data.avatar_url}
               alt={data.name}
