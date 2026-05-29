@@ -24,8 +24,8 @@ const TESTIMONIALS_POOL: TestimonialNode[] = [
     avatar: "/testimonials/sajan.jpg",
     content:
       "Pintu's implementation of our core application nodes was flawless. His choice of Next.js architecture and socket pipeline design slashed our checkout latency by 40%. Absolute system beast!",
-    linkedinUrl: "https://linkedin.com",
-    githubUrl: "https://github.com",
+    linkedinUrl: "https://www.linkedin.com/in/pintu-kumar-12x",
+    githubUrl: "https://github.com/justkmr",
     gradient: "from-[#E24C60] via-[#ec4899] to-[#84cc16]",
   },
   {
