@@ -96,8 +96,8 @@ const TESTIMONIALS_POOL: TestimonialNode[] = [
     avatar: "/testimonials/prajwal.jpg",
     content:
       "Clean, injection-proof codebase infrastructure. His implementation of strict TLS encryption across global network channels and endpoints is brilliant and robust.",
-    linkedinUrl: "https://linkedin.com",
-    githubUrl: "https://github.com",
+    linkedinUrl: "https://www.linkedin.com/in/prajwalsingh20",
+    githubUrl: "https://github.com/Prajwalsingh0",
     gradient: "from-[#3b82f6] via-[#a855f7] to-[#f97316]",
   },
   {
