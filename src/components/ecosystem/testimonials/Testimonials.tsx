@@ -227,7 +227,6 @@ export function Testimonials() {
         </p>
       </div>
 
-      {/* Transparent Matrix Sub-Footer Block */}
       <div className="flex items-center justify-between w-full pt-5 mt-6 border-t border-white/[0.03] font-mono text-[10px] text-zinc-600 tracking-wider relative z-10">
         <div className="flex items-center gap-1.5">
           <span className="w-1.5 h-1.5 rounded-full bg-[#E24C60]" />
