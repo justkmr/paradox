@@ -114,10 +114,10 @@ const TESTIMONIALS_POOL: TestimonialNode[] = [
   },
   {
     id: "09",
-    name: "Sanjay Kumar Patel",
+    name: "Jairam Kumar Mahto",
     role: "Full Stack Engineer",
     company: "QuantLabs",
-    avatar: "https://api.dicebear.com/7.x/avataaars/svg?seed=Aditya",
+    avatar: "/testimonials/jairam.jpeg",
     content:
       "Exceptional mastery of state architecture. Solved complex race conditions inside our async streaming data panels effortlessly with super crisp code syntax.",
     linkedinUrl: "https://linkedin.com",
@@ -157,7 +157,6 @@ export function Testimonials() {
       {/* 🌌 Dynamic Intense Crimson Glow Backlight on Hover */}
       <div className="absolute -top-24 -right-24 w-52 h-52 bg-[#E24C60]/[0.06] rounded-full blur-[60px] opacity-0 group-hover:opacity-100 transition-all duration-700 pointer-events-none" />
 
-      {/* Top Glass Reflection Edge Shimmer */}
       <div className="absolute top-0 left-0 w-full h-[1px] bg-gradient-to-r from-transparent via-white/[0.06] to-transparent pointer-events-none" />
 
       <div>
