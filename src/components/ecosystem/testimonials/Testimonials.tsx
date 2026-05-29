@@ -68,7 +68,7 @@ const TESTIMONIALS_POOL: TestimonialNode[] = [
     id: "05",
     name: "Sanjay Kumar Mahto",
     role: "CTO",
-    company: "Apex Systems",
+    company: "The Rice Foundation",
     avatar: "/testimonials/sanjay.jpg",
     content:
       "Pintu is a rare asset for any engineering setup. He commands full product workflows from raw architectural prototypes straight up to high-availability client deployments seamlessly.",
