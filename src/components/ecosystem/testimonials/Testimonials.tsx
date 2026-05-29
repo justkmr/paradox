@@ -143,7 +143,7 @@ const STREAM_ROW_2 = [...TESTIMONIALS_POOL.slice(5, 10)];
 
 export function Testimonials() {
   const TestimonialCard = ({ node }: { node: TestimonialNode }) => (
-    <div className="w-[390px] sm:w-[450px] shrink-0 p-8 sm:p-10 rounded-[38px] border border-white/[0.04] bg-white/[0.01] backdrop-blur-2xl transition-all duration-500 flex flex-col justify-between group relative overflow-hidden select-none cursor-pointer hover:bg-[#090a0f] hover:border-[#E24C60]/40 hover:shadow-[0_40px_90px_-15px_rgba(226,76,96,0.15),0_60px_120px_-20px_rgba(0,0,0,0.9)] hover:-translate-y-2">
+    <div className="w-[390px] sm:w-[450px] shrink-0 p-8 sm:p-10 rounded-[38px] border border-white/4 bg-white/[0.01] backdrop-blur-2xl transition-all duration-500 flex flex-col justify-between group relative overflow-hidden select-none cursor-pointer hover:bg-[#090a0f] hover:border-[#E24C60]/40 hover:shadow-[0_40px_90px_-15px_rgba(226,76,96,0.15),0_60px_120px_-20px_rgba(0,0,0,0.9)] hover:-translate-y-2">
       <div
         className={`absolute inset-0 bg-linear-to-r ${node.gradient} opacity-0 group-hover:opacity-40 transition-opacity duration-500 pointer-events-none p-[1.5px] rounded-[38px]`}
         style={{
