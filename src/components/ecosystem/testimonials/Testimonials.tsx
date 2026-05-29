@@ -36,8 +36,8 @@ const TESTIMONIALS_POOL: TestimonialNode[] = [
     avatar: "/testimonials/umesh.jpg",
     content:
       "Exceptional craftsmanship. He doesn't just build functional components; he creates immersive visual environments. The performance optimization he delivered is production perfection.",
-    linkedinUrl: "https://linkedin.com",
-    githubUrl: "https://github.com",
+    linkedinUrl: "https://www.linkedin.com/in/umesh-kumar-mahto",
+    githubUrl: "https://github.com/Umeshku1305",
     gradient: "from-[#34d399] via-cyan-400 to-[#a855f7]",
   },
   {
