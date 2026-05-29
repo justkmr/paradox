@@ -160,7 +160,6 @@ export function Testimonials() {
       <div className="absolute top-0 left-0 w-full h-[1px] bg-gradient-to-r from-transparent via-white/[0.06] to-transparent pointer-events-none" />
 
       <div>
-        {/* Header Block: Identity System */}
         <div className="flex items-center justify-between w-full mb-6 relative z-10">
           <div className="flex items-center gap-4 text-left">
             {/* Squared Geometric Avatar Frame */}
