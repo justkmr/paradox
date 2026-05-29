@@ -19,7 +19,7 @@ export function GithubCard({ data }: { data: ProfileData }) {
       whileInView={{ opacity: 1, y: 0 }}
       viewport={{ once: true }}
       transition={{ type: "spring", stiffness: 60, damping: 15 }}
-      className="w-full p-8 rounded-[32px] border border-white/5 bg-linear-to-b from-white/[0.03] to-transparent backdrop-blur-2xl relative group shadow-[0_50px_100px_rgba(0,0,0,0.9)] overflow-hidden font-mono flex flex-col justify-between min-h-[580px]"
+      className="w-full p-8 rounded-[32px] border border-white/5 bg-linear-to-b from-white/[0.03] to-transparent backdrop-blur-2xl relative group shadow-[0_50px_100px_rgba(0,0,0,0.9)] overflow-hidden font-mono flex flex-col justify-between min-h-145"
     >
       <div className="absolute inset-0 bg-linear-to-b from-[#E24C60]/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-700 pointer-events-none" />
 
