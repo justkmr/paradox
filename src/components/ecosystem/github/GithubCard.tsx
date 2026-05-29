@@ -79,7 +79,6 @@ export function GithubCard({ data }: { data: ProfileData }) {
             </span>
           </div>
 
-          {/* Line 1: Whoami Command */}
           <div className="flex flex-col gap-1 text-[14px]">
             <span className="text-yellow-500 font-bold">$ whoami</span>
             <div className="flex items-center gap-2 pl-3">
