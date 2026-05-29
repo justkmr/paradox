@@ -187,7 +187,6 @@ export function Testimonials() {
             </div>
           </div>
 
-          {/* 🛠️ BRAND-ACCURATE SILICON BRAND LOGOS (Programmatic - Zero URL bar leakage) */}
           <div className="flex items-center gap-2.5">
             <button
               onClick={(e) => {
