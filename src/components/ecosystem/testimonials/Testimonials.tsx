@@ -108,8 +108,8 @@ const TESTIMONIALS_POOL: TestimonialNode[] = [
     avatar: "/testimonials/aman2.jpg",
     content:
       "Delivered our complex management dashboard feature two weeks ahead of schedule. Post-launch maintenance metrics and performance remain completely clean.",
-    linkedinUrl: "https://linkedin.com",
-    githubUrl: "https://github.com",
+    linkedinUrl: "https://www.linkedin.com/in/aman-kumar-barnwal01/",
+    githubUrl: "https://github.com/MeAman01",
     gradient: "from-[#f97316] via-[#E24C60] to-[#84cc16]",
   },
   {
