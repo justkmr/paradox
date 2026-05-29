@@ -53,7 +53,7 @@ export function GithubCard({ data }: { data: ProfileData }) {
             SYSTEM.ENGINEER
           </p>
 
-          <p className="text-base text-zinc-400 mt-5 leading-relaxed font-sans px-2 min-h-[50px]">
+          <p className="text-base text-zinc-400 mt-5 leading-relaxed font-sans px-2 min-h-12.5">
             {data.bio ||
               "Full-Stack Engineer building visual-heavy, high-performance web systems and scalable API nodes."}
           </p>
