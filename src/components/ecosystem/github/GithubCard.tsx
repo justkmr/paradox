@@ -99,7 +99,6 @@ export function GithubCard({ data }: { data: ProfileData }) {
             </div>
           </div>
 
-          {/* Line 3: Custom Tech Focus Mapping */}
           <div className="flex flex-col gap-1 text-[14px]">
             <span className="text-yellow-500 font-bold">$ cat focus.txt</span>
             <div className="flex items-center gap-2 pl-3">
