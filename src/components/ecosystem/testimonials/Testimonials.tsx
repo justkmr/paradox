@@ -84,8 +84,8 @@ const TESTIMONIALS_POOL: TestimonialNode[] = [
     avatar: "/testimonials/amar.jpg",
     content:
       "Impeccable attention to Tailwind details and Framer Motion micro-interactions. The layout aesthetics, spacing systems, and animations are always clean and elite.",
-    linkedinUrl: "https://linkedin.com",
-    githubUrl: "https://github.com",
+    linkedinUrl: "https://www.linkedin.com/in/amar-kumarofficial/",
+    githubUrl: "https://github.com/AmarBarnwal",
     gradient: "from-[#ec4899] via-[#fbbf24] to-[#22d3ee]",
   },
   {
