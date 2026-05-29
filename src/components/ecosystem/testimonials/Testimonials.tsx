@@ -216,7 +216,7 @@ export function Testimonials() {
         </div>
 
         <p className="text-zinc-400 font-sans text-sm sm:text-[15px] leading-relaxed tracking-wide font-normal text-left group-hover:text-zinc-200 transition-colors duration-300 relative z-10">
-          "{node.content}"
+          &quot;{node.content}&quot;
         </p>
       </div>
 
