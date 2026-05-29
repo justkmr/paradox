@@ -161,12 +161,12 @@ export function Testimonials() {
       <div>
         <div className="flex items-center justify-between w-full mb-6 relative z-10">
           <div className="flex items-center gap-4 text-left">
-            <div className="relative w-14 h-14 rounded-2xl p-[1.5px] bg-white/2 border border-white/10 group-hover:border-[#E24C60]/40 transition-colors duration-500 shadow-inner shrink-0 rotate-3 group-hover:rotate-0">
+            <div className="relative w-16 h-16 rounded-[25px] p-[1.5px] bg-rose-600/15 border border-white/10 group-hover:border-[#E24C60]/40 transition-colors duration-500 shadow-inner shrink-0 rotate-3 group-hover:rotate-0">
               <Image
                 src={node.avatar}
                 alt={node.name}
                 fill
-                className="w-full h-full rounded-2xl bg-zinc-950/40 object-cover"
+                className="w-full h-full rounded-[30px] bg-rose-600 object-cover"
                 loading="eager"
               />
             </div>
