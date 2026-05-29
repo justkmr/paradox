@@ -67,7 +67,6 @@ export function GithubCard({ data }: { data: ProfileData }) {
       <div>
         {/* 🚀 EXACT MATCH TERMINAL SECTION (With Custom Variables) */}
         <div className="w-full p-6 rounded-[18px] transparent border border-white/5 flex flex-col gap-4 font-mono text-left relative  shadow-inner">
-          {/* Mac-Style Top Header Window Buttons */}
           <div className="flex items-center justify-between w-full border-b border-white/5 ">
             <div className="flex items-center gap-1.5">
               <span className="w-2.5 h-2.5 rounded-full bg-[#ff5f56]" />
