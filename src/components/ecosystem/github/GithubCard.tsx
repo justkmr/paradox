@@ -90,7 +90,6 @@ export function GithubCard({ data }: { data: ProfileData }) {
             </div>
           </div>
 
-          {/* Line 2: Custom Architecture Role */}
           <div className="flex flex-col gap-1 text-[14px]">
             <span className="text-yellow-500 font-bold">$ cat role.txt</span>
             <div className="flex items-center gap-2 pl-3">
