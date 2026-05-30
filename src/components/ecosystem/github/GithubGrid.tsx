@@ -274,7 +274,7 @@ export function GithubGrid() {
         </div>
 
         <div
-          className="w-full overflow-x-auto py-4 px-2 rounded-2xl bg-zinc-950/40 border border-white/[0.01] flex items-center justify-start
+          className="w-full overflow-x-auto py-4 px-2 rounded-2xl bg-zinc-950/40 border border-white/1 flex items-center justify-start
           scrollbar-thin 
           scrollbar-thumb-zinc-800 
           scrollbar-track-transparent
