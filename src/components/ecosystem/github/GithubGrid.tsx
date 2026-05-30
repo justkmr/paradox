@@ -231,7 +231,6 @@ export function GithubGrid() {
         ))}
       </div>
 
-      {/* 🚀 HIGH-END INTERACTIVE CONTRIBUTION PANEL WITH PREMIUM SLIDER */}
       <motion.div
         initial={{ opacity: 0, y: 30 }}
         whileInView={{ opacity: 1, y: 0 }}
