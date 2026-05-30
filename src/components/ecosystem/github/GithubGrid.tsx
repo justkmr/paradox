@@ -124,7 +124,6 @@ export function GithubGrid() {
         ))}
       </div> */}
 
-      {/* 📦 NEXT-GEN HIGH-CONTRAST ASYMMETRIC REPOSITORIES MATRIX */}
       <div className="grid sm:grid-cols-2 gap-6 w-full font-mono">
         {FEATURED_REPOS.map((repo, index) => (
           <motion.div
