@@ -237,7 +237,7 @@ export function GithubGrid() {
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true, margin: "-40px" }}
         transition={{ type: "spring", stiffness: 50, damping: 15, delay: 0.1 }}
-        className="w-full mt-6 p-6 md:p-8 rounded-[32px] border border-white/5 bg-linear-to-b from-white/[0.03] to-transparent backdrop-blur-3xl shadow-[0_30px_60px_rgba(0,0,0,0.6)] relative overflow-hidden group font-mono"
+        className="w-full mt-6 p-6 md:p-8 rounded-[32px] border border-white/5 bg-linear-to-b from-white/3 to-transparent backdrop-blur-3xl shadow-[0_30px_60px_rgba(0,0,0,0.6)] relative overflow-hidden group font-mono"
       >
         <div className="absolute -top-24 -left-24 w-72 h-72 bg-[#E24C60]/2 rounded-full blur-[100px] pointer-events-none" />
 
