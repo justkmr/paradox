@@ -315,7 +315,7 @@ export function GithubGrid() {
             />
           </div> */}
 
-          <div className="min-w-[780px] text-zinc-400 font-mono select-none pr-4 pb-2">
+          <div className="min-w-195 text-zinc-400 font-mono select-none pr-4 pb-2">
             <GitHubCalendar
               username="justkmr"
               theme={cyberpunkRedTheme}
