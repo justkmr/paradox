@@ -204,7 +204,6 @@ export function GithubGrid() {
                 </button>
               </div>
 
-              {/* High-Contrast System Description Field */}
               <div className="w-full p-4 rounded-[25px] transparent border border-white/2 mb-6 relative overflow-hidden group-hover:border-white/5 transition-colors">
                 <p className="text-zinc-400 text-xs md:text-sm leading-relaxed font-sans tracking-wide opacity-90 group-hover:text-zinc-200 transition-colors duration-300">
                   <span className="text-[#E24C60] font-bold mr-1.5 font-mono select-none">
