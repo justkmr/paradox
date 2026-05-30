@@ -75,7 +75,7 @@ export function GithubGrid() {
             <div className="relative z-10 w-full">
               <div className="flex items-baseline justify-between w-full border-b border-white/5 pb-4 mb-5">
                 <div className="flex flex-col gap-1">
-                  <span className="text-[10px] text-[#E24C60] font-black tracking-widest uppercase select-none">
+                  <span className="text-[12px] text-[#E24C60] font-black tracking-wider  select-none">
                     [ ACTIVE REPOSITORY ]
                   </span>
                   <h4 className="font-sans font-black text-2xl text-white tracking-tight mt-1 group-hover:translate-x-1 transition-transform duration-300">
