@@ -168,23 +168,6 @@ export function GithubGrid() {
                   </h4>
                 </div>
 
-                {/* <a
-                  href={repo.href}
-                  target="_blank"
-                  rel="noreferrer"
-                  className="text-zinc-500 hover:text-white p-3 rounded-[25px] bg-zinc-950 border border-white/5 hover:border-[#E24C60]/40 hover:shadow-[0_0_15px_rgba(226,76,96,0.2)] transition-all duration-300 flex items-center justify-center shrink-0"
-                >
-                  <svg
-                    className="w-4 h-4 fill-none stroke-current"
-                    strokeWidth="2.5"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    viewBox="0 0 24 24"
-                  >
-                    <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6M15 3h6v6M10 14L21 3" />
-                  </svg>
-                </a> */}
-
                 <button
                   onClick={() =>
                     window.open(repo.href, "_blank", "noopener,noreferrer")
