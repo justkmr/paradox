@@ -3,6 +3,9 @@ import Hero from "@/components/sections/Hero";
 import TechMarquee from "@/components/sections/TechMarquee";
 import About from "@/components/sections/About";
 
+import { GithubSection } from "@/components/ecosystem/github";
+import { Testimonials } from "@/components/ecosystem/testimonials/Testimonials";
+
 export default function Home() {
   return (
     <div className="relative min-h-screen w-full flex flex-col isolation-isolate bg-[#080808] text-[#f0f0f0]">
@@ -14,6 +17,9 @@ export default function Home() {
         <Hero />
         <TechMarquee />
         <About />
+
+        <GithubSection />
+        <Testimonials />
       </main>
     </div>
   );
