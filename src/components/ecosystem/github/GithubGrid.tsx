@@ -285,34 +285,6 @@ export function GithubGrid() {
           [&::-webkit-scrollbar-thumb]:transition-colors
           [&::-webkit-scrollbar-thumb]:duration-300"
         >
-          {/* <div className="min-w-[780px] text-zinc-400 font-mono select-none pr-4 pb-2">
-            <GitHubCalendar
-              username="justkmr"
-              theme={cyberpunkRedTheme}
-              transformData={selectAugustToNow}
-              blockSize={14}
-              blockMargin={5}
-              fontSize={13}
-              showWeekdayLabels={true}
-              hideColorLegend={false}
-              renderBlock={(block, activity) => {
-                const updatedProps = {
-                  ...block.props,
-                  "data-tooltip-id": "github-tooltip",
-                  "data-tooltip-content": `${activity.count} commits on ${activity.date}`,
-                };
-                return <rect {...updatedProps} />;
-              }}
-            />
-
-            <ReactTooltip
-              id="github-tooltip"
-              delayShow={40}
-              delayHide={40}
-              className="!bg-zinc-950/95 !border !border-white/10 !text-white !font-mono !text-[13px] !rounded-[15px] !px-3 !py-2 !backdrop-blur-xl !shadow-2xl"
-            />
-          </div> */}
-
           <div className="min-w-195 text-zinc-400 font-mono select-none pr-4 pb-2">
             <GitHubCalendar
               username="justkmr"
