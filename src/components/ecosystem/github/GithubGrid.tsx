@@ -29,7 +29,6 @@ const FEATURED_REPOS = [
   },
 ];
 
-// 🔥 HYPER-STABLE CYBERPUNK RED SPECTRUM
 const cyberpunkRedTheme = {
   light: ["#111215", "#2d0b10", "#5c0e18", "#a81326", "#E24C60"],
   dark: ["#111215", "#2d0b10", "#5c0e18", "#a81326", "#E24C60"],
