@@ -239,7 +239,7 @@ export function GithubGrid() {
         transition={{ type: "spring", stiffness: 50, damping: 15, delay: 0.1 }}
         className="w-full mt-6 p-6 md:p-8 rounded-[32px] border border-white/5 bg-gradient-to-b from-white/[0.03] to-transparent backdrop-blur-3xl shadow-[0_30px_60px_rgba(0,0,0,0.6)] relative overflow-hidden group font-mono"
       >
-        <div className="absolute -top-24 -left-24 w-72 h-72 bg-[#E24C60]/[0.02] rounded-full blur-[100px] pointer-events-none" />
+        <div className="absolute -top-24 -left-24 w-72 h-72 bg-[#E24C60]/2 rounded-full blur-[100px] pointer-events-none" />
 
         <div className="flex flex-col sm:flex-row sm:items-center justify-between w-full gap-4 mb-6">
           <div className="flex items-center gap-3">
