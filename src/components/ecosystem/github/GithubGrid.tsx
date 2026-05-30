@@ -215,7 +215,7 @@ export function GithubGrid() {
               id="github-tooltip"
               delayShow={40}
               delayHide={40}
-              className="!bg-zinc-950/95 border! !border-white/10 !text-white !font-mono !text-[13px] !rounded-[15px] !px-3 py-2! !backdrop-blur-xl shadow-2xl!"
+              className="bg-zinc-950/95! border! border-white/10! text-white! font-mono! text-[13px]! rounded-[15px]! px-3! py-2! backdrop-blur-xl! shadow-2xl!"
             />
           </div>
         </div>
