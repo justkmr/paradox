@@ -192,7 +192,6 @@ export function GithubGrid() {
               showWeekdayLabels={true}
               hideColorLegend={false}
               renderBlock={(block, activity) => {
-                // 🧠 Custom JavaScript Date Parsing Engine standard
                 const formatDateFriendly = (dateString: string) => {
                   const date = new Date(dateString);
                   return date.toLocaleDateString("en-US", {
