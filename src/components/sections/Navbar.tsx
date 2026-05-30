@@ -66,11 +66,12 @@ export default function Navbar() {
               src="/Sajan.jpeg"
               alt="logo"
               fill
+              sizes="56px"
               className="w-full h-full object-cover"
             />
           </div>
 
-          <div className="flex flex-col font-mono text-left hidden md:flex select-none">
+          <div className="hidden md:flex  flex-col font-mono text-left  select-none">
             <span className="text-[20px] font-bold text-white/90 tracking-wide">
               Pintu Kumar
             </span>
