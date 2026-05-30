@@ -38,7 +38,7 @@ export default function GithubMain() {
             <span>Open Source Ecosystem</span>
           </div>
 
-          <h2 className="text-4xl md:text-6xl font-black text-transparent bg-clip-text bg-gradient-to-r from-white via-zinc-200 to-zinc-500 tracking-tight leading-none">
+          <h2 className="text-4xl md:text-6xl font-black text-transparent bg-clip-text bg-linear-to-r from-white via-zinc-200 to-zinc-500 tracking-tight leading-none">
             Code{" "}
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#E24C60] to-[#ff6b7d] drop-shadow-[0_0_30px_rgba(226,76,96,0.2)]">
               Contributions
