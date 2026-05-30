@@ -214,7 +214,6 @@ export function GithubGrid() {
               </div>
             </div>
 
-            {/* 💎 FUTURISTIC TERMINAL LOG-STYLE TECH TAGS */}
             <div className="flex flex-wrap gap-2 relative z-10 w-full pt-2 border-t border-white/3">
               {repo.tags.map((tag) => (
                 <span
