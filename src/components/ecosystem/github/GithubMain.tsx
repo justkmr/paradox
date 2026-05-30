@@ -56,7 +56,7 @@ export default function GithubMain() {
           ) : profile ? (
             <GithubCard data={profile} />
           ) : (
-            <div className="lg:col-span-2 h-[420px] rounded-[32px] border border-white/5 bg-red-950/10 flex items-center justify-center text-zinc-600 text-xs font-mono w-full">
+            <div className="lg:col-span-2 h-105 rounded-[32px] border border-white/5 bg-red-950/10 flex items-center justify-center text-zinc-600 text-xs font-mono w-full">
               FAILED TO SECURE USER ENGINE.
             </div>
           )}
