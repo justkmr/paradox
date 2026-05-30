@@ -185,7 +185,6 @@ export function GithubGrid() {
                   </svg>
                 </a> */}
 
-                {/* 🚀 REMOVED <a> TAG FOR TOP RIGHT ANCHOR */}
                 <button
                   onClick={() =>
                     window.open(repo.href, "_blank", "noopener,noreferrer")
