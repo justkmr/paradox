@@ -157,7 +157,6 @@ export function GithubGrid() {
             </div>
 
             <div className="relative z-10 w-full">
-              {/* 🛠️ ASYMMETRIC SPLIT-HEADER */}
               <div className="flex items-baseline justify-between w-full border-b border-white/5 pb-4 mb-5">
                 <div className="flex flex-col gap-1">
                   <span className="text-[10px] text-[#E24C60] font-black tracking-widest uppercase select-none">
