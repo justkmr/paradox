@@ -151,7 +151,6 @@ export function GithubGrid() {
             {/* Split Decorative Header Line */}
             <div className="absolute top-0 right-12 w-24 h-0.75 bg-linear-to-r from-transparent via-white/10 to-transparent pointer-events-none" />
 
-            {/* Absolute Dynamic Digital Index Indicator */}
             <div className="absolute top-4 right-6 text-[10px] text-zinc-700 font-bold tracking-widest uppercase group-hover:text-[#E24C60]/60 transition-colors">
               SYS_NODE_0{index + 1}
             </div>
