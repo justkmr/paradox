@@ -144,8 +144,6 @@ export function GithubGrid() {
             }}
             className="w-full p-6 md:p-8 rounded-[25px] border-2 border-white/5 bg-[#090a0d] transition-all duration-500 flex flex-col justify-between group relative overflow-hidden shadow-[20px_30px_60px_rgba(0,0,0,0.8)]"
           >
-            {/* ⚡ THE CYBER BEAM INDEX STRIP */}
-            {/* Left side par ek thick glowing track chipka diya hai jo hover hote hi laser crimson red ho jayega */}
             <div className="absolute left-0 top-0 w-1 h-full bg-zinc-900 group-hover:bg-[#E24C60] group-hover:shadow-[0_0_15px_#E24C60] transition-all duration-500 pointer-events-none" />
 
             <div className="absolute top-0 right-12 w-24 h-0.75 bg-linear-to-r from-transparent via-white/10 to-transparent pointer-events-none" />
