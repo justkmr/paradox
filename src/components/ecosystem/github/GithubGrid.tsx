@@ -148,7 +148,6 @@ export function GithubGrid() {
             {/* Left side par ek thick glowing track chipka diya hai jo hover hote hi laser crimson red ho jayega */}
             <div className="absolute left-0 top-0 w-1 h-full bg-zinc-900 group-hover:bg-[#E24C60] group-hover:shadow-[0_0_15px_#E24C60] transition-all duration-500 pointer-events-none" />
 
-            {/* Split Decorative Header Line */}
             <div className="absolute top-0 right-12 w-24 h-0.75 bg-linear-to-r from-transparent via-white/10 to-transparent pointer-events-none" />
 
             <div className="absolute top-4 right-6 text-[10px] text-zinc-700 font-bold tracking-widest uppercase group-hover:text-[#E24C60]/60 transition-colors">
