@@ -29,7 +29,7 @@ export default function GithubMain() {
       <div className="absolute top-1/4 left-1/4 w-[500px] h-[500px] bg-[radial-gradient(circle_at_center,rgba(226,76,96,0.12),transparent_70%)] rounded-full blur-[120px] pointer-events-none transform-gpu animate-pulse duration-[6s]" />
       <div className="absolute bottom-10 right-10 w-96 h-96 bg-[radial-gradient(circle_at_center,rgba(6,182,212,0.05),transparent_70%)] rounded-full blur-[100px] pointer-events-none" />
 
-      <div className="w-full h-[1px] bg-gradient-to-r from-transparent via-zinc-800 to-transparent absolute top-0 left-0" />
+      <div className="w-full h-[1px] bg-linear-to-r from-transparent via-zinc-800 to-transparent absolute top-0 left-0" />
 
       <div className="max-w-6xl mx-auto relative z-10">
         <div className="text-left mb-20 font-mono">
