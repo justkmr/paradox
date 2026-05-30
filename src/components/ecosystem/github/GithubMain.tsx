@@ -49,7 +49,7 @@ export default function GithubMain() {
 
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-6 md:gap-8 items-start w-full">
           {loading ? (
-            <div className="lg:col-span-1 h-[420px] rounded-[32px] border border-white/5 bg-[#07080a]/60 backdrop-blur-xl flex flex-col gap-3 items-center justify-center text-zinc-500 text-xs font-mono tracking-[0.2em] uppercase">
+            <div className="lg:col-span-1 h-105 rounded-[32px] border border-white/5 bg-[#07080a]/60 backdrop-blur-xl flex flex-col gap-3 items-center justify-center text-zinc-500 text-xs font-mono tracking-[0.2em] uppercase">
               <span className="w-5 h-5 border-2 border-zinc-800 border-t-[#E24C60] rounded-full animate-spin" />
               <span>Syncing Live Matrix...</span>
             </div>
