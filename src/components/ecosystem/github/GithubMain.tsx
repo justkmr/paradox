@@ -33,7 +33,6 @@ export default function GithubMain() {
       <div className="w-full h-[1px] bg-gradient-to-r from-transparent via-zinc-800 to-transparent absolute top-0 left-0" />
 
       <div className="max-w-6xl mx-auto relative z-10">
-        {/* 🌟 2. HIGH-END TEXT GRADIENT TITLE */}
         <div className="text-left mb-20 font-mono">
           <div className="flex items-center gap-3 mb-4 text-xs tracking-[0.5em] text-[#E24C60] font-bold uppercase">
             <span className="w-2 h-2 rounded-full bg-[#E24C60] shadow-[0_0_12px_#E24C60] animate-pulse" />
