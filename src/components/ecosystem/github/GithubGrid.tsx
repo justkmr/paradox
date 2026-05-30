@@ -273,8 +273,6 @@ export function GithubGrid() {
           </div>
         </div>
 
-        {/* 🛠️ SLIDER VIEWPORT CONTAINER */}
-        {/* Isme custom scrollbar rules inject kiye hain taaki premium sliding indicator niche dikhe */}
         <div
           className="w-full overflow-x-auto py-4 px-2 rounded-2xl bg-zinc-950/40 border border-white/[0.01] flex items-center justify-start
           scrollbar-thin 
