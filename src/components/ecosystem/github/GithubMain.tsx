@@ -44,7 +44,7 @@ export default function GithubMain() {
               Contributions
             </span>
           </h2>
-          <div className="h-[3px] w-20 bg-linear-to-r from-[#E24C60] to-transparent mt-4 rounded-full" />
+          <div className="h-0.75 w-20 bg-linear-to-r from-[#E24C60] to-transparent mt-4 rounded-full" />
         </div>
 
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-6 md:gap-8 items-start w-full">
