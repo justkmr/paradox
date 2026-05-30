@@ -26,7 +26,6 @@ export default function GithubMain() {
       id="github"
       className="w-full relative bg-transparent py-5 px-6 lg:px-12 overflow-hidden select-none"
     >
-      {/* 🔥 1. SENIOR LEVEL BACKDROP GLOWS & MESH GRID */}
       <div className="absolute top-1/4 left-1/4 w-[500px] h-[500px] bg-[radial-gradient(circle_at_center,rgba(226,76,96,0.12),transparent_70%)] rounded-full blur-[120px] pointer-events-none transform-gpu animate-pulse duration-[6s]" />
       <div className="absolute bottom-10 right-10 w-96 h-96 bg-[radial-gradient(circle_at_center,rgba(6,182,212,0.05),transparent_70%)] rounded-full blur-[100px] pointer-events-none" />
 
