@@ -81,7 +81,7 @@ export default function About() {
                   alt="Sajan Kumar official"
                   fill
                   sizes="(max-width: 768px) 160px, (max-width: 1024px) 380px, 440px"
-                  loading="lazy"
+                  priority
                   className=" object-cover grayscale contrast-125 group-hover:grayscale-0 group-hover:scale-105 transition-all duration-500 ease-out"
                 />
 
