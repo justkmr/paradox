@@ -45,8 +45,6 @@ export function GithubGrid() {
 
   return (
     <div className="lg:col-span-2 w-full flex flex-col gap-6 md:gap-8">
-      {/* 📦 FEATURED REPOSITORIES RESPONSIVE GRID */}
-
       <div className="grid sm:grid-cols-2 gap-6 w-full font-mono">
         {FEATURED_REPOS.map((repo, index) => (
           <motion.div
