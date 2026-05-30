@@ -35,7 +35,6 @@ const cyberpunkRedTheme = {
 };
 
 export function GithubGrid() {
-  // Custom Filter Engine: August Till Now
   const selectAugustToNow = (contributionDays: any[]) => {
     const currentYear = new Date().getFullYear();
     const targetStartDate = new Date(`${currentYear - 1}-08-01`);
