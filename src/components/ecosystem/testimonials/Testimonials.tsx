@@ -166,6 +166,8 @@ export function Testimonials() {
                 src={node.avatar}
                 alt={node.name}
                 fill
+                sizes="56px"
+                priority
                 className="w-full h-full rounded-[30px] bg-rose-600 object-cover"
                 loading="eager"
               />
