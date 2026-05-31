@@ -17,7 +17,7 @@ const nextConfig: NextConfig = {
         protocol: "https",
         hostname: "api.dicebear.com",
         port: "",
-        pathname: "/**", // Isse dicebear ke saare paths whitelist ho jayenge
+        pathname: "/**", 
       }, 
       {
         protocol: "https",
