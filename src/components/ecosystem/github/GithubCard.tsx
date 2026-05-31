@@ -1,6 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
+import Image from "next/image";
 
 interface ProfileData {
   avatar_url: string;
@@ -38,12 +39,16 @@ export function GithubCard({ data }: { data: ProfileData }) {
           <div className="relative w-28 h-28 rounded-full p-1 border border-white/10 bg-zinc-950/80 mb-5 overflow-hidden transition-all duration-500 group-hover:border-[#E24C60]/50 group-hover:shadow-[0_0_35px_rgba(226,76,96,0.25)] group-hover:scale-105">
             <div className="absolute inset-0 rounded-full border border-dashed border-[#E24C60]/0 group-hover:border-[#E24C60]/30 group-hover:animate-[spin_8s_linear_infinite] pointer-events-none" />
 
-            {/* eslint-disable-next-line @next/next/no-img-element */}
-            <img
-              src={data.avatar_url}
-              alt={data.name}
-              className="rounded-full object-cover w-full h-full border border-white/5 grayscale group-hover:grayscale-0 group-hover:scale-105 transition-all duration-700 ease-out"
-            />
+            <div className="relative w-full h-full overflow-hidden rounded-full">
+              <Image
+                src={data.avatar_url}
+                alt={data.name || "Github Profile Avatar"}
+                fill
+                sizes="(max-width: 768px) 100px, 150px" // ⚡ Terminal updates and memory leaks safe indicator
+                priority // 🔥 Quick loading trigger because this is a prime screen asset
+                className="rounded-full object-cover border border-white/5 grayscale group-hover:grayscale-0 group-hover:scale-105 transition-all duration-700 ease-out"
+              />
+            </div>
           </div>
 
           <h3 className="text-2xl font-black text-white font-sans tracking-tight">
