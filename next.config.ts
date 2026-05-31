@@ -4,7 +4,7 @@ const nextConfig: NextConfig = {
   /* config options here */
   reactCompiler: true,
 
-  // 🌟 IMAGES HOSTNAME CONFIGURATION ADD KIYA
+
   images: {
     remotePatterns: [
       {
