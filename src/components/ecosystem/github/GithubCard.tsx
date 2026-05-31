@@ -45,7 +45,7 @@ export function GithubCard({ data }: { data: ProfileData }) {
                 alt={data.name || "Github Profile Avatar"}
                 fill
                 sizes="(max-width: 768px) 100px, 150px" // ⚡ Terminal updates and memory leaks safe indicator
-                priority // 🔥 Quick loading trigger because this is a prime screen asset
+                priority
                 className="rounded-full object-cover border border-white/5 grayscale group-hover:grayscale-0 group-hover:scale-105 transition-all duration-700 ease-out"
               />
             </div>
