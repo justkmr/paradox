@@ -30,7 +30,7 @@ export function GithubCard({ data }: { data: ProfileData }) {
             <span className="w-1.5 h-1.5 rounded-full bg-[#E24C60] shadow-[0_0_8px_#E24C60] animate-pulse" />
             <span>Core Hub Active</span>
           </div>
-          <span className="text-[9px] text-zinc-600 tracking-widest uppercase font-bold">
+          <span className="text-[10px] bg-[#E24C60] p-1 rounded-full  tracking-widest uppercase font-bold">
             Terminal v1.0
           </span>
         </div>
