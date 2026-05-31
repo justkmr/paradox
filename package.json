@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "start /b next dev --webpack && timeout /t 2 /nobreak > nul && start chrome --incognito http://localhost:3000",
+    "dev": "start /b next dev --webpack && node -e \"setTimeout(() => {}, 2000)\" && start chrome --incognito http://localhost:3000",
     "build": "next build",
     "start": "next start",
     "lint": "eslint"
