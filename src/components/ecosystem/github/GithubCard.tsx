@@ -125,7 +125,6 @@ export function GithubCard({ data }: { data: ProfileData }) {
         >
           <span>ACCESS CORE SOURCE</span>
           <svg
-            // 🚀 FIXED: 'shrink-0' add kiya jo icon ko pichakne se bachaega, aur color tracking text-zinc-400 kiya
             className="w-4 h-4 shrink-0 fill-current text-zinc-400 group-hover:text-[#E24C60] transition-all duration-300 transform group-hover:translate-x-0.5"
             viewBox="0 0 24 24"
           >
