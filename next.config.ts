@@ -13,6 +13,18 @@ const nextConfig: NextConfig = {
         port: "",
         pathname: "/**", // Isse simpleicons ke saare paths whitelist ho jayenge
       },
+      {
+        protocol: "https",
+        hostname: "api.dicebear.com",
+        port: "",
+        pathname: "/**", // Isse dicebear ke saare paths whitelist ho jayenge
+      }, 
+      {
+        protocol: "https",
+        hostname: "avatars.githubusercontent.com", // 🚀 GITHUB AVATARS WHITELIST
+        port: "",
+        pathname: "/**", // Isse saare github profiles allow ho jayenge
+      },
     ],
   },
 };
