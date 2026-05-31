@@ -21,7 +21,7 @@ const nextConfig: NextConfig = {
       }, 
       {
         protocol: "https",
-        hostname: "avatars.githubusercontent.com", // 🚀 GITHUB AVATARS WHITELIST
+        hostname: "avatars.githubusercontent.com",
         port: "",
         pathname: "/**", 
       },
