@@ -44,7 +44,7 @@ export function GithubCard({ data }: { data: ProfileData }) {
                 src={data.avatar_url}
                 alt={data.name || "Github Profile Avatar"}
                 fill
-                sizes="(max-width: 768px) 100px, 150px" // ⚡ Terminal updates and memory leaks safe indicator
+                sizes="(max-width: 768px) 100px, 150px"
                 priority
                 className="rounded-full object-cover border border-white/5 grayscale group-hover:grayscale-0 group-hover:scale-105 transition-all duration-700 ease-out"
               />
