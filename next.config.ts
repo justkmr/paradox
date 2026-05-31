@@ -23,7 +23,7 @@ const nextConfig: NextConfig = {
         protocol: "https",
         hostname: "avatars.githubusercontent.com", // 🚀 GITHUB AVATARS WHITELIST
         port: "",
-        pathname: "/**", // Isse saare github profiles allow ho jayenge
+        pathname: "/**", 
       },
     ],
   },
