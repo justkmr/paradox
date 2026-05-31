@@ -11,7 +11,7 @@ const nextConfig: NextConfig = {
         protocol: "https",
         hostname: "cdn.simpleicons.org",
         port: "",
-        pathname: "/**", // Isse simpleicons ke saare paths whitelist ho jayenge
+        pathname: "/**", 
       },
       {
         protocol: "https",
