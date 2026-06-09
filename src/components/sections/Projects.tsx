@@ -261,7 +261,6 @@ export default function Projects() {
 
                           <div className="absolute inset-0 bg-size-[24px_24px] bg-[linear-gradient(to_right,rgba(255,255,255,0.01)_1px,transparent_1px),linear-gradient(to_bottom,rgba(255,255,255,0.01)_1px,transparent_1px)] opacity-0 group-hover/vessel:opacity-100 transition-opacity duration-700 pointer-events-none" />
 
-                          {/* Subtle inner dark shadow shader layer */}
                           <div className="absolute inset-0 bg-linear-to-t from-black/50 via-transparent to-transparent opacity-80" />
                         </div>
 
