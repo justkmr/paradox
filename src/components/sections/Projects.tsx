@@ -42,7 +42,6 @@ export default function Projects() {
   return (
     <section id="projects" className="w-full bg-transparent relative z-10">
       <div className="w-full flex flex-col">
-        {/* 🛰️ Monolithic Kinetic Intro Title Track & Filter Controls */}
         <div className="max-w-7xl mx-auto w-full px-4 md:px-8 pt-44 pb-12 select-none text-left relative flex flex-col md:flex-row md:items-end md:justify-between gap-8">
           <div>
             <div className="flex items-center gap-3 font-mono text-[10px] text-[#E24C60] tracking-[0.4em] uppercase mb-4">
