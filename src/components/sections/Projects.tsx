@@ -57,7 +57,6 @@ export default function Projects() {
             </h2>
           </div>
 
-          {/* 🟢 FUTURISTIC CYBERPUNK FILTER CONTROLS */}
           <div className="flex flex-wrap gap-2 font-mono text-[12px] bg-black/10 p-2.5 border border-white/10 rounded-[18px] backdrop-blur-md self-start md:self-auto">
             {filterTabs.map((tab) => (
               <button
