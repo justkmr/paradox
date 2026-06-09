@@ -97,7 +97,7 @@ export default function Projects() {
                     repeat: Infinity,
                     ease: "easeInOut",
                   }}
-                  className="p-4 rounded-[15px] bg-amber-500/5 border border-amber-500/10 text-amber-500/60"
+                  className="p-4 rounded-[15px] bg-amber-500/5 border border-red-500 text-amber-500/60"
                 >
                   <FiFolderMinus size={32} />
                 </motion.div>
@@ -114,7 +114,7 @@ export default function Projects() {
 
                 {/* Subtle Glow Dot Effect */}
                 <div className="flex items-center gap-2 mt-1 px-2 py-1 rounded-full bg-zinc-900/80 border border-white/5 text-[12px] text-zinc-500 tracking-wider uppercase">
-                  <span className="w-1.5 h-1.5 rounded-full bg-amber-500/50 animate-pulse" />
+                  <span className="w-1.5 h-1.5 rounded-full bg-red-500 animate-pulse" />
                   Awaiting Node Compilation
                 </div>
               </motion.div>
