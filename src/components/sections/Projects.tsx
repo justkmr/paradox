@@ -249,7 +249,6 @@ export default function Projects() {
                           </div>
                         </div>
 
-                        {/* Visual Image Screen Area */}
                         <div className="w-full aspect-[16/10] relative bg-[#090a0c] overflow-hidden group/img">
                           <Image
                             src={project.image || currentAsset}
