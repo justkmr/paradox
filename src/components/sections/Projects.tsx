@@ -6,8 +6,6 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
 import {
   faArrowUpRightFromSquare,
-  faCpu,
-  faTerminal,
   faSquare,
   faStar,
   faCalendarDays,
@@ -79,14 +77,12 @@ export default function Projects() {
         <div className="w-full flex flex-col min-h-[50vh]">
           {filteredProjects.length === 0 ? (
             <div className="w-full p-2 flex flex-col items-center justify-center font-mono">
-              {/* Glassmorphic Container Wrapper */}
               <motion.div
                 initial={{ opacity: 0, y: 10 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.5 }}
                 className="flex flex-col items-center gap-4 px-8 py-10 rounded-[30px] bg-transparent border border-white/5 backdrop-blur-md shadow-2xl text-center max-w-md mx-auto"
               >
-                {/* Clean, Non-Boring Technical Icon Element */}
                 <motion.div
                   animate={{
                     scale: [1, 1.05, 1],
@@ -102,7 +98,6 @@ export default function Projects() {
                   <FiFolderMinus size={32} />
                 </motion.div>
 
-                {/* The Technical System Message */}
                 <div className="space-y-1.5">
                   <h3 className="text-zinc-400 text-sm tracking-widest uppercase font-semibold">
                     System_Log: NULL
@@ -112,7 +107,6 @@ export default function Projects() {
                   </p>
                 </div>
 
-                {/* Subtle Glow Dot Effect */}
                 <div className="flex items-center gap-2 mt-1 px-2 py-1 rounded-full bg-zinc-900/80 border border-white/5 text-[12px] text-zinc-500 tracking-wider uppercase">
                   <span className="w-1.5 h-1.5 rounded-full bg-red-500 animate-pulse" />
                   Awaiting Node Compilation
