@@ -114,7 +114,6 @@ export default function Projects() {
                     <div className="absolute inset-0 bg-linear-to-t from-[#080808] via-transparent to-[#080808]" />
                   </div>
 
-                  {/* Main Content Engineering Matrix Core Grid */}
                   <div className="max-w-7xl mx-auto w-full px-4 md:px-8 relative z-10 grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-16 items-center py-20">
                     <div className="lg:col-span-6 text-left flex flex-col justify-center order-2 lg:order-1">
                       <div className="flex items-center gap-4 font-mono select-none">
