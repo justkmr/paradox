@@ -111,7 +111,6 @@ export default function Projects() {
                       }}
                     />
 
-                    {/* Dynamic Linear Shader for Top and Bottom Blend */}
                     <div className="absolute inset-0 bg-linear-to-t from-[#080808] via-transparent to-[#080808]" />
                   </div>
 
