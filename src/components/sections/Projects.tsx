@@ -98,7 +98,6 @@ export default function Projects() {
                       priority={index === 0}
                     />
 
-                    {/* Dynamic Inline Style Radial Mask */}
                     <div
                       className="absolute inset-0"
                       style={{
