@@ -27,7 +27,6 @@ export default function Projects() {
     "https://images.unsplash.com/photo-1639762681485-074b7f938ba0?q=80&w=1600&auto=format&fit=crop",
   ];
 
-  // 🟢 Dynamic Data Filtration Logic
   const filteredProjects = PROJECTS_DATA.filter((project) => {
     if (activeFilter === "all") return true;
     return project.category === activeFilter;
