@@ -8,13 +8,15 @@ import {
   faArrowUpRightFromSquare,
   faCpu,
   faTerminal,
-  faSquareCode,
+  faSquare,
   faStar,
   faCalendarDays,
   faUserTie,
   faUsers,
 } from "@fortawesome/free-solid-svg-icons";
 import Image from "next/image";
+import { motion } from "framer-motion";
+import { FiFolderMinus } from "react-icons/fi";
 
 type FilterType = "all" | "fullstack" | "frontend" | "backend";
 
@@ -76,8 +78,46 @@ export default function Projects() {
 
         <div className="w-full flex flex-col min-h-[50vh]">
           {filteredProjects.length === 0 ? (
-            <div className="w-full py-32 flex items-center justify-center font-mono text-zinc-600 text-xs tracking-widest uppercase">
-              // NO_PROJECTS_COMPILE_UNDER_THIS_NODES
+            <div className="w-full p-2 flex flex-col items-center justify-center font-mono">
+              {/* Glassmorphic Container Wrapper */}
+              <motion.div
+                initial={{ opacity: 0, y: 10 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.5 }}
+                className="flex flex-col items-center gap-4 px-8 py-10 rounded-[30px] bg-transparent border border-white/5 backdrop-blur-md shadow-2xl text-center max-w-md mx-auto"
+              >
+                {/* Clean, Non-Boring Technical Icon Element */}
+                <motion.div
+                  animate={{
+                    scale: [1, 1.05, 1],
+                    opacity: [0.4, 0.7, 0.4],
+                  }}
+                  transition={{
+                    duration: 3,
+                    repeat: Infinity,
+                    ease: "easeInOut",
+                  }}
+                  className="p-4 rounded-[15px] bg-amber-500/5 border border-amber-500/10 text-amber-500/60"
+                >
+                  <FiFolderMinus size={32} />
+                </motion.div>
+
+                {/* The Technical System Message */}
+                <div className="space-y-1.5">
+                  <h3 className="text-zinc-400 text-sm tracking-widest uppercase font-semibold">
+                    System_Log: NULL
+                  </h3>
+                  <p className="text-zinc-600 text-xs tracking-wider uppercase leading-relaxed px-4">
+                    [ &quot;NO_PROJECTS_COMPILE_UNDER_THIS_NODES&quot; ]
+                  </p>
+                </div>
+
+                {/* Subtle Glow Dot Effect */}
+                <div className="flex items-center gap-2 mt-1 px-2 py-1 rounded-full bg-zinc-900/80 border border-white/5 text-[12px] text-zinc-500 tracking-wider uppercase">
+                  <span className="w-1.5 h-1.5 rounded-full bg-amber-500/50 animate-pulse" />
+                  Awaiting Node Compilation
+                </div>
+              </motion.div>
             </div>
           ) : (
             filteredProjects.map((project: ProjectType, index: number) => {
@@ -216,7 +256,7 @@ export default function Projects() {
 
                             <span className="text-[11px] text-[#E24C60] tracking-widest flex items-center gap-1.5 border-l border-white/10 pl-4">
                               <FontAwesomeIcon
-                                icon={faSquareCode}
+                                icon={faSquare}
                                 className="text-[12px] text-[#E24C60]/60"
                               />
                               RENDER_TARGET // PORT_0{index + 1}
