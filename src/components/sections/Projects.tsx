@@ -76,7 +76,6 @@ export default function Projects() {
           </div>
         </div>
 
-        {/* 🎬 The Luxury Layered Sticky Stacking Sheets Loop */}
         <div className="w-full flex flex-col min-h-[50vh]">
           {filteredProjects.length === 0 ? (
             <div className="w-full py-32 flex items-center justify-center font-mono text-zinc-600 text-xs tracking-widest uppercase">
