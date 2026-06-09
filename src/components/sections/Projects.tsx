@@ -19,7 +19,6 @@ import Image from "next/image";
 type FilterType = "all" | "fullstack" | "frontend" | "backend";
 
 export default function Projects() {
-  // 🟢 State Management for Project Filtering
   const [activeFilter, setActiveFilter] = useState<FilterType>("all");
 
   const premiumAssets = [
