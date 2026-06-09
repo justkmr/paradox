@@ -266,7 +266,6 @@ export default function Projects() {
                           <div className="absolute inset-0 bg-linear-to-t from-black/50 via-transparent to-transparent opacity-80" />
                         </div>
 
-                        {/* Lower Micro Technical Badges Stream */}
                         <div className="p-6 bg-black/30 border-t border-white/5 flex flex-wrap gap-2.5 font-mono">
                           {project.tech.map((t) => (
                             <div
