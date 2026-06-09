@@ -217,7 +217,6 @@ export default function Projects() {
                     {/* 🖼️ RIGHT COLUMN: The High-End Core Visual Vessel Terminal Mockup */}
                     <div className="lg:col-span-6 w-full order-1 lg:order-2 group/vessel">
                       <div className="w-full bg-[#0c0d0f]/60 backdrop-blur-md border border-white/5 rounded-[28px] overflow-hidden shadow-[0_50px_100px_-25px_rgba(0,0,0,0.95)] group-hover/vessel:border-[#E24C60]/20 group-hover/vessel:shadow-[0_50px_100px_-20px_rgba(226,76,96,0.05)] transition-all duration-700 flex flex-col">
-                        {/* Terminal Top Control Dial Deck */}
                         <div className="w-full bg-black/40 px-6 py-4 border-b border-white/5 flex items-center justify-between font-mono select-none">
                           <div className="flex items-center gap-4">
                             <div className="flex items-center gap-2">
