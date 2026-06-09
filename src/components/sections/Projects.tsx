@@ -115,7 +115,7 @@ export default function Projects() {
                         <span className="text-[12px] text-[#E24C60] font-bold tracking-[0.25em]">
                           [ PIPELINE // 0{index + 1} ]
                         </span>
-                        <span className="w-12 h-[1px] bg-zinc-800" />
+                        <span className="w-12 h-px bg-zinc-800" />
                         <span className="text-[15px] text-gray-400  tracking-wider font-semibold">
                           {project.subtitle}
                         </span>
