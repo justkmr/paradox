@@ -129,7 +129,6 @@ export default function Projects() {
                         </span>
                       </div>
 
-                      {/* High-End Fluid Metallic Text Title */}
                       <h3 className="text-4xl md:text-6xl lg:text-7xl font-display font-black text-transparent bg-clip-text bg-linear-to-b from-white via-white to-zinc-500 uppercase tracking-tight mt-6 leading-none">
                         {project.title}
                       </h3>
