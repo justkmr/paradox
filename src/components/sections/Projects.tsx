@@ -46,7 +46,7 @@ export default function Projects() {
           <div>
             <div className="flex items-center gap-3 font-mono text-[10px] text-[#E24C60] tracking-[0.4em] uppercase mb-4">
               <span className="w-1.5 h-1.5 bg-[#E24C60] inline-block animate-pulse rounded-full" />
-              <span>// DEPLOYMENT_PIPELINE_ACTIVE</span>
+              <span>{"// DEPLOYMENT_PIPELINE_ACTIVE"}</span>
             </div>
             <h2 className="text-6xl md:text-8xl font-display font-black tracking-tighter text-white uppercase leading-none">
               SELECTED
