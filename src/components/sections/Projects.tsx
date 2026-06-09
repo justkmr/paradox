@@ -179,7 +179,6 @@ export default function Projects() {
                         </div>
                       </div>
 
-                      {/* Secure Action Pipeline Link Anchors */}
                       <div className="flex items-center gap-6 pt-3  font-mono text-[11px] tracking-widest font-bold">
                         {project.githubLink && (
                           <a
