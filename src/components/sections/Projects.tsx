@@ -236,13 +236,13 @@ export default function Projects() {
                           </div>
                         </div>
 
-                        <div className="w-full aspect-[16/10] relative bg-[#090a0c] overflow-hidden group/img">
+                        <div className="w-full aspect-16/10 relative bg-[#090a0c] overflow-hidden group/img">
                           <Image
                             src={project.image || currentAsset}
                             alt={project.title}
                             fill
                             sizes="(max-w-7xl) 50vw"
-                            className="object-cover opacity-25 grayscale group-hover/vessel:opacity-75 group-hover/vessel:grayscale-0 group-hover/vessel:scale-[1.015] transition-all duration-[1000ms] ease-out"
+                            className="object-cover opacity-25 grayscale group-hover/vessel:opacity-75 group-hover/vessel:grayscale-0 group-hover/vessel:scale-[1.015] transition-all duration-1000 ease-out"
                           />
 
                           <div className="absolute inset-0 bg-size-[24px_24px] bg-[linear-gradient(to_right,rgba(255,255,255,0.01)_1px,transparent_1px),linear-gradient(to_bottom,rgba(255,255,255,0.01)_1px,transparent_1px)] opacity-0 group-hover/vessel:opacity-100 transition-opacity duration-700 pointer-events-none" />
