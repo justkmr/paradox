@@ -161,7 +161,6 @@ export default function Navbar() {
             />
           </motion.a>
 
-          {/* Mobile Hamburg Panel Opener */}
           <button
             onClick={() => setIsOpen(!isOpen)}
             className="lg:hidden text-zinc-400 w-10 h-10 rounded-[13px] border border-white/6 flex items-center justify-center bg-white/2 hover:bg-white/5 hover:text-white transition-colors"
