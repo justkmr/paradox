@@ -145,7 +145,6 @@ export default function Navbar() {
             ))}
           </div>
 
-          {/* 🌟 ISME BADLAO KIYA: Added 'hidden md:flex' taaki 'Let's Talk' button mobile me chhip jaye */}
           <motion.a
             href="#contact"
             className="hidden md:flex bg-linear-to-b from-[#E24C60] to-[#c73b4e] text-white font-mono text-xs font-bold uppercase tracking-wider px-6 py-3 rounded-full items-center gap-2.5 shadow-[0_8px_25px_rgba(226,76,96,0.25),inset_0_1px_0_rgba(255,255,255,0.2)] pointer-events-auto border border-[#E24C60]/30"
