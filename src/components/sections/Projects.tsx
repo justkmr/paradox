@@ -44,7 +44,7 @@ export default function Projects() {
       <div className="w-full flex flex-col">
         <div className="max-w-7xl mx-auto w-full px-4 md:px-8 pt-44 pb-12 select-none text-left relative flex flex-col md:flex-row md:items-end md:justify-between gap-8">
           <div>
-            <div className="flex items-center gap-3 font-mono text-[10px] text-[#E24C60] tracking-[0.4em] uppercase mb-4">
+            <div className="flex items-center gap-3 font-mono text-base sm:text-lg md:text-xl lg:text-2xl text-[#E24C60] tracking-[0.4em] uppercase mb-4">
               <span className="w-1.5 h-1.5 bg-[#E24C60] inline-block animate-pulse rounded-full" />
               <span>{"// DEPLOYMENT_PIPELINE_ACTIVE"}</span>
             </div>
