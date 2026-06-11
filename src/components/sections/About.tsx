@@ -119,6 +119,7 @@ export default function About() {
                 </span>{" "}
                 ecosystem to deliver high-performance digital architectures.
               </p>
+
               <p>
                 I prioritize writing clean, modular, and maintainable code
                 blocks while continuously exploring asynchronous query pipelines
