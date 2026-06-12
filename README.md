@@ -11,7 +11,7 @@ An ultra-modern, high-fidelity personal portfolio engineered with **Next.js 15 (
 * **Motion & Interactions:** Custom physics-based magnetic vectors and smooth inertial scrolling.
 * **Architecture Pattern:** Decoupled Atomic Structure & Declarative Data Mapping. 
 
----
+--- 
 
 ## 📂 Project Folder Structure 
 
