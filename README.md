@@ -71,7 +71,7 @@ SmoothScroll/: Integrates a custom inertial scrolling wrapper. It intercepts sud
 
 sections/: Modular page blocks (Hero, About, Projects). Isolating layouts into dedicated files guarantees codebase maintainability and eliminates bloated file states.
 
-📂 src/data/
+📂 src/data/ 
 Implements a declarative data configuration layout pattern to keep layout templates clean.
 
 projects.ts: Centralizes typed TypeScript objects representing personal projects. Instead of hardcoding cards within UI trees, structural data arrays are maintained here and mapped dynamically into the templates using linear .map() operations.
