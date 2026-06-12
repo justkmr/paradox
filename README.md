@@ -13,7 +13,7 @@ An ultra-modern, high-fidelity personal portfolio engineered with **Next.js 15 (
 
 ---
 
-## 📂 Project Folder Structure
+## 📂 Project Folder Structure 
 
 ```text
 paradox/
