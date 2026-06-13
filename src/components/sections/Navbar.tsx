@@ -334,7 +334,6 @@ export default function Navbar() {
   const [hoveredIndex, setHoveredIndex] = useState<number | null>(null);
   const [isOpen, setIsOpen] = useState<boolean>(false);
 
-  // 🟢 SMOOTH SCROLL HIGH-PERFORMANCE ENGINE
   useEffect(() => {
     const observerOptions = {
       root: null,
