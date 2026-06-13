@@ -117,7 +117,8 @@ export const PROJECTS_DATA: ProjectType[] = [
     description: "Desktop system for restaurant operations with table reservations, customer loyalty, billing, employee management, and revenue analytics.",
     tech: ["HTML", "CSS", "JavaScript", "Bootstrap"],
     image: "/projects/business.jpg",
-    githubLink: "https://github.com/justkmr",
+    githubLink: "https://github.com/justkmr/business",
+    liveLink: "https://justkmr.github.io/business/",
     featured: true,
     category: "frontend",
     date: {
