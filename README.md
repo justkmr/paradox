@@ -47,7 +47,7 @@ paradox/
 ```
 
 
----
+--- 
 
 🔍 Comprehensive Directory Specifications 
 📂 public/
