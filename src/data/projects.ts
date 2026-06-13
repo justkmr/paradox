@@ -64,7 +64,8 @@ export const PROJECTS_DATA: ProjectType[] = [
     description: "A visually stunning and high-performance food platform built with JavaScript and Framer Motion, featuring smooth interactive sliders and a fully responsive modern UI.",
     tech: ["Next.js", "Prisma", "PostgreSQL", "Tailwind"],
     image: "/projects/food.jpg",
-    githubLink: "https://github.com/justkmr",
+    githubLink: "https://github.com/justkmr/food",
+    liveLink: "https://food-seven-roan.vercel.app/",
     featured: true,
     category: "frontend",
     date: {
