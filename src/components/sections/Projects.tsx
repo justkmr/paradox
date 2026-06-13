@@ -122,7 +122,6 @@ export default function Projects() {
                   key={project.id}
                   className="w-full min-h-screen md:sticky md:top-0 flex items-center justify-center overflow-hidden border-t border-white/5 bg-[#080808]/95 backdrop-blur-md py-12 md:py-20"
                 >
-                  {/* Ambient Background Layer */}
                   <div className="absolute inset-0 z-0 opacity-[0.08] pointer-events-none mix-blend-screen transition-opacity duration-700 group-hover:opacity-20">
                     <Image
                       src={project.image || currentAsset}
