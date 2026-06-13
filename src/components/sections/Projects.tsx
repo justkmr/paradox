@@ -202,7 +202,6 @@ export default function Projects() {
                       </div>
                     </div>
 
-                    {/* 📜 LEFT COLUMN: Text Matrix content */}
                     <div className="lg:col-span-6 text-left flex flex-col justify-center order-2 lg:order-1">
                       <div className="flex items-center gap-4 font-mono select-none">
                         <span className="text-[11px] md:text-[12px] text-[#E24C60] font-bold tracking-[0.25em]">
