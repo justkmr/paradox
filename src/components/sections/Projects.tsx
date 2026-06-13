@@ -74,7 +74,6 @@ export default function Projects() {
           </div>
         </div>
 
-        {/* Stacking Canvas Sheets */}
         <div className="w-full flex flex-col min-h-[50vh]">
           {filteredProjects.length === 0 ? (
             <div className="w-full p-2 flex flex-col items-center justify-center font-mono py-20">
