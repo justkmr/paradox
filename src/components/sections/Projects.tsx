@@ -274,7 +274,6 @@ export default function Projects() {
                         </div>
                       </div>
 
-                      {/* 🟢 FIXED AREA: Responsive Action Controls with full structural visibility */}
                       <div className="flex items-center justify-between gap-4 mt-8 pt-5  border-white/5 font-mono text-[10px] md:text-[11px] tracking-widest font-bold w-full">
                         {project.githubLink && (
                           <a
