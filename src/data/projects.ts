@@ -82,7 +82,8 @@ export const PROJECTS_DATA: ProjectType[] = [
     description: "An immersive music streaming application built with Next.js and Aceternity UI, featuring fluid Framer Motion animations and high-performance server-side rendering.",
     tech: ["Next.js", "TypeScript", "Aceternity UI", "Framer Motion", "Tailwind", "Swipeable.js"],
     image: "/projects/music.jpg",
-    githubLink: "https://github.com/justkmr",
+    githubLink: "https://github.com/justkmr/next-js-music-",
+    liveLink: "https://next-js-music-eosin.vercel.app/",
     featured: true,
     category: "frontend",
     date: {
