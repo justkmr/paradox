@@ -100,7 +100,7 @@ export const PROJECTS_DATA: ProjectType[] = [
     description: "Architected a robust server-side application using Node.js and Express.js framework.Developed dynamic web pages using EJS template engine to render data efficiently from the server.",
     tech: ["Node.js", "Express.js", "EJS", "Method-Overriding", "CSS", "UUID"],
     image: "/projects/quora.jpg",
-    githubLink: "https://github.com/justkmr",
+    githubLink: "https://github.com/justkmr/Quora-Post",
     featured: false,
     category: "backend",
     date: {
