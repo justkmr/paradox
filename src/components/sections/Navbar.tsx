@@ -322,7 +322,6 @@ const NAV_LINKS: readonly NavLink[] = [
   { name: "Contact", href: "#contact" },
 ];
 
-// 🟢 SPEED UP TRANSITION: Stiffness badha di taaki scroll ke waqt pill instantly bhaage
 const SPRING_TRANSITION = {
   type: "spring",
   stiffness: 500,
