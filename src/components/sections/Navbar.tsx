@@ -463,7 +463,6 @@ export default function Navbar() {
                   {link.name}
                 </span>
 
-                {/* 🔴 FIXED RENDERING: AnimatePresence layoutId synchronization */}
                 {isActive && (
                   <motion.span
                     className="absolute inset-0 bg-[#E24C60] rounded-full z-0 shadow-[0_0_25px_8px_rgba(226,76,96,0.3),inset_0_1px_1px_rgba(255,255,255,0.2)] border border-[#E24C60]/50"
