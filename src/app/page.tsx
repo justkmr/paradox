@@ -5,6 +5,7 @@ import About from "@/components/sections/About";
 
 import { GithubSection } from "@/components/ecosystem/github";
 import { Testimonials } from "@/components/ecosystem/testimonials/Testimonials";
+import Projects from "@/components/sections/Projects";
 
 export default function Home() {
   return (
@@ -17,9 +18,9 @@ export default function Home() {
         <Hero />
         <TechMarquee />
         <About />
-
         <GithubSection />
         <Testimonials />
+        <Projects />
       </main>
     </div>
   );

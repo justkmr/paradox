@@ -4,6 +4,7 @@ import { ThemeProvider } from "@/components/providers/theme-provider";
 import ClientWrapper from "@/components/providers/ClientWrapper";
 import { Metadata } from "next";
 import NextTopLoader from "nextjs-toploader";
+import SmoothScroll from "@/components/SmoothScroll";
 
 const fontDisplay = Syne({
   variable: "--font-display",
@@ -49,7 +50,10 @@ export default function RootLayout({
             easing="ease"
             speed={200}
           />
-          <ClientWrapper>{children}</ClientWrapper>
+
+          <SmoothScroll>
+            <ClientWrapper>{children}</ClientWrapper>
+          </SmoothScroll>
         </ThemeProvider>
       </body>
     </html>
