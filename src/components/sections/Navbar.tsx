@@ -337,7 +337,7 @@ export default function Navbar() {
   useEffect(() => {
     const observerOptions = {
       root: null,
-      rootMargin: "-25% 0px -45% 0px", // Viewport area coverage balance
+      rootMargin: "-25% 0px -45% 0px",
       threshold: [0, 0.1, 0.2],
     };
 
