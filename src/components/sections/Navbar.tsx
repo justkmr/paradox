@@ -368,7 +368,6 @@ export default function Navbar() {
       if (element) observer.observe(element);
     });
 
-    // Fallback tracker line matrix
     const handleFallbackScroll = () => {
       const scrollPosition = window.scrollY + window.innerHeight / 2;
 
