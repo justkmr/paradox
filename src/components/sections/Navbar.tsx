@@ -326,7 +326,7 @@ const SPRING_TRANSITION = {
   type: "spring",
   stiffness: 500,
   damping: 32,
-  mass: 0.2, // Mass chhota kiya taaki bina kisi lag ke instant slide ho
+  mass: 0.2,
 } as const;
 
 export default function Navbar() {
