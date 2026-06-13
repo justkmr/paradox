@@ -141,7 +141,6 @@ export default function Projects() {
                     <div className="absolute inset-0 bg-linear-to-t from-[#080808] via-transparent to-[#080808]" />
                   </div>
 
-                  {/* Core Content Layout Grid Wrapper */}
                   <div className="max-w-7xl mx-auto w-full px-4 md:px-8 relative z-10 grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-16 items-center">
                     <div className="lg:col-span-6 w-full order-1 lg:order-2 group/vessel">
                       <div className="w-full bg-[#0c0d0f]/60 backdrop-blur-md border border-white/5 rounded-[24px] md:rounded-[28px] overflow-hidden shadow-[0_40px_90px_-25px_rgba(0,0,0,0.95)] group-hover/vessel:border-[#E24C60]/20 transition-all duration-700 flex flex-col">
