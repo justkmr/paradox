@@ -458,7 +458,6 @@ export default function Navbar() {
                 onMouseEnter={() => setHoveredIndex(index)}
                 onMouseLeave={() => setHoveredIndex(null)}
               >
-                {/* 🔴 FORCE CONTENT VISIBILITY: Isko z-10 par lock kiya taaki text pill ke upar bright rahe */}
                 <span className="relative z-10 pointer-events-none">
                   {link.name}
                 </span>
@@ -468,7 +467,7 @@ export default function Navbar() {
                     className="absolute inset-0 bg-[#E24C60] rounded-full z-0 shadow-[0_0_25px_8px_rgba(226,76,96,0.3),inset_0_1px_1px_rgba(255,255,255,0.2)] border border-[#E24C60]/50"
                     layoutId="cyberActivePill"
                     transition={SPRING_TRANSITION}
-                    initial={false} // Dynamic animation sync on render layout locks
+                    initial={false}
                   />
                 )}
 
