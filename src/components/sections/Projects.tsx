@@ -120,7 +120,6 @@ export default function Projects() {
               return (
                 <div
                   key={project.id}
-                  /* 🟢 FIXED: Mobile par regular flex-scroll flow chalega, laptop standard size aate hi sticky architecture switch hoga */
                   className="w-full min-h-screen md:sticky md:top-0 flex items-center justify-center overflow-hidden border-t border-white/5 bg-[#080808]/95 backdrop-blur-md py-12 md:py-20"
                 >
                   {/* Ambient Background Layer */}
