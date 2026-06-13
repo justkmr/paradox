@@ -349,7 +349,6 @@ export default function Navbar() {
               link.href.toLowerCase() === `#${entry.target.id.toLowerCase()}`,
           );
           if (matchedLink) {
-            // Instant execution frame request
             requestAnimationFrame(() => {
               setActiveSection(matchedLink.name);
             });
