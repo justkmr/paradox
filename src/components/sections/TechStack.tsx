@@ -654,12 +654,12 @@ export default function TechStack() {
           })}
         </div>
 
-        <div className="w-full border-t border-white/5 pt-16">
+        <div className="w-full border-t border-white/5 pt-8">
           <div className="w-full text-center mb-16 select-none">
-            <h3 className="text-3xl font-black text-[#eab308] mb-3 tracking-wider">
+            <h3 className="text-5xl sm:text-3xl md:text-5xl font-black text-[#eab308] mb-1 tracking-tighter">
               Tech Stack in Action
             </h3>
-            <p className="text-sm text-zinc-500 tracking-wide max-w-2xl mx-auto leading-relaxed opacity-90 font-medium">
+            <p className="text-2xl sm:text-2xl md:text-2xl text-zinc-500 tracking-tight max-w-2xl mx-auto leading-relaxed opacity-90 font-medium">
               Real projects showcasing how I apply these technologies to solve
               problems.
             </p>
@@ -669,21 +669,21 @@ export default function TechStack() {
             {TECH_ACTION_DATA.map((item: TechActionItem) => (
               <div
                 key={item.id}
-                className={`w-full bg-[#0b0c0e]/60 border border-zinc-800/60 rounded-[20px] p-6 flex flex-col justify-between shadow-2xl transition-all duration-300 ${item.hoverShadowStyle}`}
+                className={`w-full  border border-zinc-800/60 rounded-[20px] p-6 flex flex-col justify-between shadow-2xl transition-all duration-300 ${item.hoverShadowStyle}`}
               >
                 <div className="flex flex-col grow">
-                  <div className="w-full flex flex-col pb-4 mb-4">
-                    <h4 className="text-[19px] font-bold text-white tracking-wide leading-snug">
+                  <div className="w-full flex flex-col pb-4">
+                    <h4 className="text-[20px] font-bold text-[#E24C60] tracking-wide leading-tight">
                       {item.projectName}
                     </h4>
                   </div>
 
-                  <p className="text-zinc-400 text-[13px] font-normal tracking-wide leading-relaxed mb-5">
+                  <p className="text-zinc-400 text-[16px] font-normal tracking-wide leading-relaxed mb-2">
                     {item.tagline}
                   </p>
 
                   <div className="w-full flex flex-col mb-5">
-                    <div className="text-[11px] font-bold text-[#eab308] tracking-wider mb-3 flex items-center gap-2">
+                    <div className="text-[15px] font-bold text-[#eab308] tracking-tight mb-3 flex items-center gap-2">
                       <span>Key Technologies :-</span>
                     </div>
 
@@ -704,10 +704,10 @@ export default function TechStack() {
                   </div>
                 </div>
 
-                <div className="w-full p-3.5 bg-transparent border border-zinc-800/40 rounded-xl mt-auto">
-                  <div className="flex items-start gap-2">
-                    <FaLightbulb className="text-amber-500 text-xs shrink-0 mt-0.5" />
-                    <p className="text-zinc-400 text-[12px] font-normal tracking-wide leading-relaxed">
+                <div className="w-full p-3.5 bg-transparent border border-zinc-800/40 rounded-[20px] mt-auto ">
+                  <div className="flex items-start gap-3">
+                    <FaLightbulb className="text-amber-500 text-lg shrink-0 mt-1.5" />
+                    <p className="text-zinc-400 text-[16px]  md:text-[16px] font-normal tracking-wide leading-relaxed">
                       {item.highlightLog}
                     </p>
                   </div>
