@@ -673,7 +673,6 @@ export default function TechStack() {
             </p>
           </div>
 
-          {/* 🎛️ Exact Horizontal Flex Wrap Bento Matrix Grid */}
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-6 md:gap-8 items-stretch">
             {TECH_ACTION_DATA.map((item: TechActionItem) => (
               <div
