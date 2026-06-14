@@ -345,9 +345,6 @@ import { RiNextjsFill } from "react-icons/ri";
 import { DiSqllite } from "react-icons/di";
 import { TbCloudComputing } from "react-icons/tb";
 
-// =========================================================================
-// 📑 DATA ENGINE MATRIX FOR TECH IN ACTION (Screenshot 438 Exact Strings Only)
-// =========================================================================
 interface TechActionItem {
   id: string;
   projectName: string;
