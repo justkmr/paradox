@@ -656,7 +656,7 @@ export default function TechStack() {
 
         <div className="w-full border-t border-white/5 pt-16">
           <div className="w-full text-center mb-16 select-none">
-            <h3 className="text-3xl font-black text-[#eab308] mb-3 tracking-[0.05em]">
+            <h3 className="text-3xl font-black text-[#eab308] mb-3 tracking-wider">
               Tech Stack in Action
             </h3>
             <p className="text-sm text-zinc-500 tracking-wide max-w-2xl mx-auto leading-relaxed opacity-90 font-medium">
