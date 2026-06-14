@@ -413,7 +413,7 @@ const TECH_ACTION_DATA: TechActionItem[] = [
       "cloudinary",
       "mongodb",
     ],
-    // 🔴 Crimson-Red Shadow for RadiAntiX
+
     hoverShadowStyle:
       "hover:border-[#E24C60]/30 hover:shadow-[0_0_50px_rgba(226,76,96,0.15)]",
   },
