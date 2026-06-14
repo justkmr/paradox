@@ -589,7 +589,6 @@ export default function TechStack() {
       className="w-full p-5 bg-transparent relative z-10 border-t border-white/5 scroll-mt-24 font-mono select-none"
     >
       <div className="max-w-7xl mx-auto w-full px-4 md:px-8">
-        {/* 📡 Top Telemetry Header */}
         <div className="w-full text-left mb-12">
           <h2 className="text-5xl md:text-8xl font-display font-black tracking-tighter text-white uppercase leading-none">
             ENGINE
