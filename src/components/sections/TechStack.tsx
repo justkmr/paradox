@@ -662,7 +662,6 @@ export default function TechStack() {
         </div>
 
         <div className="w-full border-t border-white/5 pt-16">
-          {/* Main Title Section - Yellow Theme Corrected */}
           <div className="w-full text-center mb-16 select-none">
             <h3 className="text-3xl font-black text-[#eab308] mb-3 tracking-[0.05em]">
               Tech Stack in Action
