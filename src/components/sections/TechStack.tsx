@@ -661,9 +661,6 @@ export default function TechStack() {
           })}
         </div>
 
-        {/* =========================================================================
-            🚀 LAYER B: TECH STACK IN ACTION (Exact Blueprint Matching Screenshot 438)
-            ========================================================================= */}
         <div className="w-full border-t border-white/5 pt-16">
           {/* Main Title Section - Yellow Theme Corrected */}
           <div className="w-full text-center mb-16 select-none">
