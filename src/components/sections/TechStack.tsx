@@ -299,7 +299,6 @@ import {
   TechNodeItem,
 } from "@/data/techstack";
 
-// 🟢 Premium Real SVG Technical Vectors
 import {
   SiExpress,
   SiJsonwebtokens,
