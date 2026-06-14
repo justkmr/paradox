@@ -605,7 +605,6 @@ export default function TechStack() {
           </h2>
         </div>
 
-        {/* 🎛️ Upper Matrix Track Layout (3 Columns Grid) */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8 items-start mb-24">
           {(TECH_STACK_DATA || []).map((cat: TechCategoryBlock) => {
             const currentStyle = getCategoryStyles(cat.title);
