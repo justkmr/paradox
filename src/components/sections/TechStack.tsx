@@ -390,7 +390,7 @@ const TECH_ACTION_DATA: TechActionItem[] = [
       "mongodb-atlas",
       "tailwind.css",
     ],
-    // 🟢 Emerald Green Shadow for ZestCo
+
     hoverShadowStyle:
       "hover:border-emerald-500/30 hover:shadow-[0_0_50px_rgba(16,185,129,0.15)]",
   },
