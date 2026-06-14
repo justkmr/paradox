@@ -678,7 +678,6 @@ export default function TechStack() {
             {TECH_ACTION_DATA.map((item: TechActionItem) => (
               <div
                 key={item.id}
-                // 🟢 Card structure holds dynamic individual brand hover shadows
                 className={`w-full bg-[#0b0c0e]/60 border border-zinc-800/60 rounded-[20px] p-6 flex flex-col justify-between shadow-2xl transition-all duration-300 ${item.hoverShadowStyle}`}
               >
                 <div className="flex flex-col grow">
