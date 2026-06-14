@@ -367,7 +367,7 @@ const TECH_ACTION_DATA: TechActionItem[] = [
       "framer-motion",
       "swiper.js",
     ],
-    // 🔵 Cyan Shadow for VibeStream
+
     hoverShadowStyle:
       "hover:border-cyan-500/30 hover:shadow-[0_0_50px_rgba(6,182,212,0.15)]",
   },
