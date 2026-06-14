@@ -424,7 +424,6 @@ const TECH_ACTION_DATA: TechActionItem[] = [
 ];
 
 export default function TechStack() {
-  // 🎛️ Exact Custom Layout Themes per Category Card (As per Screenshots)
   const getCategoryStyles = (title: string) => {
     const lowTitle = title.toLowerCase();
 
