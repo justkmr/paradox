@@ -350,6 +350,7 @@ interface TechActionItem {
   tagline: string;
   highlightLog: string;
   appliedTech: string[];
+  hoverShadowStyle: string;
 }
 
 const TECH_ACTION_DATA: TechActionItem[] = [
