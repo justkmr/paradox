@@ -4,7 +4,7 @@ An ultra-modern, high-fidelity personal portfolio engineered with **Next.js 15 (
    
 ---                   
           
-## 🛠️ Tech Stack & Core Architecture       
+## 🛠️ Tech Stack & Core Architecture        
 
 * **Framework:** Next.js 15 (App Router) with strict TypeScript compilation.
 * **Styling Engine:** Tailwind CSS with custom utility extensions and keyframe animations.
