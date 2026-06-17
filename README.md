@@ -48,7 +48,7 @@ paradox/
 
 
 --- 
-
+  
 🔍 Comprehensive Directory Specifications 
 📂 public/
 Houses all static assets that are served directly by the server without Webpack/Turbopack compilation. It is optimized for instant pathing via next/image using direct server roots.
