@@ -1,6 +1,6 @@
 # 🌌 Paradox | Modern Interactive Portfolio  
 
-An ultra-modern, high-fidelity personal portfolio engineered with **Next.js 15 (App Router)**, **TypeScript**, and **Tailwind CSS**. Paradox focuses on fluid motion design, physics-based micro-interactions, and flawless performance to deliver an immersive user journey.  
+An ultra-modern, high-fidelity personal portfolio engineered with **Next.js 15 (App Router)**, **TypeScript**, and **Tailwind CSS**. Paradox focuses on fluid motion design, physics-based micro-interactions, and flawless performance to deliver an immersive user journey.   
           
 ---                          
            
