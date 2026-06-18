@@ -144,15 +144,6 @@ const Footer = () => {
           </a>
         </div>
 
-        {/* <div className="w-full text-center text-[12px] text-zinc-500 font-medium tracking-wide font-mono flex flex-col gap-1.5 border-t border-zinc-950/40 pt-8 max-w-6xl mx-auto px-4">
-          <div className="flex items-center justify-center gap-1">
-            <span>Made with ❤️ by Mr. KumarrR</span>
-          </div>
-          <div className="text-[18px]">
-            © {new Date().getFullYear()} KumarrR. All rights reserved.
-          </div>
-        </div> */}
-
         <div className="w-full text-center text-[16px] text-zinc-500  tracking-wide font-mono flex flex-col gap-1.5 border-t border-zinc-950/40 max-w-6xl mx-auto px-4">
           <div className="flex items-center justify-center gap-1">
             <span>Made with ❤️ by Mr. KumarrR</span>
