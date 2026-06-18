@@ -1276,7 +1276,6 @@ export default function Contact() {
             </form>
           </div>
 
-          {/* RIGHT CONTAINER: CARDS */}
           <div className="lg:col-span-5 font-serif flex flex-col gap-6 w-full">
             <div className="bg-[#0b0b0d]/90 border border-zinc-900 rounded-[20px] p-6 shadow-2xl flex flex-col">
               <h4 className="text-2xl font-bold  mb-4 tracking-wide">
