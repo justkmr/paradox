@@ -60,7 +60,7 @@ const Footer = () => {
         </span>
       </div>
 
-      <div className="md:hidden absolute bottom-[90px] xs:bottom-[105px] sm:bottom-[120px] left-1/2 -translate-x-1/2 pointer-events-none z-0 font-sans font-black select-none text-center w-full opacity-40 tracking-tight leading-none whitespace-nowrap flex justify-center items-end px-4 mobile-watermark">
+      <div className="md:hidden absolute bottom-22.5 xs:bottom-[105px] sm:bottom-30 left-1/2 -translate-x-1/2 pointer-events-none z-0 font-sans font-black select-none text-center w-full opacity-40 tracking-tight leading-none whitespace-nowrap flex justify-center items-end px-4 mobile-watermark">
         <h2 className="text-[14vw] sm:text-[13vw] leading-none m-0 p-0 flex items-end">
           <span className="stroke-art">K</span>
           <span className="solid-art">umarr</span>
