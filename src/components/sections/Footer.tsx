@@ -8,9 +8,6 @@ const Footer = () => {
   return (
     /* 🔴 FIXED: Main parent div par hi mobile ke liye pb-24/pb-32 de diya hai taaki niche extra scroll space banne */
     <div className="w-full flex flex-col items-center border-t border-zinc-900 pt-16 pb-24 xs:pb-28 sm:pb-32 md:pb-16 relative select-none">
-      {/* =========================================================================
-          🔮 GLOBAL CUSTOM CSS ENGINE (Pixel-Perfect Letters Symmetry)
-          ========================================================================= */}
       <style jsx global>{`
         /* Desktop Hover Effects */
         .neon-letter-stroke {
