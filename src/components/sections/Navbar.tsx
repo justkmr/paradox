@@ -490,7 +490,6 @@ export default function Navbar() {
       <header className="w-full max-w-7xl pointer-events-auto flex items-center justify-between bg-[#0b0c0e]/60 backdrop-blur-2xl border border-white/5 rounded-[24px] p-2 shadow-[0_24px_60px_-15px_rgba(0,0,0,0.9),inset_0_1px_0_rgba(255,255,255,0.05)] relative overflow-hidden">
         <div className="absolute inset-0 bg-linear-to-r from-transparent via-[#E24C60]/2 to-transparent opacity-40 pointer-events-none" />
 
-        {/* 🔴 FIXED: border-r ko md:border-r kiya taaki sm/mobile view par photo ke bagal ki line hide ho jaye */}
         <div className="flex items-center gap-4.5 pr-5 pl-3 md:border-r border-red-600/40 py-1.5 h-full">
           <div className="relative w-15 h-15 rounded-full overflow-hidden border border-[#E24C60]/40 bg-[#141517] shadow-[0_0_15px_rgba(226,76,96,0.1)]">
             <Image
