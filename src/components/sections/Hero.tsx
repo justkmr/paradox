@@ -192,7 +192,6 @@ export default function Hero() {
                 </span>
               </div>
 
-              {/* Terminal Commands */}
               <div className="space-y-8 font-mono text-[15px]">
                 <div>
                   <p className="text-amber-400">$ whoami</p>
