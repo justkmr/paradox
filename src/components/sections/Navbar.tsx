@@ -33,14 +33,82 @@
 
 // const SPRING_TRANSITION = {
 //   type: "spring",
-//   stiffness: 400,
-//   damping: 28,
+//   stiffness: 500,
+//   damping: 32,
+//   mass: 0.2,
 // } as const;
 
 // export default function Navbar() {
 //   const [activeSection, setActiveSection] = useState<string>("Home");
 //   const [hoveredIndex, setHoveredIndex] = useState<number | null>(null);
 //   const [isOpen, setIsOpen] = useState<boolean>(false);
+
+//   useEffect(() => {
+//     const observerOptions = {
+//       root: null,
+//       rootMargin: "-25% 0px -45% 0px",
+//       threshold: [0, 0.1, 0.2],
+//     };
+
+//     const observerCallback = (entries: IntersectionObserverEntry[]) => {
+//       entries.forEach((entry) => {
+//         if (entry.isIntersecting) {
+//           const matchedLink = NAV_LINKS.find(
+//             (link) =>
+//               link.href.toLowerCase() === `#${entry.target.id.toLowerCase()}`,
+//           );
+//           if (matchedLink) {
+//             requestAnimationFrame(() => {
+//               setActiveSection(matchedLink.name);
+//             });
+//           }
+//         }
+//       });
+//     };
+
+//     const observer = new IntersectionObserver(
+//       observerCallback,
+//       observerOptions,
+//     );
+
+//     NAV_LINKS.forEach((link) => {
+//       const id = link.href.replace("#", "");
+//       const element = document.getElementById(id);
+//       if (element) observer.observe(element);
+//     });
+
+//     const handleFallbackScroll = () => {
+//       const scrollPosition = window.scrollY + window.innerHeight / 2;
+
+//       for (const link of NAV_LINKS) {
+//         const id = link.href.replace("#", "");
+//         const element = document.getElementById(id);
+//         if (element) {
+//           const offsetTop = element.offsetTop;
+//           const offsetHeight = element.offsetHeight;
+
+//           if (
+//             scrollPosition >= offsetTop &&
+//             scrollPosition < offsetTop + offsetHeight
+//           ) {
+//             if (activeSection !== link.name) {
+//               requestAnimationFrame(() => {
+//                 setActiveSection(link.name);
+//               });
+//             }
+//             break;
+//           }
+//         }
+//       }
+//     };
+
+//     window.addEventListener("scroll", handleFallbackScroll, { passive: true });
+
+//     return () => {
+//       observer.disconnect();
+//       window.removeEventListener("scroll", handleFallbackScroll);
+//     };
+//   }, [activeSection]);
 
 //   useEffect(() => {
 //     if (isOpen) document.body.style.overflow = "hidden";
@@ -99,13 +167,16 @@
 //                 onMouseEnter={() => setHoveredIndex(index)}
 //                 onMouseLeave={() => setHoveredIndex(null)}
 //               >
-//                 <span className="relative z-10">{link.name}</span>
+//                 <span className="relative z-10 pointer-events-none">
+//                   {link.name}
+//                 </span>
 
 //                 {isActive && (
 //                   <motion.span
 //                     className="absolute inset-0 bg-[#E24C60] rounded-full z-0 shadow-[0_0_25px_8px_rgba(226,76,96,0.3),inset_0_1px_1px_rgba(255,255,255,0.2)] border border-[#E24C60]/50"
 //                     layoutId="cyberActivePill"
 //                     transition={SPRING_TRANSITION}
+//                     initial={false}
 //                   />
 //                 )}
 
@@ -419,7 +490,8 @@ export default function Navbar() {
       <header className="w-full max-w-7xl pointer-events-auto flex items-center justify-between bg-[#0b0c0e]/60 backdrop-blur-2xl border border-white/5 rounded-[24px] p-2 shadow-[0_24px_60px_-15px_rgba(0,0,0,0.9),inset_0_1px_0_rgba(255,255,255,0.05)] relative overflow-hidden">
         <div className="absolute inset-0 bg-linear-to-r from-transparent via-[#E24C60]/2 to-transparent opacity-40 pointer-events-none" />
 
-        <div className="flex items-center gap-4.5 pr-5 pl-3 border-r border-red-600/40 py-1.5 h-full">
+        {/* 🔴 FIXED: border-r ko md:border-r kiya taaki sm/mobile view par photo ke bagal ki line hide ho jaye */}
+        <div className="flex items-center gap-4.5 pr-5 pl-3 md:border-r border-red-600/40 py-1.5 h-full">
           <div className="relative w-15 h-15 rounded-full overflow-hidden border border-[#E24C60]/40 bg-[#141517] shadow-[0_0_15px_rgba(226,76,96,0.1)]">
             <Image
               src="/Sajan.jpeg"
@@ -430,7 +502,7 @@ export default function Navbar() {
             />
           </div>
 
-          <div className="hidden md:flex  flex-col font-mono text-left  select-none">
+          <div className="hidden md:flex flex-col font-mono text-left select-none">
             <span className="text-[20px] font-bold text-white/90 tracking-wide">
               Pintu Kumar
             </span>
@@ -483,7 +555,8 @@ export default function Navbar() {
           })}
         </nav>
 
-        <div className="flex items-center gap-4 pl-4 border-l border-red-600/40 py-1.5 h-full">
+        {/* 🔴 FIXED: Left side line border-l ko bhi md:border-l kiya taaki mobile views par clutter-free space mile */}
+        <div className="flex items-center gap-4 pl-4 md:border-l border-red-600/40 py-1.5 h-full">
           <div className="hidden md:flex items-center gap-2 bg-[#E24C60]/8 border border-[#E24C60]/20 p-1.5 rounded-full shadow-[0_0_15px_rgba(226,76,96,0.05)]">
             {[
               { icon: faGithub, url: "https://github.com/justkmr" },
@@ -553,13 +626,13 @@ export default function Navbar() {
               transition={{ type: "spring", stiffness: 320, damping: 28 }}
               className="fixed top-0 right-0 h-full w-full max-w-sm bg-[#0a0a0c] border-l border-white/5 z-50 lg:hidden p-6 flex flex-col justify-between font-mono pointer-events-auto shadow-[-20px_0_60px_rgba(0,0,0,0.9)]"
             >
-              <div className="flex flex-col gap-8">
+              <div className="flex flex-col gap-8 font-serif">
                 <div className="flex items-center justify-between border-b border-white/4 pb-5">
                   <div className="flex flex-col text-left">
-                    <span className="text-xl font-semibold tracking-wider text-white uppercase">
+                    <span className="text-2xl italic font-semibold tracking-tightest text-[#E24C60] uppercase">
                       Navigation
                     </span>
-                    <span className="text-[12.5px] mt-1.5 italic text-zinc-500 uppercase tracking-wider">
+                    <span className="text-[18px] mt-1.5 italic text-zinc-500  tracking-tighter">
                       System Core Routing
                     </span>
                   </div>
@@ -594,13 +667,16 @@ export default function Navbar() {
                           </span>
                         </div>
                         <motion.span
-                          className={`text-[13px] transition-transform duration-300 ${
+                          className={`text-[10px] transition-transform duration-300 ${
                             isActive
                               ? "text-[#E24C60] translate-x-0"
                               : "text-zinc-600 group-hover:translate-x-1"
                           }`}
                         >
-                          <FontAwesomeIcon icon={faArrowRight} />
+                          <FontAwesomeIcon
+                            icon={faArrowRight}
+                            className="text-base"
+                          />
                         </motion.span>
                       </a>
                     );
