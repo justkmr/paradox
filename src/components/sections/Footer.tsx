@@ -87,8 +87,6 @@ const Footer = () => {
           ========================================================================= */}
       {/* 🔴 FIXED: pb-16 normal kar diya taaki watermark ke upar faltu space na bane */}
       <div className="relative z-10 w-full flex flex-col items-center pb-16">
-        {/* Core Footer Identity Header */}
-
         <h3 className="text-2xl md:text-4xl font-bold tracking-tight text-white mb-6 font-serif">
           Mr. <span className="text-[#E24C60]">KumarrR.</span>
         </h3>
