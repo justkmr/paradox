@@ -46,9 +46,6 @@ const Footer = () => {
         }
       `}</style>
 
-      {/* =========================================================================
-          🔮 DESKTOP LAYER: INDIVIDUAL LETTER HOVER GLOW (Hidden on Mobile)
-          ========================================================================= */}
       <div className="hidden md:flex absolute bottom-0 left-1/2 -translate-x-1/2 pointer-events-none z-0 font-sans font-black select-none text-center w-full justify-center items-end opacity-40 cursor-default leading-none tracking-[-0.05em]">
         <span className="text-[240px] lg:text-[320px] leading-none inline-block neon-letter-stroke pointer-events-auto">
           K
