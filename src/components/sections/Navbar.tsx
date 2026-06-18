@@ -555,7 +555,6 @@ export default function Navbar() {
           })}
         </nav>
 
-        {/* 🔴 FIXED: Left side line border-l ko bhi md:border-l kiya taaki mobile views par clutter-free space mile */}
         <div className="flex items-center gap-4 pl-4 md:border-l border-red-600/40 py-1.5 h-full">
           <div className="hidden md:flex items-center gap-2 bg-[#E24C60]/8 border border-[#E24C60]/20 p-1.5 rounded-full shadow-[0_0_15px_rgba(226,76,96,0.05)]">
             {[
