@@ -167,9 +167,6 @@ export default function Hero() {
           </motion.div>
         </div>
 
-        {/* =========================================
-            RIGHT SIDE TERMINAL
-        ========================================= */}
         <motion.div
           custom={6}
           initial="hidden"
