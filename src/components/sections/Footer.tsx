@@ -201,8 +201,9 @@ const Footer = () => {
       {/* 🔴 FIXED: pb-16 normal kar diya taaki watermark ke upar faltu space na bane */}
       <div className="relative z-10 w-full flex flex-col items-center pb-16">
         {/* Core Footer Identity Header */}
-        <h3 className="text-2xl md:text-3xl font-black tracking-tight text-white mb-6 font-mono">
-          Mr. KumarrR <span className="text-[#E24C60]">.</span>
+
+        <h3 className="text-2xl md:text-4xl font-bold tracking-tight text-white mb-6 font-serif">
+          Mr. <span className="text-[#E24C60]">KumarrR.</span>
         </h3>
 
         {/* Quick Routing Links Stack */}
@@ -256,11 +257,22 @@ const Footer = () => {
           </a>
         </div>
 
-        <div className="w-full text-center text-[12px] text-zinc-500 font-medium tracking-wide font-mono flex flex-col gap-1.5 border-t border-zinc-950/40 pt-8 max-w-6xl mx-auto px-4">
+        {/* <div className="w-full text-center text-[12px] text-zinc-500 font-medium tracking-wide font-mono flex flex-col gap-1.5 border-t border-zinc-950/40 pt-8 max-w-6xl mx-auto px-4">
           <div className="flex items-center justify-center gap-1">
             <span>Made with ❤️ by Mr. KumarrR</span>
           </div>
-          <div>© 2026 All rights reserved.</div>
+          <div className="text-[18px]">
+            © {new Date().getFullYear()} KumarrR. All rights reserved.
+          </div>
+        </div> */}
+
+        <div className="w-full text-center text-[16px] text-zinc-500  tracking-wide font-mono flex flex-col gap-1.5 border-t border-zinc-950/40 max-w-6xl mx-auto px-4">
+          <div className="flex items-center justify-center gap-1">
+            <span>Made with ❤️ by Mr. KumarrR</span>
+          </div>
+          <div className="text-[18px]">
+            © {new Date().getFullYear()} KumarrR. All rights reserved.
+          </div>
         </div>
       </div>
     </div>
