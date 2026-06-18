@@ -1,18 +1,18 @@
-# 🌌 Paradox | Modern Interactive Portfolio         
+# 🌌 Paradox | Modern Interactive Portfolio          
 
 An ultra-modern, high-fidelity personal portfolio engineered with **Next.js 15 (App Router)**, **TypeScript**, and **Tailwind CSS**. Paradox focuses on fluid motion design, physics-based micro-interactions, and flawless performance to deliver an immersive user journey.   
-               
----                             
+                
+---                               
            
-## 🛠️ Tech Stack & Core Architecture           
+## 🛠️ Tech Stack & Core Architecture            
  
 * **Framework:** Next.js 15 (App Router) with strict TypeScript compilation.
 * **Styling Engine:** Tailwind CSS with custom utility extensions and keyframe animations.
 * **Motion & Interactions:** Custom physics-based magnetic vectors and smooth inertial scrolling.
-* **Architecture Pattern:** Decoupled Atomic Structure & Declarative Data Mapping.  
+* **Architecture Pattern:** Decoupled Atomic Structure & Declarative Data Mapping.   
   
 --- 
-
+ 
 ## 📂 Project Folder Structure 
 
 ```text
@@ -61,7 +61,7 @@ layout.tsx: Defines the global application shell. Responsible for injecting prim
 page.tsx: The main interface landing controller. It acts as a clean entry point that imports and stacks modular layout layers from the sections folder.
 
 globals.css: Configures custom Tailwind directives (@tailwind base, components, utilities) along with complex CSS keyframe engines used for smooth motion transitions.
-
+ 
 📂 src/components/
 Modular structural building blocks decoupled into focused sub-functional roles:
 
