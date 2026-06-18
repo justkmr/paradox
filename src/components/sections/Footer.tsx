@@ -128,7 +128,7 @@ const Footer = () => {
             <FaGithub className="text-2xl" />
           </a>
           <a
-            href="https://www.linkedin.com/in/pintu-kumar-588211275"
+            href="https://www.linkedin.com/in/pintu-kumar-12x"
             target="_blank"
             rel="noreferrer"
             className="w-11 h-11 rounded-full bg-zinc-900/30 border border-zinc-900 flex items-center justify-center text-zinc-400 hover:border-[#E24C60]/40 hover:text-white transition-all"
@@ -145,7 +145,10 @@ const Footer = () => {
 
         <div className="w-full text-center text-[16px] text-zinc-500  tracking-wide font-mono flex flex-col gap-1.5 border-t border-zinc-950/40 max-w-6xl mx-auto px-4">
           <div className="flex items-center justify-center gap-1">
-            <span>Made with ❤️ by Mr. KumarrR</span>
+            <span>
+              Made with ❤️ by{" "}
+              <span className="text-[#E24C60] font-bold">Mr. KumarrR</span>{" "}
+            </span>
           </div>
           <div className="text-[18px]">
             © {new Date().getFullYear()} KumarrR. All rights reserved.
