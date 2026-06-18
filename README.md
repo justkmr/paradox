@@ -61,7 +61,7 @@ layout.tsx: Defines the global application shell. Responsible for injecting prim
 page.tsx: The main interface landing controller. It acts as a clean entry point that imports and stacks modular layout layers from the sections folder.
 
 globals.css: Configures custom Tailwind directives (@tailwind base, components, utilities) along with complex CSS keyframe engines used for smooth motion transitions.
-
+ 
 📂 src/components/
 Modular structural building blocks decoupled into focused sub-functional roles:
 
