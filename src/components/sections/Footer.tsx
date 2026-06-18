@@ -93,7 +93,6 @@ const Footer = () => {
           Mr. <span className="text-[#E24C60]">KumarrR.</span>
         </h3>
 
-        {/* Quick Routing Links Stack */}
         <div className="flex items-center justify-center flex-wrap gap-x-8 gap-y-3 mb-8 text-[17px] font-serif text-zinc-400">
           <a href="#about" className="hover:text-[#E24C60] transition-colors">
             About
