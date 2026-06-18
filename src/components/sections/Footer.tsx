@@ -82,10 +82,6 @@ const Footer = () => {
         </h2>
       </div>
 
-      {/* =========================================================================
-          📦 CORE FOREGROUND CONTENT (Normal Spacing)
-          ========================================================================= */}
-
       <div className="relative z-10 w-full flex flex-col items-center pb-16">
         <h3 className="text-2xl md:text-4xl font-bold tracking-tight text-white mb-6 font-serif">
           Mr. <span className="text-[#E24C60]">KumarrR.</span>
