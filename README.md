@@ -9,7 +9,7 @@ An ultra-modern, high-fidelity personal portfolio engineered with **Next.js 15 (
 * **Framework:** Next.js 15 (App Router) with strict TypeScript compilation.
 * **Styling Engine:** Tailwind CSS with custom utility extensions and keyframe animations.
 * **Motion & Interactions:** Custom physics-based magnetic vectors and smooth inertial scrolling.
-* **Architecture Pattern:** Decoupled Atomic Structure & Declarative Data Mapping.  
+* **Architecture Pattern:** Decoupled Atomic Structure & Declarative Data Mapping.   
   
 --- 
  
