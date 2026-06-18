@@ -118,7 +118,6 @@ const Footer = () => {
           </a>
         </div>
 
-        {/* Social Icons Strip */}
         <div className="flex items-center justify-center gap-4 mb-10">
           <a
             href="https://github.com/justkmr"
