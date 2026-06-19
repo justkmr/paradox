@@ -836,7 +836,6 @@ export default function Resume() {
   >("IDLE");
   const [protocolMessage, setProtocolMessage] = useState<string>("");
 
-  // 🚀 Enterprise Fallback Blob Downloader Protocol
   const handleDownloadPDF = useCallback(async () => {
     if (downloadStatus === "FETCHING") return;
 
