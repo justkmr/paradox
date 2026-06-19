@@ -892,7 +892,6 @@ export default function Resume() {
     >
       <div className="absolute inset-0 bg-[linear-gradient(to_right,#ffffff03_1px,transparent_1px),linear-gradient(to_bottom,#ffffff03_1px,transparent_1px)] bg-[size:40px_40px] pointer-events-none z-0" />
 
-      {/* Top Banner Track */}
       <div className="text-center mb-16 relative z-10">
         <motion.div
           className="inline-flex items-center gap-3 px-6 py-3 rounded-full bg-zinc-900/60 border border-neutral-700/50 mb-8 backdrop-blur-md"
