@@ -686,7 +686,7 @@ import {
   FaCheckCircle,
   FaExclamationTriangle,
 } from "react-icons/fa";
-import { motion, Variants } from "framer-motion"; // 🟢 Variants type imported explicitly
+import { motion, Variants } from "framer-motion";
 import { useState, useCallback } from "react";
 
 interface JobProjectLog {
