@@ -636,9 +636,6 @@ import {
 import { motion } from "framer-motion";
 import { useState, useCallback } from "react";
 
-// =========================================================================
-// 📑 DATA ENGINE MATRIX FOR RESUME SECTION (Verbatim Data Schemas)
-// =========================================================================
 interface JobProjectLog {
   id: string;
   role: string;
