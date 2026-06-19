@@ -935,7 +935,6 @@ export default function Resume() {
       </div>
 
       <div className="max-w-7xl mx-auto w-full px-4 md:px-8 relative z-10">
-        {/* Title Tracker Block */}
         <motion.div
           initial={{ opacity: 0, letterSpacing: "-0.05em" }}
           whileInView={{ opacity: 1, letterSpacing: "0.02em" }}
