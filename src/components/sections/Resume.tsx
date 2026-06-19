@@ -830,7 +830,6 @@ const terminalCardReveal = {
 };
 
 export default function Resume() {
-  // 🎛️ Network Transmission States Engine
   const [downloadStatus, setDownloadStatus] = useState<
     "IDLE" | "FETCHING" | "SUCCESS" | "ERROR"
   >("IDLE");
