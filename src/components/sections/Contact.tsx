@@ -1144,7 +1144,6 @@ export default function Contact() {
           );
           setFormData({ name: "", email: "", message: "" });
 
-          // 🔴 FIXED: 4 seconds baad success message automatic gayab ho jayega
           setTimeout(() => {
             setSuccessMessage("");
           }, 4000);
