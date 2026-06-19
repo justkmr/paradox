@@ -964,7 +964,7 @@ export default function Resume() {
         </motion.h1>
 
         <motion.div
-          className="w-24 h-1.5 bg-gradient-to-r from-red-500 to-red-600 mx-auto mb-8 rounded-full"
+          className="w-24 h-1.5 bg-linear-to-r from-red-500 to-red-600 mx-auto mb-8 rounded-full"
           initial={{ width: 0 }}
           animate={{ width: 96 }}
           transition={{ duration: 0.8, delay: 0.5 }}
