@@ -115,7 +115,7 @@ export default function About() {
                 enterprise-grade web applications. My development core lies
                 heavily in optimizing the{" "}
                 <span className="text-[#E24C60] font-medium">
-                  MERN Stack and Next.js 15
+                  MERN Stack and Next.js
                 </span>{" "}
                 ecosystem to deliver high-performance digital architectures.
               </p>
