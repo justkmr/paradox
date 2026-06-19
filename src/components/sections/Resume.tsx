@@ -956,9 +956,6 @@ export default function Resume() {
           </h3>
         </motion.div>
 
-        {/* =========================================================================
-            🚀 PART A: TERMINAL TEXT MATRIX SCAN CARDS
-            ========================================================================= */}
         <motion.div
           variants={gridContainerConfig}
           initial="hidden"
