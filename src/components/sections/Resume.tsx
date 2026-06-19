@@ -1139,7 +1139,6 @@ export default function Resume() {
             </motion.div>
           </motion.div>
 
-          {/* COLUMN 03: AWARDS & RECOGNITION */}
           <motion.div
             variants={terminalCardReveal}
             className="flex flex-col gap-6 w-full"
