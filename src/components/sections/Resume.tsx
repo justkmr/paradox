@@ -1026,7 +1026,7 @@ export default function Resume() {
                 <div className="flex flex-col items-start w-full md:max-w-[65%] min-w-0">
                   <h4 className="text-[19px] md:text-2xl font-black text-white tracking-wide break-words w-full">
                     {job.role}{" "}
-                    <span className="text-zinc-600 font-medium text-base md:text-lg block md:inline-block break-words">
+                    <span className="text-zinc-600 font-medium text-base md:text-lg block md:inline-block wrap-break-word">
                       ({job.projectName})
                     </span>
                   </h4>
