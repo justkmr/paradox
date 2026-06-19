@@ -980,7 +980,6 @@ export default function Resume() {
               <div className="absolute inset-x-0 top-0 h-[1px] bg-gradient-to-r from-transparent via-[#E24C60]/40 to-transparent translate-y-[-100%] group-hover/card:animate-[scan_2s_linear_infinite] pointer-events-none" />
 
               <div className="w-full flex flex-col md:flex-row md:items-start justify-between gap-4 border-b border-zinc-900/60 pb-5 mb-5 relative z-10 overflow-hidden">
-                {/* Left Section Core Frame */}
                 <div className="flex flex-col items-start w-full md:max-w-[65%] min-w-0">
                   <h4 className="text-[19px] md:text-2xl font-black text-white tracking-wide break-words w-full">
                     {job.role}{" "}
