@@ -1155,7 +1155,7 @@ export default function Contact() {
         setErrorMessage(
           error.message || "Something went wrong. Please try again.",
         );
-        // Auto-clear network errors after 4 seconds too
+
         setTimeout(() => setErrorMessage(""), 4000);
       } finally {
         setIsSubmitting(false);
