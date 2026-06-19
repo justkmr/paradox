@@ -130,27 +130,38 @@ Welcome to my **Personal Developer Paradox** — a meticulously crafted website 
 
 ---
 ## 📸 Screenshots
-<div align="center">
 
 ### 🏠 Home Page
-<img src="./public/screenshots/home.png" alt="Home Page" width="80%" style="border-radius: 8px; margin: 10px 0;" />
+<p align="center">
+  <img src="./public/screenshots/home.png" alt="Home Page" width="85%" style="border-radius: 8px;" />
+</p>
 
 ### 👨‍💻 About Section
-<img src="./public/screenshots/about.png" alt="About Section" width="80%" style="border-radius: 8px; margin: 10px 0;" />
+<p align="center">
+  <img src="./public/screenshots/about.png" alt="About Section" width="85%" style="border-radius: 8px;" />
+</p>
 
 ### 🎨 Projects Gallery
-<img src="./public/screenshots/projects.png" alt="Projects" width="80%" style="border-radius: 8px; margin: 10px 0;" />
+<p align="center">
+  <img src="./public/screenshots/projects.png" alt="Projects Gallery" width="85%" style="border-radius: 8px;" />
+</p>
 
-### 🎨 Resume Section
-<img src="./public/screenshots/resume.png" alt="Resume" width="80%" style="border-radius: 8px; margin: 10px 0;" />
+### 📄 Resume Section
+<p align="center">
+  <img src="./public/screenshots/resume.png" alt="Resume Section" width="85%" style="border-radius: 8px;" />
+</p>
 
-### 🎨 Contact Section
-<img src="./public/screenshots/contact.png" alt="Contact" width="80%" style="border-radius: 8px; margin: 10px 0;" />
+### ✉️ Contact Section
+<p align="center">
+  <img src="./public/screenshots/contact.png" alt="Contact Section" width="85%" style="border-radius: 8px;" />
+</p>
 
 ### 📱 Mobile Responsive
-<img src="./public/screenshots/mobile.png" alt="Mobile View" width="80%" style="border-radius: 8px; margin: 10px 0;" />
+<p align="center">
+  <img src="./public/screenshots/mobile.png" alt="Mobile Responsive View" width="45%" style="border-radius: 8px;" />
+</p>
 
-</div>
+
 
 ---
 
