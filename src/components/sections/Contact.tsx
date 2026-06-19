@@ -1088,7 +1088,6 @@ export default function Contact() {
     async (e: React.FormEvent) => {
       e.preventDefault();
 
-      // Reset triggers on new submission attempt
       setSuccessMessage("");
       setErrorMessage("");
 
