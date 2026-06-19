@@ -1098,7 +1098,7 @@ export default function Contact() {
         !formData.message.trim()
       ) {
         setErrorMessage("Please fill in all fields.");
-        // Auto-clear validation error after 4 seconds
+
         setTimeout(() => setErrorMessage(""), 4000);
         return;
       }
