@@ -1206,9 +1206,6 @@ export default function Resume() {
           </motion.div>
         </motion.div>
 
-        {/* =========================================================================
-            🚀 LOWER CORE FOOTER CALL-TO-ACTION CONTAINER (PRO PROTOCOL INTEGRATION)
-            ========================================================================= */}
         <motion.div
           className={`text-center bg-zinc-900/40 rounded-[20px] mt-10 p-12 border transition-all duration-500 backdrop-blur-md ${
             downloadStatus === "ERROR"
