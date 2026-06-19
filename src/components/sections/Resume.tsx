@@ -1266,7 +1266,6 @@ export default function Resume() {
                 : "Download my full resume for detailed information about my experience, projects, and technical skills. Let's build something amazing together!"}
           </p>
 
-          {/* 📡 Realtime Protocol Terminal Output Console */}
           {downloadStatus !== "IDLE" && (
             <div
               className={`text-[12px] font-bold max-w-md mx-auto mb-8 py-2 px-4 rounded-md border tracking-wider transition-all duration-300 ${
