@@ -1188,7 +1188,6 @@ export default function Contact() {
         </div>
 
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start w-full max-w-6xl mx-auto mb-20 font-serif">
-          {/* LEFT CONTAINER: FORM */}
           <div className="lg:col-span-7 border border-zinc-900 rounded-[20px] p-6 md:p-8 shadow-2xl flex flex-col">
             <h3 className="text-2xl font-bold text-white mb-6 tracking-wide ">
               Send a <span className="text-[#E24C60]">Message</span>
