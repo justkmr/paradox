@@ -1259,7 +1259,7 @@ export default function Resume() {
                 ? "bg-red-500/20 text-red-400"
                 : downloadStatus === "SUCCESS"
                   ? "bg-emerald-500/20 text-emerald-400"
-                  : "bg-gradient-to-r from-red-500 to-red-600 text-white"
+                  : "bg-linear-to-r from-red-500 to-red-600 text-white"
             }`}
             animate={
               downloadStatus === "FETCHING"
