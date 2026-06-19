@@ -998,7 +998,7 @@ export default function Resume() {
 
           <h3 className="text-4xl md:text-6xl font-black text-[#E24C60] tracking-tighter uppercase relative">
             Professional Journey
-            <span className="absolute -inset-x-2 top-0 h-full bg-gradient-to-r from-transparent via-[#E24C60]/5 to-transparent blur-md opacity-30 pointer-events-none" />
+            <span className="absolute -inset-x-2 top-0 h-full bg-linear-to-r from-transparent via-[#E24C60]/5 to-transparent blur-md opacity-30 pointer-events-none" />
           </h3>
         </motion.div>
 
