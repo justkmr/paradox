@@ -1040,7 +1040,6 @@ export default function Resume() {
           viewport={{ once: true, margin: "-50px" }}
           className="grid grid-cols-1 lg:grid-cols-3 gap-8 items-start w-full border-t border-zinc-900 pt-24"
         >
-          {/* COLUMN 01: ACADEMIC BACKGROUND */}
           <motion.div
             variants={terminalCardReveal}
             className="flex flex-col gap-6 w-full"
