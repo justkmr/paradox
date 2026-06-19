@@ -1092,7 +1092,6 @@ export default function Contact() {
       setSuccessMessage("");
       setErrorMessage("");
 
-      // Guard Clauses for Validation
       if (
         !formData.name.trim() ||
         !formData.email.trim() ||
