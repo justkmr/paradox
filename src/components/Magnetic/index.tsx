@@ -21,7 +21,6 @@ export default function Index({ children }: MagneticProps) {
     const x = clientX - (left + width / 2);
     const y = clientY - (top + height / 2);
 
-    // 0.35 se multiply kiya taaki element pure cursor ke sath na bhaage, thoda tight pull feel ho
     setPosition({ x: x * 0.35, y: y * 0.35 });
   };
 
