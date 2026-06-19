@@ -1107,7 +1107,7 @@ export default function Contact() {
       const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
       if (!emailRegex.test(formData.email)) {
         setErrorMessage("Please enter a valid email address.");
-        // Auto-clear validation error after 4 seconds
+
         setTimeout(() => setErrorMessage(""), 4000);
         return;
       }
