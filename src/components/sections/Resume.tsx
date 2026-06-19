@@ -1020,7 +1020,7 @@ export default function Resume() {
               }}
               className="w-full bg-[#050506]/95 border border-zinc-900 rounded-[16px] p-6 md:p-8 flex flex-col shadow-2xl transition-all duration-300 relative group/card overflow-hidden"
             >
-              <div className="absolute inset-x-0 top-0 h-px bg-linear-to-r from-transparent via-[#E24C60]/40 to-transparent translate-y-[-100%] group-hover/card:animate-[scan_2s_linear_infinite] pointer-events-none" />
+              <div className="absolute inset-x-0 top-0 h-px bg-linear-to-r from-transparent via-[#E24C60]/40 to-transparent -translate-y-full group-hover/card:animate-[scan_2s_linear_infinite] pointer-events-none" />
 
               <div className="w-full flex flex-col md:flex-row md:items-start justify-between gap-4 border-b border-zinc-900/60 pb-5 mb-5 relative z-10 overflow-hidden">
                 <div className="flex flex-col items-start w-full md:max-w-[65%] min-w-0">
