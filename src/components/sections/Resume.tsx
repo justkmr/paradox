@@ -890,7 +890,6 @@ export default function Resume() {
       id="resume"
       className="w-full p-5 bg-transparent relative z-10 border-t border-white/5 scroll-mt-24 font-mono select-none overflow-hidden"
     >
-      {/* Background Grid Pattern Array Overlay */}
       <div className="absolute inset-0 bg-[linear-gradient(to_right,#ffffff03_1px,transparent_1px),linear-gradient(to_bottom,#ffffff03_1px,transparent_1px)] bg-[size:40px_40px] pointer-events-none z-0" />
 
       {/* Top Banner Track */}
