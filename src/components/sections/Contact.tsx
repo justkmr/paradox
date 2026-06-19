@@ -1243,7 +1243,6 @@ export default function Contact() {
                 />
               </div>
 
-              {/* Status UI Blocks */}
               {errorMessage && (
                 <div className="text-[14px] font-medium text-red-400 bg-red-500/5 border border-red-500/20 py-2.5 px-4 rounded-lg font-mono transition-all duration-300">
                   {errorMessage}
