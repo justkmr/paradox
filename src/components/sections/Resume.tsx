@@ -862,7 +862,6 @@ const gridContainerConfig: Variants = {
   visible: { transition: { staggerChildren: 0.18 } },
 };
 
-// 🔴 FIXED: Explicit Variants type specification + ease logic strict mapping using 'as const'
 const terminalCardReveal: Variants = {
   hidden: {
     opacity: 0,
