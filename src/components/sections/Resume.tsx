@@ -1030,9 +1030,6 @@ export default function Resume() {
           ))}
         </motion.div>
 
-        {/* =========================================================================
-            🚀 PART B: LOWER MATRIX BENCHMARKS (ALL CASCADING SEQUENTIALLY)
-            ========================================================================= */}
         <motion.div
           variants={gridContainerConfig}
           initial="hidden"
