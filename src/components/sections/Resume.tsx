@@ -1039,7 +1039,7 @@ export default function Resume() {
 
                 <div className="flex flex-col items-start md:items-end justify-start shrink-0 font-mono w-full md:w-auto mt-1 md:mt-0 min-w-0">
                   <div className="w-full md:w-auto flex flex-wrap">
-                    <span className="text-[17px] md:text-[16px] text-[#E24C60] font-bold bg-zinc-900/60 border border-zinc-800/80 rounded-[12px] px-3 py-1 text-left md:text-right break-words tracking-tight leading-relaxed max-w-full">
+                    <span className="text-[17px] md:text-[16px] text-[#E24C60] font-bold bg-zinc-900/60 border border-zinc-800/80 rounded-[12px] px-3 py-1 text-left md:text-right wrap-break-word tracking-tight leading-relaxed max-w-full">
                       {job.duration}
                     </span>
                   </div>
