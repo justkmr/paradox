@@ -31,21 +31,20 @@ export default function ScrollToTop() {
           whileTap={{ scale: 0.92 }}
           className="
           fixed bottom-8 right-8 z-999999
-w-14 h-14 rounded-full
-bg-[#0b0b0d]/90
-backdrop-blur-xl
-border border-[#E24C60]/30
-text-[#E24C60]
-flex items-center justify-center
-shadow-[0_0_30px_rgba(226,76,96,0.35)]
-hover:shadow-[0_0_50px_rgba(226,76,96,0.6)]
-before:absolute
-before:inset-0
-before:rounded-full
-before:border
-before:border-[#E24C60]/20
-before:animate-ping
-        "
+          w-14 h-14 rounded-full
+        bg-[#0b0b0d]/90
+          backdrop-blur-xl
+          border border-[#E24C60]/30
+        text-[#E24C60]
+          flex items-center justify-center
+          shadow-[0_0_30px_rgba(226,76,96,0.35)]
+          hover:shadow-[0_0_50px_rgba(226,76,96,0.6)]
+          before:absolute
+          before:inset-0
+          before:rounded-full
+          before:border
+        before:border-[#E24C60]/20
+          before:animate-ping"
         >
           <FaArrowUp />
         </motion.button>
