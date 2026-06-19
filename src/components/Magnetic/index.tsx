@@ -26,7 +26,6 @@ export default function Index({ children }: MagneticProps) {
   };
 
   const handleMouseLeave = () => {
-    // Mouse hat-te hi wapas apni jagah pr jump karega elastic spring ki tarah
     setPosition({ x: 0, y: 0 });
   };
 
