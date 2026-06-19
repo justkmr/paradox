@@ -807,9 +807,6 @@ const AWARDS_DATA: AwardLogItem[] = [
   },
 ];
 
-// =========================================================================
-// 🚀 THE ULTIMATE CYBERPUNK VIEWPORT CASCADE ENGINE (100% Precise)
-// =========================================================================
 const gridContainerConfig = {
   hidden: {},
   visible: { transition: { staggerChildren: 0.18 } },
