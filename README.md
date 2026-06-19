@@ -1,4 +1,4 @@
-# 🌌 Paradox | Modern Interactive Personal Exhibition
+# 🌌 Paradox | Modern Interactive Personal Paradox
 
 <p align="center">
   <img src="./public/Sajan.jpeg" alt="Pintu Kumar" width="300" style="border-radius: 20px; border: 2px solid #E24C60;" />
@@ -32,7 +32,7 @@
 </p>
 
 
-<img src="public/paradox.png" alt="Exhibition Preview" width="90%" style="border-radius: 10px; box-shadow: 0 20px 40px rgba(0,0,0,0.3);" />
+<img src="./public/paradox.png" alt="Paradox Preview" width="90%" style="border-radius: 10px; box-shadow: 0 20px 40px rgba(0,0,0,0.3);" />
 
 ---
 
@@ -133,22 +133,22 @@ Welcome to my **Personal Developer Paradox** — a meticulously crafted website 
 <div align="center">
 
 ### 🏠 Home Page
-<img src="public/screenshots/home.png" alt="Home Page" width="80%" style="border-radius: 8px; margin: 10px 0;" />
+<img src="./public/screenshots/home.png" alt="Home Page" width="80%" style="border-radius: 8px; margin: 10px 0;" />
 
 ### 👨‍💻 About Section
-<img src="public/screenshots/about.png" alt="About Section" width="80%" style="border-radius: 8px; margin: 10px 0;" />
+<img src="./public/screenshots/about.png" alt="About Section" width="80%" style="border-radius: 8px; margin: 10px 0;" />
 
 ### 🎨 Projects Gallery
-<img src="public/screenshots/projects.png" alt="Projects" width="80%" style="border-radius: 8px; margin: 10px 0;" />
+<img src="./public/screenshots/projects.png" alt="Projects" width="80%" style="border-radius: 8px; margin: 10px 0;" />
 
 ### 🎨 Resume Section
-<img src="public/screenshots/resume.png" alt="Resume" width="80%" style="border-radius: 8px; margin: 10px 0;" />
+<img src="./public/screenshots/resume.png" alt="Resume" width="80%" style="border-radius: 8px; margin: 10px 0;" />
 
 ### 🎨 Contact Section
-<img src="public/screenshots/contact.png" alt="Contact" width="80%" style="border-radius: 8px; margin: 10px 0;" />
+<img src="./public/screenshots/contact.png" alt="Contact" width="80%" style="border-radius: 8px; margin: 10px 0;" />
 
 ### 📱 Mobile Responsive
-<img src="public/screenshots/mobile.png" alt="Mobile View" width="80%" style="border-radius: 8px; margin: 10px 0;" />
+<img src="./public/screenshots/mobile.png" alt="Mobile View" width="80%" style="border-radius: 8px; margin: 10px 0;" />
 
 </div>
 
