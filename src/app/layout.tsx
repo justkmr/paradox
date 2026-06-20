@@ -1,6 +1,4 @@
 
-
-
 import { Syne, JetBrains_Mono, DM_Sans } from "next/font/google";
 import "./globals.css";
 import { ThemeProvider } from "@/components/providers/theme-provider";
@@ -86,7 +84,7 @@ export const metadata: Metadata = {
     images: ["/Sajan.jpeg"],
   },
 
-  
+  // 🤖 Google Search Crawlers Core Configuration
   robots: {
     index: true,
     follow: true,
@@ -103,8 +101,8 @@ export const metadata: Metadata = {
 
   
   icons: {
-    icon: "/favicon.ico",
-    shortcut: "/favicon.ico",
+    icon: "/icon.png",
+    shortcut: "/icon.png",
     apple: "/apple-touch-icon.png",
   },
 };
