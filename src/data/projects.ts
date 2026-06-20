@@ -58,7 +58,26 @@ export const PROJECTS_DATA: ProjectType[] = [
   },
   
   {
-    id: "p3",
+  id: "p3", 
+  title: "PARADOX",
+  subtitle: "MODERN INTERACTIVE PORTFOLIO",
+  description: "A premium, high-fidelity personal portfolio engineered with Next.js 15, TypeScript, and Tailwind CSS, featuring sleek interactive components, dynamic layout animations, and responsive production-ready engineering.",
+  tech: ["Next.js 15", "React 19", "TypeScript", "Tailwind CSS", "Framer Motion", "Web3Forms API", "Lenis-Scroll", "GSAP"],
+  image: "/projects/paradox.jpg", 
+  liveLink: "https://the-kumarrr.vercel.app/", 
+  githubLink: "https://github.com/justkmr/paradox", 
+  category: "frontend", 
+  role: "Lead Developer",
+  members: "1",
+  featured: true,
+  date: {
+    short: "May 2026 - June 2026",
+    full: "May 2026 - June 2026"
+  }
+},
+
+  {
+    id: "p4",
     title: "Food Website",
     subtitle: "WHERE GOOD FOOD MEETS GREAT MOOD",
     description: "A visually stunning and high-performance food platform built with JavaScript and Framer Motion, featuring smooth interactive sliders and a fully responsive modern UI.",
@@ -76,7 +95,7 @@ export const PROJECTS_DATA: ProjectType[] = [
     members: "1"
   },
   {
-    id: "p4",
+    id: "p5",
     title: "VibeStream - Music Platform",
     subtitle: "FOLLOW THE BEAT & SING THE SONG",
     description: "An immersive music streaming application built with Next.js and Aceternity UI, featuring fluid Framer Motion animations and high-performance server-side rendering.",
@@ -94,7 +113,7 @@ export const PROJECTS_DATA: ProjectType[] = [
     members: "1"
   },
   {
-    id: "p5",
+    id: "p6",
     title: "Quora Post Project",
     subtitle: "DISCOVER, SHARE, GROW, REPEAT!",
     description: "Architected a robust server-side application using Node.js and Express.js framework.Developed dynamic web pages using EJS template engine to render data efficiently from the server.",
@@ -111,7 +130,7 @@ export const PROJECTS_DATA: ProjectType[] = [
     members: "1"
   },
   {
-    id: "p6",
+    id: "p7",
     title: "Business Template Website",
     subtitle: "DISCOVER, SHARE, GROW, REPEAT!",
     description: "Desktop system for restaurant operations with table reservations, customer loyalty, billing, employee management, and revenue analytics.",
