@@ -85,7 +85,7 @@ const Footer = () => {
             Projects
           </a>
           <a
-            href="#techstack"
+            href="#tech-stack"
             className="hover:text-[#E24C60] transition-colors"
           >
             Tech Stack
