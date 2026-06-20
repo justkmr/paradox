@@ -1,3 +1,6 @@
+
+
+
 import { Syne, JetBrains_Mono, DM_Sans } from "next/font/google";
 import "./globals.css";
 import { ThemeProvider } from "@/components/providers/theme-provider";
@@ -23,10 +26,87 @@ const fontBody = DM_Sans({
   weight: ["400", "700"],
 });
 
+
 export const metadata: Metadata = {
-  title: "Pintu Kumar | Full-Stack Engineer",
+  metadataBase: new URL("https://the-kumarrr.vercel.app"),
+  title: {
+    default: "Pintu Kumar | Full-Stack Engineer & Next.js Architect",
+    template: "%s | Pintu Kumar"
+  },
   description:
-    "Portfolio of Pintu Kumar - Specialized in MERN & Next.js 15 Architecture",
+    "Portfolio of Pintu Kumar (KumarrR) - High-performance Full-Stack Web Developer specializing in Next.js 15, MERN stack, TypeScript, and interactive UI systems.",
+  keywords: [
+    "Pintu Kumar",
+    "KumarrR",
+    "justkmr",
+    "Full-Stack Engineer",
+    "Full Stack Developer India",
+    "Next.js 15 Developer",
+    "MERN Stack Developer",
+    "React 19 Developer",
+    "Software Engineer Portfolio",
+    "Web Developer Bhopal",
+    "RadiAntiX Project",
+    "Job-Portal-Project",
+    "Rivo a delivery rental vehicle",
+    "ZestCo Grocery Delivery"
+  ],
+  authors: [{ name: "Pintu Kumar", url: "https://the-kumarrr.vercel.app" }],
+  creator: "Pintu Kumar",
+  publisher: "Pintu Kumar",
+  formatDetection: {
+    email: false,
+    address: false,
+    telephone: false,
+  },
+  
+  
+  openGraph: {
+    title: "Pintu Kumar | Full-Stack Engineer Portfolio",
+    description: "Explore advanced MERN & Next.js architectures, sleek interactive components, and production-ready applications engineered by Pintu Kumar.",
+    url: "https://the-kumarrr.vercel.app",
+    siteName: "Pintu Kumar Portfolio",
+    images: [
+      {
+        url: "/Sajan.jpeg", 
+        width: 830,         
+        height: 1030,       
+        alt: "Pintu Kumar - Full Stack Engineer & Next.js Architect Portfolio Preview",
+      },
+    ],
+    locale: "en_US",
+    type: "website",
+  },
+
+  
+  twitter: {
+    card: "summary", 
+    title: "Pintu Kumar | Full-Stack Web Developer",
+    description: "High-performance dynamic systems and clean scalable architectures built with Next.js 15 & MERN stack.",
+    images: ["/Sajan.jpeg"],
+  },
+
+  
+  robots: {
+    index: true,
+    follow: true,
+    nocache: false,
+    googleBot: {
+      index: true,
+      follow: true,
+      noimageindex: false,
+      "max-video-preview": -1,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+    },
+  },
+
+  
+  icons: {
+    icon: "/favicon.ico",
+    shortcut: "/favicon.ico",
+    apple: "/apple-touch-icon.png",
+  },
 };
 
 export default function RootLayout({
