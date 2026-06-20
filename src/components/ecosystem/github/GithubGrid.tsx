@@ -190,7 +190,7 @@ export function GithubGrid() {
               blockMargin={5}
               fontSize={13}
               showWeekdayLabels={true}
-              hideColorLegend={false}
+             
               renderBlock={(block, activity) => {
                 const formatDateFriendly = (dateString: string) => {
                   const date = new Date(dateString);
