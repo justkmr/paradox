@@ -1,5 +1,3 @@
-
-
 "use client";
 
 import { useState, useEffect, useCallback } from "react";
@@ -195,7 +193,7 @@ export default function Navbar() {
         </nav>
 
         <div className="flex items-center gap-4 pl-4 md:border-l border-red-600/40 py-1.5 h-full">
-          <div className="hidden md:flex items-center gap-2 bg-[#E24C60]/8 border border-[#E24C60]/20 p-1.5 rounded-full shadow-[0_0_15px_rgba(226,76,96,0.05)]">
+          {/* <div className="hidden md:flex items-center gap-2 bg-[#E24C60]/8 border border-[#E24C60]/20 p-1.5 rounded-full shadow-[0_0_15px_rgba(226,76,96,0.05)]">
             {[
               { icon: faGithub, url: "https://github.com/justkmr" },
               {
@@ -221,6 +219,45 @@ export default function Navbar() {
           <motion.a
             href="#contact"
             className="hidden md:flex bg-linear-to-b from-[#E24C60] to-[#c73b4e] text-white font-mono text-xs font-bold uppercase tracking-wider px-6 py-3 rounded-full items-center gap-2.5 shadow-[0_8px_25px_rgba(226,76,96,0.25),inset_0_1px_0_rgba(255,255,255,0.2)] pointer-events-auto border border-[#E24C60]/30"
+            whileHover={{
+              scale: 1.03,
+              filter: "brightness(1.1)",
+            }}
+            transition={SPRING_TRANSITION}
+          >
+            <span>Let&apos;s Talk</span>
+            <FontAwesomeIcon
+              icon={faArrowUpRightFromSquare}
+              className="text-[10px] opacity-80"
+            />
+          </motion.a> */}
+
+          <div className="hidden md:flex items-center gap-1.5 bg-white/4 border border-white/10 p-1.5 rounded-full backdrop-blur-md shadow-inner">
+            {[
+              { icon: faGithub, url: "https://github.com/justkmr" },
+              {
+                icon: faLinkedin,
+                url: "https://www.linkedin.com/in/pintu-kumar-12x",
+              },
+              { icon: faInstagram, url: "https://instagram.com/babu_sajan_12" },
+            ].map((social, i) => (
+              <motion.a
+                key={i}
+                href={social.url}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="w-8 h-8 rounded-full flex items-center justify-center text-zinc-300 hover:text-white hover:bg-white/10 transition-all duration-200"
+                whileHover={{ scale: 1.12, y: -1 }}
+                transition={SPRING_TRANSITION}
+              >
+                <FontAwesomeIcon icon={social.icon} className="text-[17px]" />
+              </motion.a>
+            ))}
+          </div>
+
+          <motion.a
+            href="#contact"
+            className="hidden md:flex bg-[#E24C60] text-white font-mono text-xs font-bold uppercase tracking-wider px-6 py-3 rounded-full items-center gap-2.5 shadow-[0_8px_25px_rgba(226,76,96,0.25)] pointer-events-auto border border-white/10"
             whileHover={{
               scale: 1.03,
               filter: "brightness(1.1)",

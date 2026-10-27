@@ -1,9 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700&display=swap");
 
 @import "tailwindcss";
 @import "tw-animate-css";
 @import "shadcn/tailwind.css";
-
 
 @custom-variant dark (&:is(.dark *));
 
@@ -51,8 +50,6 @@
   --radius-4xl: calc(var(--radius) * 2.6);
 }
 
-
-
 .dark {
   --background: oklch(0.145 0 0);
   --foreground: oklch(0.985 0 0);
@@ -99,50 +96,67 @@
   }
 }
 
-
-
-
-
 :root {
   --bg-primary: #080808;
   --bg-secondary: #0e0e0e;
   --bg-card: #111111;
   --bg-elevated: #161616;
-  --p-border: rgba(255,255,255,0.06);
-  --p-border-hover: rgba(255,255,255,0.12);
+  --p-border: rgba(255, 255, 255, 0.06);
+  --p-border-hover: rgba(255, 255, 255, 0.12);
   --text-primary: #f0f0f0;
   --text-secondary: #888888;
   --text-muted: #444444;
-  --p-accent: #E24C60;
+  --p-accent: #e24c60;
   --accent-dim: rgba(226, 76, 96, 0.06);
   --accent-2: #b91c1c;
-  --font-display: 'Syne', sans-serif;
-  --font-body: 'DM Sans', sans-serif;
-  --font-mono: 'JetBrains Mono', monospace;
+  --font-display: "Syne", sans-serif;
+  --font-body: "DM Sans", sans-serif;
+  --font-mono: "JetBrains Mono", monospace;
 }
 
 @keyframes fadeUp {
-  from { opacity: 0; transform: translateY(24px); }
-  to { opacity: 1; transform: translateY(0); }
+  from {
+    opacity: 0;
+    transform: translateY(24px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 @keyframes fadeIn {
-  from { opacity: 0; }
-  to { opacity: 1; }
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
 @keyframes blink {
-  0%, 100% { opacity: 1; }
-  50% { opacity: 0; }
+  0%,
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
 }
 
-.cursor-blink { animation: blink 1s step-end infinite; }
+.cursor-blink {
+  animation: blink 1s step-end infinite;
+}
 
 .reveal {
   opacity: 0;
   transform: translateY(32px);
-  transition: opacity 0.7s cubic-bezier(0.16,1,0.3,1), transform 0.7s cubic-bezier(0.16,1,0.3,1);
+  transition:
+    opacity 0.7s cubic-bezier(0.16, 1, 0.3, 1),
+    transform 0.7s cubic-bezier(0.16, 1, 0.3, 1);
 }
-.reveal.visible { opacity: 1; transform: translateY(0); }
-
+.reveal.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
 
 .grid-bg {
   position: absolute;
@@ -150,14 +164,16 @@
   width: 100%;
   height: 100%;
   pointer-events: none;
-  z-index: 1; 
+  z-index: 1;
   background-image:
     linear-gradient(rgba(226, 76, 96, 0.07) 1px, transparent 1px),
     linear-gradient(90deg, rgba(226, 76, 96, 0.07) 1px, transparent 1px);
   background-size: 55px 55px;
 }
 
-.p-section { padding: 120px 0; }
+.p-section {
+  padding: 120px 0;
+}
 
 .p-container {
   max-width: 1100px;
@@ -180,7 +196,7 @@
 }
 
 .p-tag-accent {
-  border-color: rgba(0,255,136,0.3) !important;
+  border-color: rgba(0, 255, 136, 0.3) !important;
   color: var(--p-accent) !important;
   background: var(--accent-dim) !important;
 }
@@ -197,7 +213,7 @@
   margin-bottom: 16px;
 }
 .p-section-label::after {
-  content: '';
+  content: "";
   flex: 1;
   max-width: 60px;
   height: 1px;
@@ -216,8 +232,49 @@
 }
 
 @media (max-width: 768px) {
-  .p-section { padding: 80px 0; }
-  .p-container { padding: 0 20px; }
+  .p-section {
+    padding: 80px 0;
+  }
+  .p-container {
+    padding: 0 20px;
+  }
 }
 
+:root {
+  --primary-accent: #e24c60;
+}
 
+/* Force accent colors across components dynamically */
+.dynamic-accent-text {
+  color: var(--primary-accent) !important;
+}
+
+.dynamic-accent-bg {
+  background-color: var(--primary-accent) !important;
+}
+
+.dynamic-accent-border {
+  border-color: var(--primary-accent) !important;
+}
+
+/* Spotlight glow effect for projects target */
+@keyframes spotlightGlow {
+  0% {
+    box-shadow: 0 0 0 0 rgba(226, 76, 96, 0.7);
+    transform: scale(1);
+  }
+  50% {
+    box-shadow: 0 0 50px 14px var(--primary-accent, #e24c60);
+    transform: scale(1.015);
+  }
+  100% {
+    box-shadow: 0 0 0 0 rgba(226, 76, 96, 0);
+    transform: scale(1);
+  }
+}
+
+.spotlight-active {
+  animation: spotlightGlow 2.2s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+  border-color: var(--primary-accent, #e24c60) !important;
+  transition: all 0.3s ease;
+}
